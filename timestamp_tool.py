@@ -1,0 +1,569 @@
+#!/usr/bin/env python3
+"""
+Goob Timestamp Tool
+A GUI tool for creating timestamps while watching streams.
+Tracks elapsed time and saves timestamps to a date-stamped file.
+"""
+
+import tkinter as tk
+from tkinter import ttk, filedialog
+from datetime import datetime
+import os
+import re
+import threading
+
+# Debugging toggle - set to False to disable debug logging
+DEBUG_MODE = False
+
+
+class TimestampTool:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Goob Timestamp Tool")
+        self.root.geometry("650x550")
+        self.root.resizable(True, True)
+
+        # Record when the script was opened
+        self.opening_time = datetime.now()
+        self.save_file = self._get_default_save_file()
+
+        # Stopwatch state
+        self.elapsed_seconds = 0
+        self.running = False
+        self.after_id_stopwatch = None
+        self.after_id_save = None
+
+        self._build_ui()
+
+    def _get_default_save_file(self):
+        """Get default save file path based on when the script was opened."""
+        timestamp_str = self.opening_time.strftime("%Y-%m-%d_%H-%M-%S")
+        default_name = f"timestamps_{timestamp_str}.txt"
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.join(script_dir, default_name)
+
+    def _build_ui(self):
+        # --- Main container ---
+        main_frame = ttk.Frame(self.root, padding="15")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # --- Stopwatch Section (Smaller) ---
+        stopwatch_frame = ttk.LabelFrame(main_frame, text="Stopwatch", padding="5")
+        stopwatch_frame.pack(fill=tk.X, pady=(0, 10))
+
+        self.time_label = tk.Label(
+            stopwatch_frame,
+            text="00:00:00",
+            font=("monospace", 20, "bold"),
+            anchor="center",
+            fg="#2c3e50"
+        )
+        self.time_label.pack(fill=tk.X, pady=(0, 5))
+
+        btn_frame = ttk.Frame(stopwatch_frame)
+        btn_frame.pack(fill=tk.X)
+
+        self.start_btn = ttk.Button(
+            btn_frame, text="Start", width=10, command=self.toggle_stopwatch
+        )
+        self.start_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.reset_btn = ttk.Button(
+            btn_frame, text="Reset", width=10, command=self.reset_stopwatch
+        )
+        self.reset_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        # Keep the status label, but remove the save file button
+        self.status_label = ttk.Label(
+            stopwatch_frame,
+            text="Not saving",
+            font=("sans-serif", 9),
+            foreground="gray",
+        )
+        self.status_label.pack(anchor=tk.E, pady=(5, 0))
+
+        # --- File Operations Section ---
+        file_ops_frame = ttk.LabelFrame(main_frame, text="File Operations", padding="5")
+        file_ops_frame.pack(fill=tk.X, pady=(10, 10))
+
+        self.load_file_btn = ttk.Button(
+            file_ops_frame, text="Load File", width=18, command=self.load_file
+        )
+        self.load_file_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.correct_timestamps_btn = ttk.Button(
+            file_ops_frame, text="Timestamp Correction", width=18, command=self.correct_timestamps
+        )
+        self.correct_timestamps_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.export_btn = ttk.Button(
+            file_ops_frame, text="Export", width=18, command=self.export_timestamps
+        )
+        self.export_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        # --- Stream Operations Section ---
+        stream_ops_frame = ttk.LabelFrame(main_frame, text="Stream Operations", padding="5")
+        stream_ops_frame.pack(fill=tk.X, pady=(10, 10))
+
+        # Row 1: Add Timestamp, Frank Moves, Fronk Times
+        row1_frame = ttk.Frame(stream_ops_frame)
+        row1_frame.pack(fill=tk.X, pady=(0, 5))
+
+        self.add_btn = ttk.Button(
+            row1_frame, text="Add Timestamp", width=18, command=self.add_timestamp
+        )
+        self.add_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.frank_moves_btn = ttk.Button(
+            row1_frame, text="Frank Moves", width=18, command=self.add_frank_moves
+        )
+        self.frank_moves_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.fronk_times_btn = ttk.Button(
+            row1_frame, text="Fronk Times", width=18, command=self.add_fronk_times
+        )
+        self.fronk_times_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        # Row 2: Pyzam button and text box
+        row2_frame = ttk.Frame(stream_ops_frame)
+        row2_frame.pack(fill=tk.X)
+
+        self.pyzam_btn = ttk.Button(
+            row2_frame, text="Pyzam", width=10, command=self.run_pyzam
+        )
+        self.pyzam_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.pyzam_result_var = tk.StringVar(value="")
+        pyzam_entry = ttk.Entry(row2_frame, textvariable=self.pyzam_result_var, width=40)
+        pyzam_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+
+        self.copy_btn = ttk.Button(
+            row2_frame, text="Copy", width=8, command=self.copy_pyzam_result
+        )
+        self.copy_btn.pack(side=tk.LEFT, padx=(5, 0))
+
+        self.apply_btn = ttk.Button(
+            row2_frame, text="Apply", width=8, command=self.apply_pyzam
+        )
+        self.apply_btn.pack(side=tk.LEFT, padx=(5, 0))
+
+        # --- Timestamps Section ---
+        timestamps_frame = ttk.LabelFrame(main_frame, text="Timestamps", padding="10")
+        timestamps_frame.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+
+        # Text box with scrollbar
+        text_container = ttk.Frame(timestamps_frame)
+        text_container.pack(fill=tk.BOTH, expand=True)
+
+        scrollbar = ttk.Scrollbar(text_container)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        self.text_box = tk.Text(
+            text_container,
+            wrap=tk.WORD,
+            font=("monospace", 11),
+            yscrollcommand=scrollbar.set,
+            height=12,
+        )
+        self.text_box.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.config(command=self.text_box.yview)
+
+        # --- Status bar ---
+        self.status_bar = ttk.Label(
+            main_frame,
+            text="Ready",
+            relief=tk.SUNKEN,
+            anchor=tk.W,
+        )
+        self.status_bar.pack(fill=tk.X, side=tk.BOTTOM)
+
+    def _format_time(self, total_seconds):
+        """Format seconds into HH:MM:SS."""
+        hours = total_seconds // 3600
+        minutes = (total_seconds % 3600) // 60
+        seconds = total_seconds % 60
+        return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+    def _update_display(self):
+        """Update the stopwatch display."""
+        self.time_label.config(text=self._format_time(self.elapsed_seconds))
+
+    def toggle_stopwatch(self):
+        """Start or stop the stopwatch."""
+        if self.running:
+            self._stop()
+        else:
+            self._start()
+
+    def _start(self):
+        """Start the stopwatch."""
+        self.running = True
+        self.start_btn.config(text="Stop")
+        self._tick()
+        self._periodic_save()
+        self.status_label.config(text=f"Saving to: {os.path.basename(self.save_file)}")
+
+    def _stop(self):
+        """Stop the stopwatch."""
+        self.running = False
+        self.start_btn.config(text="Start")
+        if self.after_id_stopwatch:
+            self.root.after_cancel(self.after_id_stopwatch)
+            self.after_id_stopwatch = None
+        if self.after_id_save:
+            self.root.after_cancel(self.after_id_save)
+            self.after_id_save = None
+        self.status_label.config(text="Not saving")
+
+    def _tick(self):
+        """Update the stopwatch every second."""
+        if self.running:
+            self.elapsed_seconds += 1
+            self._update_display()
+            self.after_id_stopwatch = self.root.after(1000, self._tick)
+
+    def reset_stopwatch(self):
+        """Reset the stopwatch to zero."""
+        self._stop()
+        self.elapsed_seconds = 0
+        self._update_display()
+        self.status_bar.config(text="Stopwatch reset")
+
+    def add_timestamp(self):
+        """Add a timestamp with placeholder values."""
+        time_str = self._format_time(self.elapsed_seconds)
+        timestamp_line = f"{time_str} - _artist_, _song_"
+        self.text_box.insert(tk.END, timestamp_line + "\n")
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Added: {timestamp_line}")
+        # Note: _periodic_save() handles saving to file every second automatically
+
+    def add_frank_moves(self):
+        """Add a Frank Moves timestamp."""
+        time_str = self._format_time(self.elapsed_seconds)
+        timestamp_line = f"{time_str} - F R A N K - M O V E S -"
+        self.text_box.insert(tk.END, timestamp_line + "\n")
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Added: {timestamp_line}")
+
+    def add_fronk_times(self):
+        """Add a Fronk Times timestamp."""
+        time_str = self._format_time(self.elapsed_seconds)
+        timestamp_line = f"{time_str} - Esther Abrami, No.9 Frank's Waltz"
+        self.text_box.insert(tk.END, timestamp_line + "\n")
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Added: {timestamp_line}")
+
+    def load_file(self):
+        """Open a file dialog to load a file's contents into the text box."""
+        file_path = filedialog.askopenfilename(
+            title="Load Timestamp File",
+            filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")],
+        )
+        if file_path:
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                self.save_file = file_path
+                self.status_label.config(text=f"Saving to: {os.path.basename(self.save_file)}")
+                self.text_box.delete("1.0", tk.END)
+                self.text_box.insert(tk.END, content)
+                self.text_box.see(tk.END)
+                self.status_bar.config(text=f"Loaded: {os.path.basename(file_path)}")
+            except Exception as e:
+                self.status_bar.config(text=f"Error loading file: {e}")
+
+    def correct_timestamps(self):
+        """Open a dialog to correct timestamps by a fixed offset."""
+        dialog = tk.Toplevel(self.root)
+        dialog.title("Timestamp Correction")
+        dialog.geometry("300x150")
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        ttk.Label(dialog, text="Enter offset in seconds (positive or negative):").pack(pady=(10, 5))
+
+        offset_entry = ttk.Entry(dialog, width=20)
+        offset_entry.pack(pady=5)
+        offset_entry.focus_set()
+
+        def apply_correction():
+            try:
+                offset = int(offset_entry.get())
+                content = self.text_box.get("1.0", tk.END)
+                corrected_content = self._apply_offset_to_timestamps(content, offset)
+                self.text_box.delete("1.0", tk.END)
+                self.text_box.insert(tk.END, corrected_content)
+                self.text_box.see(tk.END)
+                self.status_bar.config(text=f"Applied offset: {offset} seconds")
+                dialog.destroy()
+            except ValueError:
+                self.status_bar.config(text="Invalid input. Please enter a number.")
+
+        ttk.Button(dialog, text="Apply", command=apply_correction).pack(pady=10)
+
+        dialog.protocol("WM_DELETE_WINDOW", dialog.destroy)
+
+    def _apply_offset_to_timestamps(self, content, offset):
+        """Apply a time offset to all valid timestamps in the content."""
+        import re
+
+        def replace_timestamp(match):
+            time_str = match.group(1)
+            rest = match.group(2)
+
+            # Parse the timestamp
+            parts = time_str.split(":")
+            if len(parts) != 3:
+                return match.group(0)
+
+            try:
+                hours = int(parts[0])
+                minutes = int(parts[1])
+                seconds = int(parts[2])
+            except ValueError:
+                return match.group(0)
+
+            # Convert to total seconds, apply offset, then convert back
+            total_seconds = hours * 3600 + minutes * 60 + seconds
+            total_seconds += offset
+
+            # Handle negative results
+            if total_seconds < 0:
+                total_seconds = 0
+
+            new_hours = total_seconds // 3600
+            new_minutes = (total_seconds % 3600) // 60
+            new_seconds = total_seconds % 60
+
+            new_time_str = f"{new_hours:02d}:{new_minutes:02d}:{new_seconds:02d}"
+            return f"{new_time_str} - {rest}"
+
+        # Match timestamps in format HH:mm:ss - ...
+        pattern = r"(\d{2}:\d{2}:\d{2}) - (.*)"
+        corrected_content = re.sub(pattern, replace_timestamp, content)
+        return corrected_content
+
+    def export_timestamps(self):
+        """Export timestamps without header to the system clipboard."""
+        content = self.text_box.get("1.0", tk.END)
+
+        # Remove the header if present
+        if content.startswith("# Timestamps started:"):
+            # Find the end of the header line and the blank line after it
+            lines = content.split("\n")
+            start_idx = 0
+            for i, line in enumerate(lines):
+                if line.startswith("# Timestamps started:"):
+                    # Skip the header line and the next blank line
+                    start_idx = i + 2
+                    break
+
+            # Get the remaining lines
+            timestamp_lines = lines[start_idx:]
+        else:
+            # No header, use all lines
+            timestamp_lines = content.split("\n")
+
+        # Filter out empty lines and join with double newlines
+        non_empty_lines = [line for line in timestamp_lines if line.strip()]
+        exported_text = "\n\n".join(non_empty_lines)
+
+        # Copy to clipboard
+        self.root.clipboard_clear()
+        self.root.clipboard_append(exported_text)
+        self.status_bar.config(text="Timestamps copied to clipboard")
+
+    def copy_pyzam_result(self):
+        """Copy the pyzam result text box contents to the system clipboard."""
+        result = self.pyzam_result_var.get()
+        self.root.clipboard_clear()
+        self.root.clipboard_append(result)
+        self.status_bar.config(text="Pyzam result copied to clipboard")
+
+    def apply_pyzam(self):
+        """Apply pyzam result to the last placeholder timestamp."""
+        pyzam_text = self.pyzam_result_var.get()
+        content = self.text_box.get("1.0", tk.END)
+        
+        # Remove trailing newline before splitting
+        if content.endswith("\n"):
+            content = content[:-1]
+        
+        lines = content.split("\n")
+
+        # Find the last non-blank line in the text box
+        last_non_blank_idx = None
+        for i in range(len(lines) - 1, -1, -1):
+            if lines[i].strip():
+                last_non_blank_idx = i
+                break
+
+        if last_non_blank_idx is None:
+            self.status_bar.config(text="No placeholder timestamp found")
+            return
+
+        # Check if the last non-blank line matches the placeholder pattern
+        last_line = lines[last_non_blank_idx]
+        if not re.match(r"^\d{2}:\d{2}:\d{2} - _artist_, _song_$", last_line):
+            self.status_bar.config(text="Last line is not a placeholder timestamp")
+            return
+
+        # Replace _artist_, _song_ with the pyzam text
+        time_part = last_line.split(" - ")[0]
+        new_line = f"{time_part} - {pyzam_text}"
+        lines[last_non_blank_idx] = new_line
+
+        # Update the text box
+        self.text_box.delete("1.0", tk.END)
+        self.text_box.insert(tk.END, "\n".join(lines))
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Applied: {pyzam_text}")
+
+    def run_pyzam(self):
+        """Run pyzam_json and output results to pyzam.log file."""
+        # Clear the pyzam result text field
+        self.pyzam_result_var.set("")
+        
+        # Disable the button while running to prevent multiple executions
+        self.pyzam_btn.config(state=tk.DISABLED)
+        self.pyzam_btn.config(text="Running...")
+        
+        # Start pyzam in a separate thread to prevent freezing the GUI
+        thread = threading.Thread(target=self._run_pyzam_thread)
+        thread.daemon = True
+        thread.start()
+
+    def _run_pyzam_thread(self):
+        """Helper method to run pyzam in a separate thread."""
+        try:
+            import subprocess
+            import os
+            import json
+
+            # Get the script directory for the log file
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            log_file = os.path.join(script_dir, "pyzam.log")
+
+            # Run the pyzam command with uv
+            cmd = ["uv", "tool", "run", "--python", "3.12", "pyzam", "--json", "--speaker", "--duration", "10"]
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=30  # 30 second timeout
+            )
+
+            # Write output to log file if debug mode is enabled
+            if DEBUG_MODE:
+                with open(log_file, "a", encoding="utf-8") as f:
+                    f.write(result.stdout)
+                    if result.stderr:
+                        f.write("\n\nErrors:\n")
+                        f.write(result.stderr)
+
+            # Parse the JSON output to extract title and subtitle
+            pyzam_result = "No match found"
+            if result.stdout.strip():
+                try:
+                    # The output might contain a text line followed by JSON
+                    # We need to extract the JSON part from the output
+                    output = result.stdout.strip()
+                    
+                    # Try to find JSON in the output by looking for '{' and '}'
+                    start_idx = output.find('{')
+                    if start_idx != -1:
+                        # Find the matching closing brace
+                        brace_count = 0
+                        end_idx = -1
+                        for i in range(start_idx, len(output)):
+                            if output[i] == '{':
+                                brace_count += 1
+                            elif output[i] == '}':
+                                brace_count -= 1
+                                if brace_count == 0:
+                                    end_idx = i + 1
+                                    break
+                        
+                        if end_idx != -1:
+                            json_str = output[start_idx:end_idx]
+                            data = None
+                            
+                            # Try to parse as standard JSON first
+                            try:
+                                data = json.loads(json_str)
+                            except json.JSONDecodeError:
+                                # If standard JSON fails, try to convert single quotes to double quotes
+                                # This handles Python dict representations that use single quotes
+                                try:
+                                    # Replace single quotes with double quotes, but be careful with strings that contain single quotes
+                                    # We'll use a simple approach: replace all single quotes with double quotes
+                                    # This works for simple cases where strings don't contain single quotes
+                                    converted_str = json_str.replace("'", '"')
+                                    data = json.loads(converted_str)
+                                except json.JSONDecodeError:
+                                    # If that also fails, try using ast.literal_eval which handles Python literals
+                                    import ast
+                                    try:
+                                        data = ast.literal_eval(json_str)
+                                    except (ValueError, SyntaxError):
+                                        # If all parsing methods fail, skip this entry
+                                        data = None
+                            
+                            # Check if there's a track with title and subtitle
+                            if data and 'track' in data and 'title' in data['track'] and 'subtitle' in data['track']:
+                                pyzam_result = f"{data['track']['subtitle']}, {data['track']['title']}"
+                except Exception as e:
+                    pyzam_result = "No match found"
+
+            # Update the result display in the main thread
+            self.root.after(0, lambda: self.pyzam_result_var.set(pyzam_result))
+            self.root.after(0, lambda: self.status_bar.config(text="Pyzam results saved to pyzam.log"))
+            # Re-enable the button
+            self.root.after(0, lambda: self.pyzam_btn.config(state=tk.NORMAL))
+            self.root.after(0, lambda: self.pyzam_btn.config(text="Pyzam"))
+        except subprocess.TimeoutExpired:
+            self.root.after(0, lambda: self.status_bar.config(text="Pyzam timed out after 30 seconds"))
+            self.root.after(0, lambda: self.pyzam_result_var.set("Pyzam timed out"))
+            # Re-enable the button
+            self.root.after(0, lambda: self.pyzam_btn.config(state=tk.NORMAL))
+            self.root.after(0, lambda: self.pyzam_btn.config(text="Pyzam"))
+        except Exception as e:
+            self.root.after(0, lambda: self.status_bar.config(text=f"Error running pyzam: {e}"))
+            self.root.after(0, lambda: self.pyzam_result_var.set(f"Error: {e}"))
+            # Re-enable the button
+            self.root.after(0, lambda: self.pyzam_btn.config(state=tk.NORMAL))
+            self.root.after(0, lambda: self.pyzam_btn.config(text="Pyzam"))
+
+    def _periodic_save(self):
+        """Save the entire text box content to the file every second."""
+        content = self.text_box.get("1.0", tk.END)
+        try:
+            with open(self.save_file, "w", encoding="utf-8") as f:
+                # Only add header if it's not already present in the content
+                if not content.startswith("# Timestamps started:"):
+                    f.write(f"# Timestamps started: {self.opening_time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                f.write(content)
+        except Exception as e:
+            self.status_bar.config(text=f"Error saving file: {e}")
+        # Reschedule to run again in 1 second
+        self.after_id_save = self.root.after(1000, self._periodic_save)
+
+    def on_closing(self):
+        """Handle window close event."""
+        content = self.text_box.get("1.0", tk.END)
+        self.root.destroy()
+
+
+def main():
+    root = tk.Tk()
+    app = TimestampTool(root)
+    root.protocol("WM_DELETE_WINDOW", app.on_closing)
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    main()
+        
+
+
