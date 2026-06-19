@@ -261,8 +261,10 @@ class TimestampTool:
 
     def load_file(self):
         """Open a file dialog to load a file's contents into the text box."""
+        script_dir = os.path.dirname(os.path.abspath(__file__))
         file_path = filedialog.askopenfilename(
             title="Load Timestamp File",
+            initialdir=script_dir,
             filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")],
         )
         if file_path:
@@ -279,17 +281,120 @@ class TimestampTool:
                 self.status_bar.config(text=f"Error loading file: {e}")
 
     def correct_timestamps(self):
-        """Open a dialog to correct timestamps by a fixed offset."""
+        """Open a dialog to correct timestamps by a fixed offset with a calculator."""
         dialog = tk.Toplevel(self.root)
         dialog.title("Timestamp Correction")
-        dialog.geometry("300x150")
+        dialog.geometry("450x350")
         dialog.transient(self.root)
         dialog.grab_set()
 
-        ttk.Label(dialog, text="Enter offset in seconds (positive or negative):").pack(pady=(10, 5))
+        # Get content to extract first and last timestamps
+        content = self.text_box.get("1.0", tk.END)
+        lines = content.split("\n")
+        
+        first_ts = ""
+        last_ts = ""
+        
+        # Find first valid timestamp
+        for line in lines:
+            match = re.match(r"^(\d{2}:\d{2}:\d{2}) - (.+)$", line.strip())
+            if match:
+                first_ts = match.group(1)
+                break
+        
+        # Find last valid timestamp
+        for line in reversed(lines):
+            match = re.match(r"^(\d{2}:\d{2}:\d{2}) - (.+)$", line.strip())
+            if match:
+                last_ts = match.group(1)
+                break
 
-        offset_entry = ttk.Entry(dialog, width=20)
-        offset_entry.pack(pady=5)
+        # Frame for timestamp inputs
+        ts_frame = ttk.Frame(dialog)
+        ts_frame.pack(fill=tk.X, padx=10, pady=(10, 5))
+
+        # First timestamp row
+        ttk.Label(ts_frame, text="First Timestamp:").grid(row=0, column=0, sticky=tk.W, padx=(0, 5))
+        first_ts_entry = ttk.Entry(ts_frame, width=12)
+        first_ts_entry.insert(0, first_ts)
+        first_ts_entry.grid(row=0, column=1, padx=(0, 10))
+
+        ttk.Label(ts_frame, text="Corrected First:").grid(row=0, column=2, sticky=tk.W, padx=(0, 5))
+        corrected_first_entry = ttk.Entry(ts_frame, width=12)
+        # Pre-fill with hour data (e.g., "00:" from "00:03:15")
+        if first_ts:
+            corrected_first_entry.insert(0, first_ts[:3])
+        corrected_first_entry.grid(row=0, column=3)
+
+        # Last timestamp row
+        ttk.Label(ts_frame, text="Last Timestamp:").grid(row=1, column=0, sticky=tk.W, padx=(0, 5), pady=(5, 0))
+        last_ts_entry = ttk.Entry(ts_frame, width=12)
+        last_ts_entry.insert(0, last_ts)
+        last_ts_entry.grid(row=1, column=1, padx=(0, 10), pady=(5, 0))
+
+        ttk.Label(ts_frame, text="Corrected Last:").grid(row=1, column=2, sticky=tk.W, padx=(0, 5), pady=(5, 0))
+        corrected_last_entry = ttk.Entry(ts_frame, width=12)
+        # Pre-fill with hour data (e.g., "01:" from "01:54:31")
+        if last_ts:
+            corrected_last_entry.insert(0, last_ts[:3])
+        corrected_last_entry.grid(row=1, column=3, pady=(5, 0))
+
+        # Frame for shift calculations
+        shift_frame = ttk.Frame(dialog)
+        shift_frame.pack(fill=tk.X, padx=10, pady=(5, 5))
+
+        ttk.Label(shift_frame, text="First Shift (s):").grid(row=0, column=0, sticky=tk.W, padx=(0, 5))
+        first_shift_var = tk.StringVar(value="0")
+        first_shift_entry = ttk.Entry(shift_frame, textvariable=first_shift_var, width=10)
+        first_shift_entry.grid(row=0, column=1, padx=(0, 10))
+
+        ttk.Label(shift_frame, text="Last Shift (s):").grid(row=0, column=2, sticky=tk.W, padx=(0, 5))
+        last_shift_var = tk.StringVar(value="0")
+        last_shift_entry = ttk.Entry(shift_frame, textvariable=last_shift_var, width=10)
+        last_shift_entry.grid(row=0, column=3)
+
+        # Calculate button
+        def calculate_shifts():
+            try:
+                def parse_time_to_seconds(time_str):
+                    parts = time_str.split(":")
+                    if len(parts) != 3:
+                        raise ValueError("Invalid time format")
+                    hours, minutes, seconds = int(parts[0]), int(parts[1]), int(parts[2])
+                    return hours * 3600 + minutes * 60 + seconds
+
+                first_seconds = parse_time_to_seconds(first_ts_entry.get())
+                corrected_first_seconds = parse_time_to_seconds(corrected_first_entry.get())
+                last_seconds = parse_time_to_seconds(last_ts_entry.get())
+                corrected_last_seconds = parse_time_to_seconds(corrected_last_entry.get())
+
+                first_shift = corrected_first_seconds - first_seconds
+                last_shift = corrected_last_seconds - last_seconds
+
+                first_shift_var.set(str(first_shift))
+                last_shift_var.set(str(last_shift))
+
+                # Suggest the smaller absolute shift
+                if abs(first_shift) <= abs(last_shift):
+                    offset_entry.delete(0, tk.END)
+                    offset_entry.insert(0, str(first_shift))
+                else:
+                    offset_entry.delete(0, tk.END)
+                    offset_entry.insert(0, str(last_shift))
+
+            except ValueError:
+                self.status_bar.config(text="Invalid timestamp format. Use HH:MM:SS")
+
+        ttk.Button(shift_frame, text="Calculate", command=calculate_shifts).grid(row=1, column=0, columnspan=4, pady=(5, 0))
+
+        # Frame for offset entry and apply button
+        offset_frame = ttk.Frame(dialog)
+        offset_frame.pack(fill=tk.X, padx=10, pady=(10, 10))
+
+        ttk.Label(offset_frame, text="Enter offset in seconds (positive or negative):").pack(anchor=tk.W)
+
+        offset_entry = ttk.Entry(offset_frame, width=20)
+        offset_entry.pack(pady=(5, 10))
         offset_entry.focus_set()
 
         def apply_correction():
@@ -305,7 +410,7 @@ class TimestampTool:
             except ValueError:
                 self.status_bar.config(text="Invalid input. Please enter a number.")
 
-        ttk.Button(dialog, text="Apply", command=apply_correction).pack(pady=10)
+        ttk.Button(offset_frame, text="Apply", command=apply_correction).pack(pady=(0, 10))
 
         dialog.protocol("WM_DELETE_WINDOW", dialog.destroy)
 
