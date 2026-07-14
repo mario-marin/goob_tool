@@ -69,29 +69,6 @@ class TimestampTool:
         )
         self.time_label.pack(fill=tk.X, pady=(0, 5))
 
-        # Date/time override frame
-        override_frame = ttk.Frame(stopwatch_frame)
-        override_frame.pack(fill=tk.X, pady=(0, 5))
-
-        self.override_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(
-            override_frame,
-            text="Override Date/Time",
-            variable=self.override_var,
-            command=self._on_override_toggle,
-        ).pack(side=tk.LEFT, padx=(0, 10))
-
-        ttk.Label(override_frame, text="Date:").pack(side=tk.LEFT, padx=(0, 2))
-        self.override_date_entry = ttk.Entry(override_frame, textvariable=self.override_date_var, width=12)
-        self.override_date_entry.pack(side=tk.LEFT, padx=(0, 5))
-
-        ttk.Label(override_frame, text="Time:").pack(side=tk.LEFT, padx=(0, 2))
-        self.override_time_entry = ttk.Entry(override_frame, textvariable=self.override_time_var, width=8)
-        self.override_time_entry.pack(side=tk.LEFT, padx=(0, 5))
-
-        self.override_status = ttk.Label(override_frame, text="", foreground="gray", font=("sans-serif", 8))
-        self.override_status.pack(side=tk.LEFT, padx=(5, 0))
-
         btn_frame = ttk.Frame(stopwatch_frame)
         btn_frame.pack(fill=tk.X)
 
@@ -104,6 +81,29 @@ class TimestampTool:
             btn_frame, text="Reset", width=10, command=self.reset_stopwatch
         )
         self.reset_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        # Date/time override frame (to the right of Reset button)
+        override_frame = ttk.Frame(btn_frame)
+        override_frame.pack(side=tk.LEFT, padx=(15, 0))
+
+        self.override_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(
+            override_frame,
+            text="Override",
+            variable=self.override_var,
+            command=self._on_override_toggle,
+        ).pack(side=tk.LEFT, padx=(0, 5))
+
+        ttk.Label(override_frame, text="Date:").pack(side=tk.LEFT, padx=(0, 2))
+        self.override_date_entry = ttk.Entry(override_frame, textvariable=self.override_date_var, width=12)
+        self.override_date_entry.pack(side=tk.LEFT, padx=(0, 5))
+
+        ttk.Label(override_frame, text="Time:").pack(side=tk.LEFT, padx=(0, 2))
+        self.override_time_entry = ttk.Entry(override_frame, textvariable=self.override_time_var, width=8)
+        self.override_time_entry.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.override_status = ttk.Label(override_frame, text="", foreground="gray", font=("sans-serif", 8))
+        self.override_status.pack(side=tk.LEFT, padx=(5, 0))
 
         # Keep the status label, but remove the save file button
         self.status_label = ttk.Label(
