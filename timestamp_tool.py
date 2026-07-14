@@ -24,9 +24,12 @@ class TimestampTool:
         self.root.geometry("650x550")
         self.root.resizable(True, True)
 
-        # Record when the script was opened (in Adelaide time)
-        self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
-        self.save_file = self._get_default_save_file()
+        # Record when the stopwatch was started (in Adelaide time)
+        self.opening_time = None
+        self.save_file = None
+
+        # Loaded timestamp state
+        self.loaded_timestamp = False
 
         # Stopwatch state
         self.elapsed_seconds = 0
@@ -224,6 +227,10 @@ class TimestampTool:
         """Start the stopwatch."""
         self.running = True
         self.start_btn.config(text="Stop")
+        # Set opening_time and save_file only when Start is pressed (not when loading a file)
+        if self.opening_time is None and self.loaded_timestamp is False:
+            self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
+            self.save_file = self._get_default_save_file()
         self._tick()
         self._periodic_save()
         self.status_label.config(text=f"Saving to: {os.path.basename(self.save_file)}")
@@ -297,6 +304,7 @@ class TimestampTool:
                 self.text_box.insert(tk.END, content)
                 self.text_box.see(tk.END)
                 self.status_bar.config(text=f"Loaded: {os.path.basename(file_path)}")
+                self.loaded_timestamp = True
             except Exception as e:
                 self.status_bar.config(text=f"Error loading file: {e}")
 
