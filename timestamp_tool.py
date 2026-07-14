@@ -8,6 +8,7 @@ Tracks elapsed time and saves timestamps to a date-stamped file.
 import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import os
 import re
 import threading
@@ -173,14 +174,33 @@ class TimestampTool:
         self.text_box.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         scrollbar.config(command=self.text_box.yview)
 
-        # --- Status bar ---
+        # --- Bottom bar (status + Adelaide clock) ---
+        self.bottom_bar = ttk.Frame(main_frame)
+        self.bottom_bar.pack(fill=tk.X, side=tk.BOTTOM)
+
         self.status_bar = ttk.Label(
-            main_frame,
+            self.bottom_bar,
             text="Ready",
             relief=tk.SUNKEN,
             anchor=tk.W,
+            padding=(5, 2),
         )
-        self.status_bar.pack(fill=tk.X, side=tk.BOTTOM)
+        self.status_bar.pack(fill=tk.X, side=tk.LEFT, expand=True)
+
+        self.adelaide_clock = ttk.Label(
+            self.bottom_bar,
+            text="",
+            font=("monospace", 9),
+            foreground="gray",
+        )
+        self.adelaide_clock.pack(side=tk.RIGHT)
+        self._update_adelaide_clock()
+
+    def _update_adelaide_clock(self):
+        """Update the Adelaide, Australia clock display."""
+        adelaide_time = datetime.now(ZoneInfo("Australia/Adelaide"))
+        self.adelaide_clock.config(text=f"Adelaide Time  {adelaide_time.strftime('%Y-%m-%d')}  {adelaide_time.strftime('%H:%M:%S')}")
+        self.root.after(1000, self._update_adelaide_clock)
 
     def _format_time(self, total_seconds):
         """Format seconds into HH:MM:SS."""
