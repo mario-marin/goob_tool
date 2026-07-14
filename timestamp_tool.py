@@ -24,8 +24,8 @@ class TimestampTool:
         self.root.geometry("650x550")
         self.root.resizable(True, True)
 
-        # Record when the script was opened
-        self.opening_time = datetime.now()
+        # Record when the script was opened (in Adelaide time)
+        self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
         self.save_file = self._get_default_save_file()
 
         # Stopwatch state
