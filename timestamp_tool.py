@@ -37,6 +37,11 @@ class TimestampTool:
         self.after_id_stopwatch = None
         self.after_id_save = None
 
+        # Date/time override state
+        self.use_override = False
+        self.override_date_var = tk.StringVar(value=datetime.now().strftime("%Y-%m-%d"))
+        self.override_time_var = tk.StringVar(value=datetime.now().strftime("%H:%M"))
+
         self._build_ui()
 
     def _get_default_save_file(self):
@@ -63,6 +68,29 @@ class TimestampTool:
             fg="#2c3e50"
         )
         self.time_label.pack(fill=tk.X, pady=(0, 5))
+
+        # Date/time override frame
+        override_frame = ttk.Frame(stopwatch_frame)
+        override_frame.pack(fill=tk.X, pady=(0, 5))
+
+        self.override_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(
+            override_frame,
+            text="Override Date/Time",
+            variable=self.override_var,
+            command=self._on_override_toggle,
+        ).pack(side=tk.LEFT, padx=(0, 10))
+
+        ttk.Label(override_frame, text="Date:").pack(side=tk.LEFT, padx=(0, 2))
+        self.override_date_entry = ttk.Entry(override_frame, textvariable=self.override_date_var, width=12)
+        self.override_date_entry.pack(side=tk.LEFT, padx=(0, 5))
+
+        ttk.Label(override_frame, text="Time:").pack(side=tk.LEFT, padx=(0, 2))
+        self.override_time_entry = ttk.Entry(override_frame, textvariable=self.override_time_var, width=8)
+        self.override_time_entry.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.override_status = ttk.Label(override_frame, text="", foreground="gray", font=("sans-serif", 8))
+        self.override_status.pack(side=tk.LEFT, padx=(5, 0))
 
         btn_frame = ttk.Frame(stopwatch_frame)
         btn_frame.pack(fill=tk.X)
@@ -216,6 +244,18 @@ class TimestampTool:
         """Update the stopwatch display."""
         self.time_label.config(text=self._format_time(self.elapsed_seconds))
 
+    def _on_override_toggle(self):
+        """Handle the override checkbox toggle."""
+        if self.override_var.get():
+            # Only pre-fill with current Adelaide time if the fields are empty
+            if not self.override_date_var.get() or not self.override_time_var.get():
+                adelaide_now = datetime.now(ZoneInfo("Australia/Adelaide"))
+                self.override_date_var.set(adelaide_now.strftime("%Y-%m-%d"))
+                self.override_time_var.set(adelaide_now.strftime("%H:%M"))
+            self.override_status.config(text="Will be used on Start", foreground="darkgreen")
+        else:
+            self.override_status.config(text="", foreground="gray")
+
     def toggle_stopwatch(self):
         """Start or stop the stopwatch."""
         if self.running:
@@ -229,7 +269,22 @@ class TimestampTool:
         self.start_btn.config(text="Stop")
         # Set opening_time and save_file only when Start is pressed (not when loading a file)
         if self.opening_time is None and self.loaded_timestamp is False:
-            self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
+            if self.override_var.get():
+                self.use_override = True
+                try:
+                    override_dt = datetime.strptime(
+                        f"{self.override_date_var.get()} {self.override_time_var.get()}",
+                        "%Y-%m-%d %H:%M",
+                    )
+                    self.opening_time = override_dt.replace(tzinfo=ZoneInfo("Australia/Adelaide"))
+                except ValueError:
+                    self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
+                    self.use_override = False
+                    self.override_status.config(text="Invalid date/time format", foreground="red")
+                    self.root.after(3000, lambda: self.override_status.config(text="", foreground="gray"))
+            else:
+                self.use_override = False
+                self.opening_time = datetime.now(ZoneInfo("Australia/Adelaide"))
             self.save_file = self._get_default_save_file()
         self._tick()
         self._periodic_save()
