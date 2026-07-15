@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-01",
+  "time": "20:00:00",
+  "songs": [
+    {
+      "time": "00:12:55",
+      "artist": "El Equipo Del Norte",
+      "song_title": "Bossa Cara"
+    },
+    {
+      "time": "00:14:50",
+      "artist": "El Equipo Del Norte",
+      "song_title": "Bossa Cara"
+    },
+    {
+      "time": "00:17:55",
+      "artist": "Esther Abrami",
+      "song_title": "Frank's Waltz"
+    },
+    {
+      "time": "00:18:45",
+      "artist": "Martin Landström",
+      "song_title": "For Better or Worse"
+    },
+    {
+      "time": "00:21:45",
+      "artist": "Martin Landström",
+      "song_title": "For Better or Worse"
+    },
+    {
+      "time": "00:25:35",
+      "artist": "Billy Joel",
+      "song_title": "Uptown Gorl"
+    },
+    {
+      "time": "00:30:45",
+      "artist": "Tigerblood jewel",
+      "song_title": "bring my friends"
+    },
+    {
+      "time": "00:32:35",
+      "artist": "Tigerblood jewel",
+      "song_title": "bring my friends"
+    },
+    {
+      "time": "00:35:00",
+      "artist": "Tim and Eric",
+      "song_title": "Live with my dad"
+    },
+    {
+      "time": "00:37:05",
+      "artist": "Esther Abrami",
+      "song_title": "Frank's Waltz"
+    },
+    {
+      "time": "00:38:50",
+      "artist": "Rymdklang Soundtracks",
+      "song_title": "Balls of Steel"
+    },
+    {
+      "time": "00:43:10",
+      "artist": "Rymdklang Soundtracks",
+      "song_title": "Balls of Steel"
+    },
+    {
+      "time": "00:49:00",
+      "artist": "Lukas Got Rick Rolled",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:52:25",
+      "artist": "Ava Low",
+      "song_title": "Exit Plan"
+    },
+    {
+      "time": "00:54:10",
+      "artist": "Ava Low",
+      "song_title": "Exit Plan wade mentions the title after it"
+    },
+    {
+      "time": "00:56:20",
+      "artist": "Tim and Eric",
+      "song_title": "Mini Van Highway"
+    },
+    {
+      "time": "00:59:25",
+      "artist": "SAINT PEPSI",
+      "song_title": "Cherry Pepsi"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:03:10",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:11:10",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:13:15",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:31:50",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:33:00",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:35:55",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:41:10",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:46:45",
+      "name": "F R A N K - M O V E S -"
+    }
+  ]
+}

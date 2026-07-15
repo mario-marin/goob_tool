@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-14",
+  "time": "20:00:00",
+  "songs": [
+    {
+      "time": "00:04:30",
+      "artist": "Neil Cicierega",
+      "song_title": "The End"
+    },
+    {
+      "time": "00:10:25",
+      "artist": "Gran Turismo 3",
+      "song_title": "Slipstream"
+    },
+    {
+      "time": "00:13:15",
+      "artist": "B L A N K",
+      "song_title": "Plastic 50 cents"
+    },
+    {
+      "time": "00:19:05",
+      "artist": "THiNGYBOBinc",
+      "song_title": "Sugar, We're Goin Down Kung-Fu Fighting"
+    },
+    {
+      "time": "00:24:05",
+      "artist": "Neil Cicierega",
+      "song_title": "Daft Mouth"
+    },
+    {
+      "time": "00:27:45",
+      "artist": "Neil Cicierega",
+      "song_title": "Busting"
+    },
+    {
+      "time": "00:31:15",
+      "artist": "The Aquabats",
+      "song_title": "Radiation Song"
+    },
+    {
+      "time": "00:36:30",
+      "artist": "William Maranci Mashups",
+      "song_title": "Last Resort But It's Rock Your Body"
+    },
+    {
+      "time": "00:41:40",
+      "artist": "Ted Poley",
+      "song_title": "Escape From The City ...for City Escape"
+    },
+    {
+      "time": "00:45:30",
+      "artist": "Mac DeMarco",
+      "song_title": "20190724"
+    },
+    {
+      "time": "00:48:05",
+      "artist": "Stardew Valley",
+      "song_title": "Summer (Nature's Crescendo)"
+    },
+    {
+      "time": "00:51:40",
+      "artist": "Conker's Bad Fur Day",
+      "song_title": "Windy and Co"
+    },
+    {
+      "time": "00:55:25",
+      "artist": "William Maranci Mashups",
+      "song_title": "Walk But It's September"
+    }
+  ],
+  "events": []
+}

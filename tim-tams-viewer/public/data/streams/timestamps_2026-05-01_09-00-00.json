@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-01",
+  "time": "09:00:00",
+  "songs": [
+    {
+      "time": "00:10:36",
+      "artist": "unknown",
+      "song_title": "We Will Rock You - Queen vs Songsmith"
+    },
+    {
+      "time": "00:13:32",
+      "artist": "Cassiopea",
+      "song_title": "Take me"
+    },
+    {
+      "time": "00:20:08",
+      "artist": "Nikki Gee",
+      "song_title": "Eye on the Prize"
+    },
+    {
+      "time": "00:25:17",
+      "artist": "Rymdklang Soundtracks",
+      "song_title": "Balls of Steel"
+    },
+    {
+      "time": "00:30:10",
+      "artist": "Sven Lindvall",
+      "song_title": "Coming Closer instrumental"
+    },
+    {
+      "time": "00:33:40",
+      "artist": "Martin Landstrom",
+      "song_title": "Wicked Man"
+    },
+    {
+      "time": "00:36:35",
+      "artist": "Andreas Dahlbäck",
+      "song_title": "Cops and Crooks"
+    }
+  ],
+  "events": []
+}

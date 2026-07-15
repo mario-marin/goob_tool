@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-19",
+  "time": "09:31:31",
+  "songs": [
+    {
+      "time": "00:03:15",
+      "artist": "Bruno Mars",
+      "song_title": "That’s What I Like"
+    },
+    {
+      "time": "00:08:04",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:09:07",
+      "artist": "Tim and Eric",
+      "song_title": "Sports!"
+    },
+    {
+      "time": "00:11:32",
+      "artist": "Worldmus",
+      "song_title": "Czerwone Jagody"
+    },
+    {
+      "time": "00:16:54",
+      "artist": "Roy Edwin Williams",
+      "song_title": "Chicken Pickin'"
+    },
+    {
+      "time": "00:19:57",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:22:46",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:25:30",
+      "artist": "Justin Kintzel",
+      "song_title": "My Name is John Daker"
+    },
+    {
+      "time": "00:29:15",
+      "artist": "Neil Cicierega",
+      "song_title": "Aammoorree"
+    },
+    {
+      "time": "00:32:11",
+      "artist": "Yasuha",
+      "song_title": "Fly-day Chinatown"
+    },
+    {
+      "time": "00:35:41",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:37:11",
+      "artist": "Andreas Dahlbäck",
+      "song_title": "Cops and Crooks"
+    },
+    {
+      "time": "00:39:52",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:41:17",
+      "artist": "Andreas Dahlbäck",
+      "song_title": "Cops and Crooks"
+    },
+    {
+      "time": "00:45:58",
+      "artist": "The Sims",
+      "song_title": "Buy Mode 1"
+    },
+    {
+      "time": "00:50:06",
+      "artist": "The Chats",
+      "song_title": "SMOKO"
+    },
+    {
+      "time": "00:54:34",
+      "artist": "Tim and Eric",
+      "song_title": "A Song for Mommy"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2026-06-11",
+  "time": "19:50:15",
+  "songs": [
+    {
+      "time": "00:07:31",
+      "artist": "Lukas Got Rick Rolled",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:14:03",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:19:58",
+      "artist": "Lukas Got Rick Rolled",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:23:18",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:27:35",
+      "artist": "Goodboy Noah",
+      "song_title": "We stackin’ cheese"
+    },
+    {
+      "time": "00:29:39",
+      "artist": "Nikki Gee",
+      "song_title": "Eye on the Prize"
+    },
+    {
+      "time": "00:36:06",
+      "artist": "Sven Lindvall",
+      "song_title": "Coming Closer instrumental"
+    },
+    {
+      "time": "00:47:12",
+      "artist": "Sture Zetterberg",
+      "song_title": "You Set My Soul on Fire"
+    },
+    {
+      "time": "01:06:07",
+      "artist": "Lukas Got Rick Rolled",
+      "song_title": "Watch Me Take That Crown"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:06:29",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:09:03",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:12:04",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:12:49",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:14:44",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:16:17",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:16:41",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:20:02",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:20:57",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:21:39",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:22:48",
+      "name": "F R A N K - M O V E S -"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-05-20",
+  "time": "09:00:00",
+  "songs": [
+    {
+      "time": "00:05:10",
+      "artist": "Martin Landstrom",
+      "song_title": "Sidewalk Shindig"
+    },
+    {
+      "time": "00:10:05",
+      "artist": "El Equipo Del Norte",
+      "song_title": "Bossa Cara"
+    },
+    {
+      "time": "00:13:25",
+      "artist": "Lukas Got Rick Rolled",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:18:05",
+      "artist": "John Runefelt",
+      "song_title": "Call Me Baby"
+    },
+    {
+      "time": "00:22:00",
+      "artist": "SLACKCiRCUS",
+      "song_title": "Fabulous Secret Powers"
+    },
+    {
+      "time": "00:25:50",
+      "artist": "Marvel Vs Capcom 2",
+      "song_title": "Carnival Stage"
+    },
+    {
+      "time": "00:34:20",
+      "artist": "Tim and Eric",
+      "song_title": "All the food is poison"
+    },
+    {
+      "time": "00:36:45",
+      "artist": "Shuki Levy",
+      "song_title": "Inspector Gadget"
+    },
+    {
+      "time": "00:40:10",
+      "artist": "BobbaGob",
+      "song_title": "All C"
+    },
+    {
+      "time": "00:44:45",
+      "artist": "Esther Abrami",
+      "song_title": "Frank's Waltz"
+    },
+    {
+      "time": "00:46:30",
+      "artist": "Bill McClintock",
+      "song_title": "Hip to Be the Sandman"
+    },
+    {
+      "time": "00:51:10",
+      "artist": "Chetreo",
+      "song_title": "My Life"
+    },
+    {
+      "time": "00:54:20",
+      "artist": "Esther Abrami",
+      "song_title": "Frank's Waltz"
+    },
+    {
+      "time": "00:55:20",
+      "artist": "Newton Zago",
+      "song_title": "Funiculi Funicula"
+    },
+    {
+      "time": "00:58:55",
+      "artist": "Mac DeMarco",
+      "song_title": "20190724"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:30:40",
+      "name": "C R A Z Y - B U S -"
+    }
+  ]
+}
