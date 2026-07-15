@@ -1,122 +1,100 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState, useEffect, useCallback } from 'react';
+import Calendar from './components/Calendar';
+import StreamDetail from './components/StreamDetail';
+import { getAvailableDates, fetchStreamData, streamFiles } from './utils/streams';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [availableDates, setAvailableDates] = useState([]);
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [streamData, setStreamData] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    getAvailableDates().then((dates) => {
+      setAvailableDates(dates);
+      if (dates.length > 0) {
+        setSelectedDate(dates[0]);
+      }
+    });
+  }, []);
+
+  const loadStreamData = useCallback(async (date) => {
+    setLoading(true);
+    setError(null);
+    setStreamData(null);
+
+    const matchingFiles = Object.keys(streamFiles).filter((path) =>
+      path.includes(date)
+    );
+
+    if (matchingFiles.length === 0) {
+      setError('No stream data found for this date.');
+      setLoading(false);
+      return;
+    }
+
+    matchingFiles.sort().reverse();
+    const filePath = matchingFiles[0];
+
+    try {
+      const data = await fetchStreamData(filePath);
+      setStreamData(data);
+    } catch (e) {
+      setError('Failed to load stream data.');
+      console.error(e);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  const handleSelectDate = useCallback(
+    (date) => {
+      setSelectedDate(date);
+      loadStreamData(date);
+    },
+    [loadStreamData]
+  );
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <div className="app">
+      <header className="app-header">
+        <h1>Tim Tams Viewer</h1>
+        <p className="app-subtitle">Browse stream timestamp data</p>
+      </header>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      <main className="app-main">
+        <div className="calendar-panel">
+          <Calendar
+            availableDates={availableDates}
+            selectedDate={selectedDate}
+            onSelectDate={handleSelectDate}
+          />
+          {availableDates.length > 0 && (
+            <div className="legend">
+              <span className="legend-item">
+                <span className="stream-dot" /> Available
+              </span>
+            </div>
+          )}
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        <div className="detail-panel">
+          {loading && <div className="loading">Loading...</div>}
+          {error && <div className="error">{error}</div>}
+          {!loading && !error && streamData && (
+            <StreamDetail data={streamData} />
+          )}
+          {!loading && !error && !streamData && (
+            <div className="empty-state">
+              <p>Select a date to view stream data</p>
+            </div>
+          )}
+        </div>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
