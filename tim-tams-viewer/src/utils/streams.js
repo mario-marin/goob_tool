@@ -1,38 +1,35 @@
 /**
- * Fetches all stream metadata by listing the known timestamp files.
- * Since we can't directory-list at runtime, we scan the public/streams folder
- * by trying to fetch each file. Returns an array of { date, time, file }.
+ * Fetches all stream metadata by loading a static manifest file.
+ * The manifest is generated at build time and lists all available stream files.
  */
 
-const STREAMS_DIR = '/data/streams/';
-const FILE_PREFIX = 'timestamps_';
-const FILE_SUFFIX = '.json';
+// Use a relative path so it works regardless of the Vite base path
+const MANIFEST_URL = './data/streams-manifest.json';
 
-// We'll discover files by fetching a manifest-like approach:
-// Since Vite doesn't expose directory listings, we use a trick:
-// import.meta.glob to get all matching files at build time.
-
-export const streamFiles = import.meta.glob('/data/streams/timestamps_*.json', {
-  eager: false,
-  query: '?url',
-  import: 'default',
-});
+/**
+ * Fetches the manifest of available stream files.
+ */
+async function loadManifest() {
+  const response = await fetch(MANIFEST_URL);
+  if (!response.ok) {
+    throw new Error(`Failed to load streams manifest: ${response.status}`);
+  }
+  return response.json();
+}
 
 /**
  * Returns an array of { date, time, fileUrl } for all available streams,
  * sorted by date descending.
  */
 export async function getAvailableStreams() {
-  const entries = Object.entries(streamFiles);
+  const filenames = await loadManifest();
   const results = [];
 
-  for (const [path, _load] of entries) {
-    // Extract date and time from filename: timestamps_2026-06-29_19-54-49.json
-    const filename = path.split('/').pop();
+  for (const filename of filenames) {
     const match = filename.match(/^timestamps_(\d{4}-\d{2}-\d{2})_(\d{2}-\d{2}-\d{2})\.json$/);
     if (match) {
       const [, date, time] = match;
-      results.push({ date, time, file: path });
+      results.push({ date, time, file: `./data/streams/${filename}` });
     }
   }
 
@@ -50,8 +47,11 @@ export async function getAvailableStreams() {
  * Fetches the full timestamp data for a given stream file path.
  */
 export async function fetchStreamData(filePath) {
-  const mod = await import(filePath);
-  return mod.default;
+  const response = await fetch(filePath);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch stream data: ${response.status}`);
+  }
+  return response.json();
 }
 
 /**

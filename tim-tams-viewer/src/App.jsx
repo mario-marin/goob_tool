@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Calendar from './components/Calendar';
 import StreamDetail from './components/StreamDetail';
-import { getAvailableDates, fetchStreamData, streamFiles } from './utils/streams';
+import { getAvailableDates, fetchStreamData } from './utils/streams';
 import './App.css';
 
 function App() {
@@ -13,10 +13,14 @@ function App() {
 
   useEffect(() => {
     getAvailableDates().then((dates) => {
+      console.log('Available dates:', dates);
       setAvailableDates(dates);
       if (dates.length > 0) {
         setSelectedDate(dates[0]);
       }
+    }).catch((err) => {
+      console.error('Failed to load available dates:', err);
+      setError('Failed to load stream data.');
     });
   }, []);
 
@@ -25,8 +29,12 @@ function App() {
     setError(null);
     setStreamData(null);
 
-    const matchingFiles = Object.keys(streamFiles).filter((path) =>
-      path.includes(date)
+    // Fetch the manifest to find the file for this date
+    const manifestResponse = await fetch('./data/streams-manifest.json');
+    const filenames = await manifestResponse.json();
+    
+    const matchingFiles = filenames.filter((filename) =>
+      filename.includes(date)
     );
 
     if (matchingFiles.length === 0) {
@@ -36,7 +44,7 @@ function App() {
     }
 
     matchingFiles.sort().reverse();
-    const filePath = matchingFiles[0];
+    const filePath = `./data/streams/${matchingFiles[0]}`;
 
     try {
       const data = await fetchStreamData(filePath);
