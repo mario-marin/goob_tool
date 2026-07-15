@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-29",
+  "time": "19:54:49",
+  "songs": [
+    {
+      "time": "00:04:01",
+      "artist": "FF7",
+      "song_title": "Let the battles Begin!"
+    },
+    {
+      "time": "00:12:18",
+      "artist": "Martin Landström",
+      "song_title": "For Better or Worse"
+    },
+    {
+      "time": "00:14:00",
+      "artist": "Martin Landström",
+      "song_title": "For Better or Worse"
+    },
+    {
+      "time": "00:16:21",
+      "artist": "El Equipo Del Norte",
+      "song_title": "Bossa Cara"
+    },
+    {
+      "time": "00:18:49",
+      "artist": "El Equipo Del Norte",
+      "song_title": "Bossa Cara"
+    },
+    {
+      "time": "00:23:48",
+      "artist": "Lukas Got Lucky",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:26:03",
+      "artist": "Lukas Got Lucky",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:29:30",
+      "artist": "Avril Lavigne",
+      "song_title": "Skater Boi"
+    },
+    {
+      "time": "00:34:02",
+      "artist": "Tim and Eric",
+      "song_title": "A Song for Dee Vee"
+    },
+    {
+      "time": "00:37:16",
+      "artist": "No Fronks of Mine",
+      "song_title": "In a Dark Place"
+    },
+    {
+      "time": "00:39:45",
+      "artist": "No Fronks of Mine",
+      "song_title": "In a Dark Place"
+    },
+    {
+      "time": "00:43:39",
+      "artist": "Roy Williams",
+      "song_title": "Walk the Floor and Think of You"
+    },
+    {
+      "time": "00:46:14",
+      "artist": "Roy Williams",
+      "song_title": "Walk the Floor and Think of You"
+    },
+    {
+      "time": "00:49:26",
+      "artist": "Sugoi",
+      "song_title": "Pokettoni"
+    },
+    {
+      "time": "00:51:37",
+      "artist": "Sugoi",
+      "song_title": "Pokettoni"
+    },
+    {
+      "time": "00:52:51",
+      "artist": "Ava Low",
+      "song_title": "Exit Plan"
+    },
+    {
+      "time": "00:56:29",
+      "artist": "Sanic",
+      "song_title": "Can you fell the sunshine"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:11:18",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:11:37",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:13:23",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:16:10",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:19:23",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:21:20",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:22:19",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:22:46",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:24:34",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:25:11",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:27:01",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:35:08",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:38:32",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:41:54",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:43:33",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:46:26",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:50:20",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:51:14",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:51:49",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:55:04",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:56:27",
+      "name": "F R A N K - M O V E S -"
+    }
+  ]
+}
