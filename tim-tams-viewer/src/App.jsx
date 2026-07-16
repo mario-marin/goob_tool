@@ -9,6 +9,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(null);
   const [streamData, setStreamData] = useState(null);
   const [tracks, setTracks] = useState(null);
+  const [events, setEvents] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -33,6 +34,17 @@ function App() {
       })
       .catch((err) => {
         console.error('Failed to load tracks data:', err);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch('./data/events.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setEvents(data.events || []);
+      })
+      .catch((err) => {
+        console.error('Failed to load events data:', err);
       });
   }, []);
 
@@ -104,7 +116,7 @@ function App() {
           {loading && <div className="loading">Loading...</div>}
           {error && <div className="error">{error}</div>}
           {!loading && !error && streamData && (
-            <StreamDetail data={streamData} tracks={tracks} />
+            <StreamDetail data={streamData} tracks={tracks} events={events} />
           )}
           {!loading && !error && !streamData && (
             <div className="empty-state">

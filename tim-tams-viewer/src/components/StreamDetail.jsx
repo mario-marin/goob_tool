@@ -1,8 +1,10 @@
 import { useState, useCallback } from 'react';
 import TrackDialog from './TrackDialog';
+import EventDialog from './EventDialog';
 
-function StreamDetail({ data, tracks }) {
+function StreamDetail({ data, tracks, events }) {
   const [selectedTrack, setSelectedTrack] = useState(null);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const handleSongClick = useCallback((song) => {
     if (!tracks) return;
@@ -16,8 +18,23 @@ function StreamDetail({ data, tracks }) {
     }
   }, [tracks]);
 
-  const handleCloseDialog = useCallback(() => {
+  const handleEventClick = useCallback((event) => {
+    if (!events) return;
+    const found = events.find(
+      (e) =>
+        e.title.toLowerCase() === event.name.toLowerCase()
+    );
+    if (found) {
+      setSelectedEvent(found);
+    }
+  }, [events]);
+
+  const handleCloseTrackDialog = useCallback(() => {
     setSelectedTrack(null);
+  }, []);
+
+  const handleCloseEventDialog = useCallback(() => {
+    setSelectedEvent(null);
   }, []);
 
   if (!data) return null;
@@ -55,7 +72,12 @@ function StreamDetail({ data, tracks }) {
           <h3>Events ({data.events.length})</h3>
           <div className="events-list">
             {data.events.map((event, i) => (
-              <div key={i} className="event-row">
+              <div
+                key={i}
+                className="event-row"
+                onClick={() => handleEventClick(event)}
+                style={{ cursor: 'pointer' }}
+              >
                 <span className="event-time">{event.time}</span>
                 <span className="event-name">{event.name}</span>
               </div>
@@ -65,7 +87,11 @@ function StreamDetail({ data, tracks }) {
       )}
 
       {selectedTrack && (
-        <TrackDialog track={selectedTrack} onClose={handleCloseDialog} />
+        <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} />
+      )}
+
+      {selectedEvent && (
+        <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} />
       )}
     </div>
   );
