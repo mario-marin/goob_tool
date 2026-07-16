@@ -3,24 +3,36 @@
 
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 
 # Internal configuration
 INPUT_FOLDER = Path(__file__).parent / "old_strems"
 OUTPUT_FOLDER = Path(__file__).parent / "tim-tams-viewer/public/data/streams"
+EVENTS_FILE = Path(__file__).parent / "tim-tams-viewer/public/data/events.json"
 
 # Pattern for "events": uppercase letters, spaces, and hyphens, ending with " -"
 # e.g. "F R A N K - M O V E S -", "C R A Z Y - B U S -", "L A P - O N E - O F - T H E - B I N -"
 EVENT_PATTERN = re.compile(r"^[A-Z][A-Z -]* -$")
 
 
-def parse_timestamp_file(filepath: Path) -> tuple[dict, list[str]]:
-    """Parse a single timestamp file and return its data as a dictionary.
+def convert_file(
+    input_path: Path,
+    date_str: str,
+    all_events: dict[str, list[str]],
+) -> tuple[list[str], set[str]]:
+    """Convert a single timestamp file to JSON and write to output folder.
+
+    Args:
+        input_path: Path to the input timestamp file.
+        date_str: The date string extracted from the file header.
+        all_events: Shared dict mapping event titles to lists of dates they appeared on.
+                    Modified in-place to accumulate occurrences.
 
     Returns:
-        A tuple of (data dict, list of warning messages).
+        A tuple of (warnings list, set of event titles seen in this file).
     """
-    content = filepath.read_text(encoding="utf-8")
+    content = input_path.read_text(encoding="utf-8")
     warnings: list[str] = []
 
     # Extract date and time from the header comment
@@ -29,13 +41,13 @@ def parse_timestamp_file(filepath: Path) -> tuple[dict, list[str]]:
         content,
     )
     if not header_match:
-        raise ValueError(f"Could not find header in {filepath}")
+        raise ValueError(f"Could not find header in {input_path}")
 
-    date_str = header_match.group(1)
     time_str = header_match.group(2)
 
     songs = []
     events = []
+    seen_events: set[str] = set()
 
     # Match lines like: 00:05:30 - Artist, Song Title
     song_pattern = re.compile(r"^(\d{2}:\d{2}:\d{2})\s+-\s+(.+)$", re.MULTILINE)
@@ -55,6 +67,8 @@ def parse_timestamp_file(filepath: Path) -> tuple[dict, list[str]]:
                 "time": song_time,
                 "name": artist_song,
             })
+            seen_events.add(artist_song)
+            all_events.setdefault(artist_song, []).append(date_str)
             continue
 
         # Split on the first comma to separate artist and song title
@@ -89,37 +103,85 @@ def parse_timestamp_file(filepath: Path) -> tuple[dict, list[str]]:
                 warnings.append(f"Unparseable line: '{line}'")
 
     if not songs and not events:
-        warnings.append(f"No songs or events found in {filepath.name}")
-
-    return {
-        "date": date_str,
-        "time": time_str,
-        "songs": songs,
-        "events": events,
-    }, warnings
-
-
-def convert_file(input_path: Path) -> None:
-    """Convert a single timestamp file to JSON and write to output folder."""
-    data, warnings = parse_timestamp_file(input_path)
-
-    # Print warnings before the success message
-    for warning in warnings:
-        print(f"  ⚠️  Warning ({input_path.name}): {warning}")
+        warnings.append(f"No songs or events found in {input_path.name}")
 
     # Generate output filename: timestamps_YYYY-MM-DD_HH-MM-SS.json
     output_filename = (
-        f"timestamps_{data['date']}_{data['time'].replace(':', '-')}.json"
+        f"timestamps_{date_str}_{time_str.replace(':', '-')}.json"
     )
     output_path = OUTPUT_FOLDER / output_filename
 
     OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+        json.dumps({
+            "date": date_str,
+            "time": time_str,
+            "songs": songs,
+            "events": events,
+        }, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
 
     print(f"  ✅ Converted: {input_path.name} -> {output_path.name}")
+
+    return warnings, seen_events
+
+
+def _update_events_file(
+    all_events: dict[str, list[str]],
+) -> set[str]:
+    """Update events.json with computed statistics from all processed files.
+
+    For each event in events.json, compute:
+    - number_of_ocurranses: total occurrences across all files
+    - last_ocurrance: the most recent date the event appeared
+    - date_with_most_ocurrances: the date with the highest count
+    - most_ocurrances_on_a_date: the count on that date
+
+    Events that were never seen in any timestamp file are left with their
+    existing values (no change).
+
+    Returns:
+        Set of event titles that were found in the processed timestamp files.
+    """
+    # Load existing events.json
+    if EVENTS_FILE.exists():
+        events_data = json.loads(EVENTS_FILE.read_text(encoding="utf-8"))
+    else:
+        events_data = {"events": []}
+
+    seen_titles: set[str] = set()
+
+    for event in events_data["events"]:
+        title = event["title"]
+        seen_titles.add(title)
+
+        if title in all_events:
+            dates = all_events[title]
+            total = len(dates)
+            last = max(dates) if dates else ""
+
+            # Find the date with the most occurrences
+            date_counts: dict[str, int] = defaultdict(int)
+            for d in dates:
+                date_counts[d] += 1
+
+            best_date = max(date_counts, key=date_counts.get) if date_counts else ""
+            best_count = date_counts[best_date] if date_counts else 0
+
+            event["number_of_ocurranses"] = total
+            event["last_ocurrance"] = last
+            event["date_with_most_ocurrances"] = best_date
+            event["most_ocurrances_on_a_date"] = best_count
+
+    # Write back
+    EVENTS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    EVENTS_FILE.write_text(
+        json.dumps(events_data, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    return seen_titles
 
 
 def main() -> None:
@@ -136,14 +198,43 @@ def main() -> None:
 
     print(f"Found {len(timestamp_files)} timestamp file(s)\n")
 
+    # Shared accumulator: event_title -> [dates]
+    all_events: dict[str, list[str]] = {}
     total_warnings = 0
 
     for filepath in timestamp_files:
         try:
-            convert_file(filepath)
+            # Extract date from the file first (needed for output filename)
+            content = filepath.read_text(encoding="utf-8")
+            header_match = re.search(
+                r"# Timestamps started:\s+(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2})",
+                content,
+            )
+            if not header_match:
+                raise ValueError(f"Could not find header in {filepath}")
+            date_str = header_match.group(1)
+
+            warnings, seen_events = convert_file(filepath, date_str, all_events)
+
+            for warning in warnings:
+                print(f"  ⚠️  Warning ({filepath.name}): {warning}")
+
         except Exception as e:
             print(f"  ❌ Error processing {filepath.name}: {e}")
             total_warnings += 1
+
+    # Update events.json with accumulated data
+    seen_titles = _update_events_file(all_events)
+
+    # Warn about events in events.json that were never seen
+    if EVENTS_FILE.exists():
+        events_data = json.loads(EVENTS_FILE.read_text(encoding="utf-8"))
+        for event in events_data["events"]:
+            if event["title"] not in seen_titles:
+                print(
+                    f"  ⚠️  Warning: Event '{event['title']}' in events.json "
+                    f"was not found in any timestamp file."
+                )
 
     if total_warnings > 0:
         print(f"\n⚠️  {total_warnings} file(s) had errors.")
