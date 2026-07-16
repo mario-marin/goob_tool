@@ -8,6 +8,7 @@ function App() {
   const [availableDates, setAvailableDates] = useState([]);
   const [selectedDate, setSelectedDate] = useState(null);
   const [streamData, setStreamData] = useState(null);
+  const [tracks, setTracks] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -22,6 +23,17 @@ function App() {
       console.error('Failed to load available dates:', err);
       setError('Failed to load stream data.');
     });
+  }, []);
+
+  useEffect(() => {
+    fetch('./data/tracks.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setTracks(data.tracks || []);
+      })
+      .catch((err) => {
+        console.error('Failed to load tracks data:', err);
+      });
   }, []);
 
   const loadStreamData = useCallback(async (date) => {
@@ -92,7 +104,7 @@ function App() {
           {loading && <div className="loading">Loading...</div>}
           {error && <div className="error">{error}</div>}
           {!loading && !error && streamData && (
-            <StreamDetail data={streamData} />
+            <StreamDetail data={streamData} tracks={tracks} />
           )}
           {!loading && !error && !streamData && (
             <div className="empty-state">

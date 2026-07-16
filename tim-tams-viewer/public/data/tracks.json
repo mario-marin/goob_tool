@@ -337,7 +337,7 @@
       "aliases": []
     },
     {
-      "title": "Frank's Waltz",
+      "title": "No.9 Frank's Waltz",
       "artist": "Esther Abrami",
       "youtube": "",
       "aliases": []
@@ -604,7 +604,7 @@
       "title": "Watch Me Take That Crown",
       "artist": "Lukas Got Lucky",
       "youtube": "",
-      "aliases": []
+      "aliases": ["Lukas Got Rick Rolled, Watch Me Take That Crown"]
     },
     {
       "title": "K.O.",
@@ -1629,6 +1629,18 @@
     {
       "title": "DOOMfeld",
       "artist": "Ｒｕｓｈｎｅｒｄ",
+      "youtube": "",
+      "aliases": []
+    },
+    {
+      "title": "Lemon Squeezy",
+      "artist": "Martin Landstrom",
+      "youtube": "",
+      "aliases": []
+    },
+    {
+      "title": "Careful Steps",
+      "artist": "The Fly Guy Five",
       "youtube": "",
       "aliases": []
     }

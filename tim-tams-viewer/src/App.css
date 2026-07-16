@@ -320,3 +320,115 @@
     min-width: auto;
   }
 }
+
+/* ===== Track Dialog ===== */
+.track-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.15s ease;
+}
+
+.track-dialog {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+  animation: slideUp 0.2s ease;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.track-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.track-dialog-header h2 {
+  font-size: 20px;
+  margin: 0;
+  color: var(--text-h);
+  word-break: break-word;
+}
+
+.track-dialog-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text);
+  opacity: 0.6;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: opacity 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+
+.track-dialog-close:hover {
+  opacity: 1;
+  background: var(--accent-bg);
+}
+
+.track-dialog-body {
+  padding: 20px 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.track-dialog-field {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.track-dialog-field:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.track-dialog-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  margin: 0 0 4px;
+}
+
+.track-dialog-value {
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
+  word-break: break-word;
+}
+
+.track-dialog-json {
+  background: var(--code-bg);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.track-dialog-empty {
+  opacity: 0.4;
+  font-style: italic;
+}
