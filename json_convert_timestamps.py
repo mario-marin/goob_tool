@@ -11,9 +11,50 @@ INPUT_FOLDER = Path(__file__).parent / "old_strems"
 OUTPUT_FOLDER = Path(__file__).parent / "tim-tams-viewer/public/data/streams"
 EVENTS_FILE = Path(__file__).parent / "tim-tams-viewer/public/data/events.json"
 
+#INPUT_FOLDER = Path(__file__).parent / "test_old_strem"
+#OUTPUT_FOLDER = Path(__file__).parent / "test_old_strem/json"
+
 # Pattern for "events": uppercase letters, spaces, and hyphens, ending with " -"
 # e.g. "F R A N K - M O V E S -", "C R A Z Y - B U S -", "L A P - O N E - O F - T H E - B I N -"
 EVENT_PATTERN = re.compile(r"^[A-Z][A-Z -]* -$")
+
+# Pattern for timestamp filenames: timestamps_YYYY-MM-DD_HH-MM-SS.txt
+FILENAME_PATTERN = re.compile(
+    r"^timestamps_(\d{4}-\d{2}-\d{2})_(\d{2})-(\d{2})-(\d{2})\.txt$"
+)
+
+
+def _verify_filename(
+    filepath: Path,
+    header_date: str,
+    header_time: str,
+) -> str | None:
+    """Verify that the filename matches the header date/time.
+
+    Args:
+        filepath: Path to the timestamp file.
+        header_date: Date string from the file header (YYYY-MM-DD).
+        header_time: Time string from the file header (HH:MM:SS).
+
+    Returns:
+        A warning message if the filename doesn't match, or None if it's valid.
+    """
+    match = FILENAME_PATTERN.match(filepath.name)
+    if not match:
+        return f"Filename '{filepath.name}' does not match expected pattern 'timestamps_YYYY-MM-DD_HH-MM-SS.txt'"
+
+    file_date = match.group(1)
+    file_hour = match.group(2)
+    file_minute = match.group(3)
+    file_second = match.group(4)
+    file_time = f"{file_hour}:{file_minute}:{file_second}"
+
+    if file_date != header_date or file_time != header_time:
+        return (
+            f"Filename date/time '{file_date} {file_time}' does not match "
+            f"header date/time '{header_date} {header_time}'"
+        )
+    return None
 
 
 def convert_file(
@@ -213,6 +254,12 @@ def main() -> None:
             if not header_match:
                 raise ValueError(f"Could not find header in {filepath}")
             date_str = header_match.group(1)
+            time_str = header_match.group(2)
+
+            # Verify filename matches header date/time
+            filename_warning = _verify_filename(filepath, date_str, time_str)
+            if filename_warning:
+                print(f"  ⚠️  Warning ({filepath.name}): {filename_warning}")
 
             warnings, seen_events = convert_file(filepath, date_str, all_events)
 
