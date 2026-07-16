@@ -34,8 +34,8 @@
     },
     {
       "time": "00:31:41",
-      "artist": "_artist_",
-      "song_title": "_song_????????????????????????????????????????????????"
+      "artist": "unknown",
+      "song_title": "unknown"
     },
     {
       "time": "00:35:40",
@@ -64,8 +64,8 @@
     },
     {
       "time": "00:54:36",
-      "artist": "DJ Cummerbund - Earth",
-      "song_title": "Wind & Ozzys"
+      "artist": "DJ Cummerbund",
+      "song_title": "Earth, Wind & Ozzys"
     }
   ],
   "events": []
