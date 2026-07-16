@@ -2,15 +2,27 @@
   "events": [
     {
       "title": "F R A N K - M O V E S -",
-      "description": "Yep, Frank moved"
+      "description": "Yep, Frank moved",
+      "number_of_ocurranses": 0,
+      "last_ocurrance": "",
+      "date_with_most_ocurrances": "",
+      "most_ocurrances_on_a_date": 0
     },
     {
       "title": "L A P - O N E - O F - T H E - B I N -",
-      "description": "First lap of the Bin!!! yay"
+      "description": "First lap of the Bin!!! yay",
+      "number_of_ocurranses": 0,
+      "last_ocurrance": "",
+      "date_with_most_ocurrances": "",
+      "most_ocurrances_on_a_date": 0
     },
     {
       "title": "C R A Z Y - B U S -",
-      "description": "Oh god why?"
+      "description": "Oh god why?",
+      "number_of_ocurranses": 0,
+      "last_ocurrance": "",
+      "date_with_most_ocurrances": "",
+      "most_ocurrances_on_a_date": 0
     }
   ]
 }
