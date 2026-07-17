@@ -119,7 +119,7 @@ function StreamDetail({ data, tracks, events, onSelectDate }) {
       )}
 
       {selectedEvent && (
-        <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} />
+        <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} onSelectDate={onSelectDate} />
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-function EventDialog({ event, onClose }) {
+function EventDialog({ event, onClose, onSelectDate }) {
   const overlayRef = useRef(null);
 
   useEffect(() => {
@@ -21,6 +21,11 @@ function EventDialog({ event, onClose }) {
 
   if (!event) return null;
 
+  const dateFields = [
+    { key: 'last_ocurrance', label: 'Last occurrence' },
+    { key: 'date_with_most_ocurrances', label: 'Most occurrences' },
+  ];
+
   return (
     <div
       ref={overlayRef}
@@ -38,24 +43,41 @@ function EventDialog({ event, onClose }) {
         <div className="event-dialog-body">
           {Object.entries(event)
             .filter(([key]) => key !== 'hidden')
-            .map(([key, value]) => (
-              <div key={key} className="event-dialog-field">
-                <dt className="event-dialog-label">{key}</dt>
-                <dd className="event-dialog-value">
-                  {Array.isArray(value) ? (
-                    value.length > 0 ? (
-                      <span>{value.join(', ')}</span>
+            .map(([key, value]) => {
+              const dateInfo = dateFields.find((f) => f.key === key);
+              const isDate = dateInfo && typeof value === 'string' && value.includes('-');
+
+              return (
+                <div key={key} className="event-dialog-field">
+                  <dt className="event-dialog-label">{dateInfo?.label || key}</dt>
+                  <dd className="event-dialog-value">
+                    {Array.isArray(value) ? (
+                      value.length > 0 ? (
+                        <span>{value.join(', ')}</span>
+                      ) : (
+                        <span className="event-dialog-empty">(empty)</span>
+                      )
+                    ) : typeof value === 'object' && value !== null ? (
+                      <pre className="event-dialog-json">{JSON.stringify(value, null, 2)}</pre>
+                    ) : isDate ? (
+                      <button
+                        className="event-dialog-date"
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onSelectDate && onSelectDate(value);
+                        }}
+                        title={onSelectDate ? 'Click to view this date' : undefined}
+                      >
+                        {value}
+                      </button>
                     ) : (
-                      <span className="event-dialog-empty">(empty)</span>
-                    )
-                  ) : typeof value === 'object' && value !== null ? (
-                    <pre className="event-dialog-json">{JSON.stringify(value, null, 2)}</pre>
-                  ) : (
-                    <span>{value ?? <span className="event-dialog-empty">(empty)</span>}</span>
-                  )}
-                </dd>
-              </div>
-            ))}
+                      <span>{value ?? <span className="event-dialog-empty">(empty)</span>}</span>
+                    )}
+                  </dd>
+                </div>
+              );
+            })}
         </div>
       </div>
     </div>
