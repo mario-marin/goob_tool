@@ -186,6 +186,7 @@ function App() {
                         style={{ cursor: 'pointer' }}
                       >
                         <span className="search-result-title">{track.title}</span>
+                        {' '}
                         <span className="search-result-subtitle">{track.artist}</span>
                       </div>
                     ))}

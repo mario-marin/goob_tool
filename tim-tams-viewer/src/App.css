@@ -279,14 +279,15 @@
 }
 
 .song-artist {
-  font-weight: 500;
-  color: var(--text-h);
+  font-weight: normal;
+  color: var(--text);
   min-width: 120px;
   flex-shrink: 0;
 }
 
 .song-title {
-  color: var(--text);
+  font-weight: 600;
+  color: var(--text-h);
 }
 
 .event-name {
