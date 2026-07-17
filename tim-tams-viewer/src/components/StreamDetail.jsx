@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from 'react';
 import TrackDialog from './TrackDialog';
 import EventDialog from './EventDialog';
 
-function StreamDetail({ data, tracks, events }) {
+function StreamDetail({ data, tracks, events, onSelectDate }) {
   const [selectedTrack, setSelectedTrack] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [hideFiller, setHideFiller] = useState(false);
@@ -115,7 +115,7 @@ function StreamDetail({ data, tracks, events }) {
       )}
 
       {selectedTrack && (
-        <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} />
+        <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} onSelectDate={onSelectDate} />
       )}
 
       {selectedEvent && (

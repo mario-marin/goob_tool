@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-function TrackDialog({ track, onClose }) {
+function TrackDialog({ track, onClose, onSelectDate }) {
   const overlayRef = useRef(null);
 
   useEffect(() => {
@@ -21,6 +21,13 @@ function TrackDialog({ track, onClose }) {
 
   if (!track) return null;
 
+  const dateFields = [
+    { key: 'last_time_played', label: 'Last played' },
+    { key: 'date_with_most_reproductions', label: 'Most reproductions' },
+  ];
+
+  const hasNavigableDates = dateFields.some((f) => track[f.key]);
+
   return (
     <div
       ref={overlayRef}
@@ -38,24 +45,41 @@ function TrackDialog({ track, onClose }) {
         <div className="track-dialog-body">
           {Object.entries(track)
             .filter(([key]) => key !== 'hidden')
-            .map(([key, value]) => (
-              <div key={key} className="track-dialog-field">
-                <dt className="track-dialog-label">{key}</dt>
-                <dd className="track-dialog-value">
-                  {Array.isArray(value) ? (
-                    value.length > 0 ? (
-                      <span>{value.join(', ')}</span>
+            .map(([key, value]) => {
+              const dateInfo = dateFields.find((f) => f.key === key);
+              const isDate = dateInfo && typeof value === 'string' && value.includes('-');
+
+              return (
+                <div key={key} className="track-dialog-field">
+                  <dt className="track-dialog-label">{dateInfo?.label || key}</dt>
+                  <dd className="track-dialog-value">
+                    {Array.isArray(value) ? (
+                      value.length > 0 ? (
+                        <span>{value.join(', ')}</span>
+                      ) : (
+                        <span className="track-dialog-empty">(empty)</span>
+                      )
+                    ) : typeof value === 'object' && value !== null ? (
+                      <pre className="track-dialog-json">{JSON.stringify(value, null, 2)}</pre>
+                    ) : isDate ? (
+                      <button
+                        className="track-dialog-date"
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onSelectDate && onSelectDate(value);
+                        }}
+                        title={onSelectDate ? 'Click to view this date' : undefined}
+                      >
+                        {value}
+                      </button>
                     ) : (
-                      <span className="track-dialog-empty">(empty)</span>
-                    )
-                  ) : typeof value === 'object' && value !== null ? (
-                    <pre className="track-dialog-json">{JSON.stringify(value, null, 2)}</pre>
-                  ) : (
-                    <span>{value ?? <span className="track-dialog-empty">(empty)</span>}</span>
-                  )}
-                </dd>
-              </div>
-            ))}
+                      <span>{value ?? <span className="track-dialog-empty">(empty)</span>}</span>
+                    )}
+                  </dd>
+                </div>
+              );
+            })}
         </div>
       </div>
     </div>

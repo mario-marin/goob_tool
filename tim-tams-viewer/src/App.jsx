@@ -261,7 +261,7 @@ function App() {
               {loading && <div className="loading">Loading...</div>}
               {error && <div className="error">{error}</div>}
               {!loading && !error && streamData && (
-                <StreamDetail data={streamData} tracks={tracks} events={events} />
+                <StreamDetail data={streamData} tracks={tracks} events={events} onSelectDate={handleSelectDate} />
               )}
               {!loading && !error && !streamData && (
                 <div className="empty-state">
@@ -273,7 +273,7 @@ function App() {
         </div>
 
         {selectedTrack && (
-          <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} />
+          <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} onSelectDate={handleSelectDate} />
         )}
         {selectedEvent && (
           <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} />
