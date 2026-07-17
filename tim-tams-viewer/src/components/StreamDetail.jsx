@@ -1,10 +1,6 @@
 import { useState, useCallback, useMemo } from 'react';
-import TrackDialog from './TrackDialog';
-import EventDialog from './EventDialog';
 
-function StreamDetail({ data, tracks, events, onSelectDate }) {
-  const [selectedTrack, setSelectedTrack] = useState(null);
-  const [selectedEvent, setSelectedEvent] = useState(null);
+function StreamDetail({ data, tracks, events, onSelectDate, onOpenTrack, onOpenEvent }) {
   const [hideFiller, setHideFiller] = useState(false);
 
   const isFiller = (song) =>
@@ -30,7 +26,7 @@ function StreamDetail({ data, tracks, events, onSelectDate }) {
         t.artist.toLowerCase() === song.artist.toLowerCase()
     );
     if (found) {
-      setSelectedTrack(found);
+      onOpenTrack(found);
     }
   }, [tracks]);
 
@@ -41,17 +37,9 @@ function StreamDetail({ data, tracks, events, onSelectDate }) {
         e.title.toLowerCase() === event.name.toLowerCase()
     );
     if (found) {
-      setSelectedEvent(found);
+      onOpenEvent(found);
     }
   }, [events]);
-
-  const handleCloseTrackDialog = useCallback(() => {
-    setSelectedTrack(null);
-  }, []);
-
-  const handleCloseEventDialog = useCallback(() => {
-    setSelectedEvent(null);
-  }, []);
 
   if (!data) return null;
 
@@ -114,13 +102,6 @@ function StreamDetail({ data, tracks, events, onSelectDate }) {
         </div>
       )}
 
-      {selectedTrack && (
-        <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} onSelectDate={onSelectDate} />
-      )}
-
-      {selectedEvent && (
-        <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} onSelectDate={onSelectDate} />
-      )}
     </div>
   );
 }

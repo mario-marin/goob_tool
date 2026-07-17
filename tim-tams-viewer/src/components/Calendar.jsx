@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 
 const DAYS_OF_WEEK = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const MONTH_NAMES = [
@@ -16,6 +16,14 @@ function Calendar({ availableDates, selectedDate, onSelectDate }) {
     }
     return new Date();
   });
+
+  // Sync displayed month to selected date
+  useEffect(() => {
+    if (selectedDate) {
+      const [y, m] = selectedDate.split('-').map(Number);
+      setCurrentDate(new Date(y, m - 1, 1));
+    }
+  }, [selectedDate]);
 
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();

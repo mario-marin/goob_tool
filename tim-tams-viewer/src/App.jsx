@@ -19,8 +19,6 @@ function App() {
   // Search state
   const [searchResults, setSearchResults] = useState({ songs: [], events: [] });
   const [searchActive, setSearchActive] = useState(false);
-  const [selectedTrack, setSelectedTrack] = useState(null);
-  const [selectedEvent, setSelectedEvent] = useState(null);
 
   // Theme state
   const [theme, setTheme] = useState(() => {
@@ -128,6 +126,8 @@ function App() {
 
   const handleSelectDate = useCallback(
     (date) => {
+      setSelectedTrack(null);
+      setSelectedEvent(null);
       setSelectedDate(date);
       loadStreamData(date);
     },
@@ -141,19 +141,17 @@ function App() {
 
   const handleSearchTrackClick = useCallback((track) => {
     setSelectedTrack(track);
+    setSearchActive(false);
   }, []);
 
   const handleSearchEventClick = useCallback((event) => {
     setSelectedEvent(event);
+    setSearchActive(false);
   }, []);
 
-  const handleCloseTrackDialog = useCallback(() => {
-    setSelectedTrack(null);
-  }, []);
-
-  const handleCloseEventDialog = useCallback(() => {
-    setSelectedEvent(null);
-  }, []);
+  // Dialog state (lifted to App for single source of truth)
+  const [selectedTrack, setSelectedTrack] = useState(null);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const handleClearSearch = useCallback(() => {
     setSearchActive(false);
@@ -261,7 +259,7 @@ function App() {
               {loading && <div className="loading">Loading...</div>}
               {error && <div className="error">{error}</div>}
               {!loading && !error && streamData && (
-                <StreamDetail data={streamData} tracks={tracks} events={events} onSelectDate={handleSelectDate} />
+                <StreamDetail data={streamData} tracks={tracks} events={events} onSelectDate={handleSelectDate} onOpenTrack={setSelectedTrack} onOpenEvent={setSelectedEvent} />
               )}
               {!loading && !error && !streamData && (
                 <div className="empty-state">
@@ -272,13 +270,15 @@ function App() {
           )}
         </div>
 
-        {selectedTrack && (
-          <TrackDialog track={selectedTrack} onClose={handleCloseTrackDialog} onSelectDate={handleSelectDate} />
-        )}
-        {selectedEvent && (
-          <EventDialog event={selectedEvent} onClose={handleCloseEventDialog} />
-        )}
       </main>
+
+      {/* Dialogs rendered at App level so they work from both search and stream detail */}
+      {selectedTrack && (
+        <TrackDialog track={selectedTrack} onClose={() => setSelectedTrack(null)} onSelectDate={handleSelectDate} />
+      )}
+      {selectedEvent && (
+        <EventDialog event={selectedEvent} onClose={() => setSelectedEvent(null)} onSelectDate={handleSelectDate} />
+      )}
     </div>
   );
 }
