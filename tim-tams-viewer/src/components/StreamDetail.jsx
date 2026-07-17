@@ -1,10 +1,26 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import TrackDialog from './TrackDialog';
 import EventDialog from './EventDialog';
 
 function StreamDetail({ data, tracks, events }) {
   const [selectedTrack, setSelectedTrack] = useState(null);
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [hideFiller, setHideFiller] = useState(false);
+
+  const isFiller = (song) =>
+    song.artist === 'Esther Abrami' &&
+    song.song_title === "No.9 Frank's Waltz";
+
+  const filteredSongs = useMemo(() => {
+    if (!data.songs) return [];
+    if (!hideFiller) return data.songs;
+    return data.songs.filter((song) => !isFiller(song));
+  }, [data.songs, hideFiller]);
+
+  const fillerCount = useMemo(() => {
+    if (!data.songs) return 0;
+    return data.songs.filter(isFiller).length;
+  }, [data.songs]);
 
   const handleSongClick = useCallback((song) => {
     if (!tracks) return;
@@ -49,9 +65,21 @@ function StreamDetail({ data, tracks, events }) {
 
       {data.songs && data.songs.length > 0 && (
         <div className="stream-section">
-          <h3>Songs ({data.songs.length})</h3>
+          <div className="songs-section-header">
+            <h3>Songs ({filteredSongs.length}{fillerCount > 0 && hideFiller ? ` / ${data.songs.length}` : ''})</h3>
+            {fillerCount > 0 && (
+              <label className="filler-toggle">
+                <input
+                  type="checkbox"
+                  checked={hideFiller}
+                  onChange={(e) => setHideFiller(e.target.checked)}
+                />
+                <span className="filler-toggle-label">Hide Frank's Waltz</span>
+              </label>
+            )}
+          </div>
           <div className="songs-list">
-            {data.songs.map((song, i) => (
+            {filteredSongs.map((song, i) => (
               <div
                 key={i}
                 className="song-row"
