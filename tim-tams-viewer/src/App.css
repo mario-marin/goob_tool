@@ -8,6 +8,7 @@
 .app-header {
   padding: 24px 32px 16px;
   border-bottom: 1px solid var(--border);
+  position: relative;
 }
 
 .app-header h1 {
@@ -688,4 +689,28 @@
 .event-dialog-empty {
   opacity: 0.4;
   font-style: italic;
+}
+
+/* ===== GitHub Link ===== */
+.github-link {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  opacity: 0.85;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.github-link:hover {
+  opacity: 1;
+}
+
+.github-link-text {
+  font-family: var(--sans);
 }
