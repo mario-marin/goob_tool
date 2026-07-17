@@ -21,7 +21,7 @@ class TimestampTool:
     def __init__(self, root):
         self.root = root
         self.root.title("Goob Timestamp Tool")
-        self.root.geometry("650x550")
+        self.root.geometry("1080x540")
         self.root.resizable(True, True)
 
         # Record when the stopwatch was started (in Adelaide time)
@@ -43,6 +43,26 @@ class TimestampTool:
         self.override_time_var = tk.StringVar(value=datetime.now().strftime("%H:%M"))
 
         self._build_ui()
+        # Set initial pane sizes to 540 pixels each for 1080p screen
+        self.root.after(100, self._set_pane_sizes)
+
+    def _set_pane_sizes(self):
+        """Set the initial sizes of the paned window sections."""
+        # Get the paned window widget
+        paned_window = None
+        for widget in self.root.winfo_children():
+            if isinstance(widget, ttk.PanedWindow):
+                paned_window = widget
+                break
+        
+        if paned_window:
+            # Get the two child frames
+            children = paned_window.children
+            if len(children) >= 2:
+                first_child = list(children.values())[0]
+                second_child = list(children.values())[1]
+                paned_window.paneconfig(first_child, width=540)
+                paned_window.paneconfig(second_child, width=540)
 
     def _get_default_save_file(self):
         """Get default save file path based on when the script was opened."""
@@ -56,8 +76,16 @@ class TimestampTool:
         main_frame = ttk.Frame(self.root, padding="15")
         main_frame.pack(fill=tk.BOTH, expand=True)
 
+        # --- Split pane: Timtam Section (left) | Goob Tracks (right) ---
+        paned_window = ttk.PanedWindow(main_frame, orient=tk.HORIZONTAL)
+        paned_window.pack(fill=tk.BOTH, expand=True)
+
+        # ==================== LEFT: Timtam Section ====================
+        timtam_frame = ttk.LabelFrame(paned_window, text="Timtam Section", padding="10")
+        paned_window.add(timtam_frame, weight=1)
+
         # --- Stopwatch Section (Smaller) ---
-        stopwatch_frame = ttk.LabelFrame(main_frame, text="Stopwatch", padding="5")
+        stopwatch_frame = ttk.LabelFrame(timtam_frame, text="Stopwatch", padding="5")
         stopwatch_frame.pack(fill=tk.X, pady=(0, 10))
 
         self.time_label = tk.Label(
@@ -115,7 +143,7 @@ class TimestampTool:
         self.status_label.pack(anchor=tk.E, pady=(5, 0))
 
         # --- File Operations Section ---
-        file_ops_frame = ttk.LabelFrame(main_frame, text="File Operations", padding="5")
+        file_ops_frame = ttk.LabelFrame(timtam_frame, text="File Operations", padding="5")
         file_ops_frame.pack(fill=tk.X, pady=(10, 10))
 
         self.load_file_btn = ttk.Button(
@@ -134,7 +162,7 @@ class TimestampTool:
         self.export_btn.pack(side=tk.LEFT, padx=(0, 5))
 
         # --- Stream Operations Section ---
-        stream_ops_frame = ttk.LabelFrame(main_frame, text="Stream Operations", padding="5")
+        stream_ops_frame = ttk.LabelFrame(timtam_frame, text="Stream Operations", padding="5")
         stream_ops_frame.pack(fill=tk.X, pady=(10, 10))
 
         # Row 1: Add Timestamp, Frank Moves, Fronk Times, Apply Last
@@ -190,8 +218,8 @@ class TimestampTool:
         self.apply_btn.pack(side=tk.LEFT, padx=(5, 0))
 
         # --- Timestamps Section ---
-        timestamps_frame = ttk.LabelFrame(main_frame, text="Timestamps", padding="10")
-        timestamps_frame.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+        timestamps_frame = ttk.LabelFrame(timtam_frame, text="Timestamps", padding="10")
+        timestamps_frame.pack(fill=tk.BOTH, expand=True, pady=(10, 10))
 
         # Text box with scrollbar
         text_container = ttk.Frame(timestamps_frame)
@@ -211,7 +239,7 @@ class TimestampTool:
         scrollbar.config(command=self.text_box.yview)
 
         # --- Bottom bar (status + Adelaide clock) ---
-        self.bottom_bar = ttk.Frame(main_frame)
+        self.bottom_bar = ttk.Frame(timtam_frame)
         self.bottom_bar.pack(fill=tk.X, side=tk.BOTTOM)
 
         self.status_bar = ttk.Label(
@@ -231,6 +259,11 @@ class TimestampTool:
         )
         self.adelaide_clock.pack(side=tk.RIGHT)
         self._update_adelaide_clock()
+
+        # ==================== RIGHT: Goob Tracks Section ====================
+        goob_tracks_frame = ttk.LabelFrame(paned_window, text="Goob Tracks", padding="10")
+        paned_window.add(goob_tracks_frame, weight=1)
+        # The Goob Tracks section is intentionally left blank for future use.
 
     def _update_adelaide_clock(self):
         """Update the Adelaide, Australia clock display."""
