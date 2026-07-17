@@ -3,3 +3,4 @@ other_tools
 new_features
 *.log
 /__pycache__/
+test_old_strem
