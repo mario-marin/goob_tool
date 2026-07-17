@@ -161,6 +161,11 @@ class TimestampTool:
         )
         self.apply_last_btn.pack(side=tk.LEFT, padx=(0, 5))
 
+        self.apply_last_ii_btn = ttk.Button(
+            row1_frame, text="Apply Last II", width=18, command=self.apply_last_ii
+        )
+        self.apply_last_ii_btn.pack(side=tk.LEFT, padx=(0, 5))
+
         # Row 2: Pyzam button and text box
         row2_frame = ttk.Frame(stream_ops_frame)
         row2_frame.pack(fill=tk.X)
@@ -656,6 +661,76 @@ class TimestampTool:
 
         if valid_artist_song is None:
             self.status_bar.config(text="No valid timestamp found to copy from")
+            return
+
+        # Replace _artist_, _song_ in the last line with the valid artist/song
+        time_part = last_line.split(" - ")[0]
+        new_line = f"{time_part} - {valid_artist_song}"
+        lines[last_non_blank_idx] = new_line
+
+        # Update the text box
+        self.text_box.delete("1.0", tk.END)
+        self.text_box.insert(tk.END, "\n".join(lines))
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Applied: {valid_artist_song}")
+
+    def apply_last_ii(self):
+        """Copy artist/song from the second-to-last valid timestamp to the last placeholder timestamp."""
+        content = self.text_box.get("1.0", tk.END)
+
+        # Remove trailing newline before splitting
+        if content.endswith("\n"):
+            content = content[:-1]
+
+        lines = content.split("\n")
+
+        # Find the last non-blank line (the target placeholder)
+        last_non_blank_idx = None
+        for i in range(len(lines) - 1, -1, -1):
+            if lines[i].strip():
+                last_non_blank_idx = i
+                break
+
+        if last_non_blank_idx is None:
+            self.status_bar.config(text="No placeholder timestamp found")
+            return
+
+        # Check if the last non-blank line matches the placeholder pattern
+        last_line = lines[last_non_blank_idx]
+        if not re.match(r"^\d{2}:\d{2}:\d{2} - _artist_, _song_$", last_line):
+            self.status_bar.config(text="Last line is not a placeholder timestamp")
+            return
+
+        # Find the second-to-last valid timestamp (non-placeholder) going backwards
+        # First, find the last valid timestamp
+        last_valid_idx = None
+        for i in range(last_non_blank_idx - 1, -1, -1):
+            line = lines[i]
+            if not line.strip():
+                continue
+            match = re.match(r"^(\d{2}:\d{2}:\d{2}) - (.+)$", line)
+            if match:
+                artist_song = match.group(2)
+                if artist_song != "_artist_, _song_":
+                    last_valid_idx = i
+                    break
+
+        # Now find the one before that
+        valid_artist_song = None
+        if last_valid_idx is not None:
+            for i in range(last_valid_idx - 1, -1, -1):
+                line = lines[i]
+                if not line.strip():
+                    continue
+                match = re.match(r"^(\d{2}:\d{2}:\d{2}) - (.+)$", line)
+                if match:
+                    artist_song = match.group(2)
+                    if artist_song != "_artist_, _song_":
+                        valid_artist_song = artist_song
+                        break
+
+        if valid_artist_song is None:
+            self.status_bar.config(text="No second-to-last valid timestamp found to copy from")
             return
 
         # Replace _artist_, _song_ in the last line with the valid artist/song
