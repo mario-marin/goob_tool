@@ -1,5 +1,5 @@
 # Timestamps started: 2026-05-20 09:00:00
-floatplane_link: 
+floatplane_link: https://www.floatplane.com/post/LkMKDtqDX8
 
 
 00:05:10 - Martin Landstrom, Sidewalk Shindig

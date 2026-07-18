@@ -1,5 +1,5 @@
 # Timestamps started: 2026-06-17 10:00:48
-floatplane_link: 
+floatplane_link: https://www.floatplane.com/post/xxUpkHeMRh
 
 00:04:12 - Sanic Adventure, Welcome to Station Square
 00:07:55 - Death's Door, Grandma

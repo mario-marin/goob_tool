@@ -1,5 +1,5 @@
 # Timestamps started: 2026-05-04 20:00:00
-floatplane_link: 
+floatplane_link: https://www.floatplane.com/post/t5vUd22FjK
 
 00:05:30 - Sanic, Can you fell the sunshine
 00:12:55 - Smash mouth, Why can't we be fronk?
