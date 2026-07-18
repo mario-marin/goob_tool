@@ -53,6 +53,8 @@ class TimestampTool:
         self._build_ui()
         # Set initial pane sizes to 540 pixels each for 1080p screen
         self.root.after(100, self._set_pane_sizes)
+        # Load tracks list after UI is built
+        self.root.after(200, self._load_tracks_list)
 
     def _set_pane_sizes(self):
         """Set the initial sizes of the paned window sections."""
@@ -312,7 +314,7 @@ class TimestampTool:
         )
         self.add_track_btn.grid(row=4, column=0, columnspan=2, pady=(10, 0))
 
-        # --- Track list ---
+        # --- Track list (full details) ---
         track_list_frame = ttk.LabelFrame(goob_tracks_frame, text="Tracks", padding="5")
         track_list_frame.pack(fill=tk.BOTH, expand=True, pady=(5, 5))
 
@@ -322,11 +324,12 @@ class TimestampTool:
         list_scrollbar = ttk.Scrollbar(list_container)
         list_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-        self.track_listbox = tk.Listbox(
+        self.track_listbox = tk.Text(
             list_container,
             font=("monospace", 10),
             yscrollcommand=list_scrollbar.set,
             height=12,
+            wrap=tk.NONE,
         )
         self.track_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         list_scrollbar.config(command=self.track_listbox.yview)
@@ -986,21 +989,36 @@ class TimestampTool:
     # ================================================================
 
     def _load_tracks_list(self):
-        """Load and display all track titles in the listbox."""
-        self.track_listbox.delete(0, tk.END)
+        """Load and display all track details in the text widget."""
+        self.track_listbox.delete("1.0", tk.END)
         try:
             with open(self.tracks_json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             tracks = data.get("tracks", [])
+            if not tracks:
+                self.track_listbox.insert(tk.END, "(no tracks found)")
+                return
+
             for track in tracks:
                 title = track.get("title", "Untitled")
                 artist = track.get("artist", "Unknown")
-                self.track_listbox.insert(tk.END, f"{title} — {artist}")
+                youtube = track.get("youtube", "")
+                description = track.get("hidden", {}).get("description", "") if isinstance(track.get("hidden"), dict) else track.get("description", "")
+
+                self.track_listbox.insert(tk.END, f"Title:    {title}\n")
+                self.track_listbox.insert(tk.END, f"Artist:   {artist}\n")
+                self.track_listbox.insert(tk.END, f"YouTube:  {youtube}\n")
+                self.track_listbox.insert(tk.END, f"Description: {description}\n")
+                self.track_listbox.insert(tk.END, "\n")
+
         except FileNotFoundError:
+            self.track_listbox.insert(tk.END, f"File not found: {self.tracks_json_file}")
             self.goob_status_label.config(text=f"File not found: {self.tracks_json_file}")
         except json.JSONDecodeError as e:
+            self.track_listbox.insert(tk.END, f"Invalid JSON: {e}")
             self.goob_status_label.config(text=f"Invalid JSON: {e}")
         except Exception as e:
+            self.track_listbox.insert(tk.END, f"Error loading tracks: {e}")
             self.goob_status_label.config(text=f"Error loading tracks: {e}")
 
     def _add_track(self):
