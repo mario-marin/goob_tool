@@ -359,7 +359,9 @@
       "title": "Take me",
       "artist": "Cassiopea",
       "youtube": "https://www.youtube.com/watch?v=G0JMs7Q3j_o",
-      "aliases": ["Take me, Cassiopea"],
+      "aliases": [
+        "Take me, Cassiopea"
+      ],
       "hidden": {
         "description": ""
       },
@@ -424,7 +426,9 @@
       "title": "Tires on Fire",
       "artist": "Coda",
       "youtube": "",
-      "aliases": ["Coda, Lobo on Fire"],
+      "aliases": [
+        "Coda, Lobo on Fire"
+      ],
       "hidden": {
         "description": ""
       },
@@ -2724,7 +2728,9 @@
       "title": "Straight Outta Compton",
       "artist": "There I Ruined It",
       "youtube": "",
-      "aliases": ["Oktoberfest, Straight Outta Compton"],
+      "aliases": [
+        "Oktoberfest, Straight Outta Compton"
+      ],
       "hidden": {
         "description": ""
       },
@@ -3114,7 +3120,9 @@
       "title": "We Will Rock You - Queen vs Songsmith",
       "artist": "unknown",
       "youtube": "",
-      "aliases": ["We well rick you, Songsmith edition"],
+      "aliases": [
+        "We well rick you, Songsmith edition"
+      ],
       "hidden": {
         "description": ""
       },

@@ -1115,6 +1115,15 @@ class TimestampTool:
                 )
                 apply_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
 
+                # Edit button (right side) - opens edit dialog for this track
+                edit_btn = ttk.Button(
+                    row_frame,
+                    text="Edit",
+                    width=8,
+                    command=lambda t=track: self._edit_track(t),
+                )
+                edit_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
+
                 visible_count += 1
 
             if visible_count == 0 and filter_lower:
@@ -1133,6 +1142,104 @@ class TimestampTool:
             error_label = ttk.Label(self.scrollable_frame, text=f"Error loading tracks: {e}", foreground="red", font=("sans-serif", 10))
             error_label.pack(pady=30)
             self.goob_status_label.config(text=f"Error loading tracks: {e}")
+
+    def _edit_track(self, track):
+        """Open a dialog to edit a track's metadata."""
+        dialog = tk.Toplevel(self.root)
+        dialog.title("Edit Track")
+        dialog.geometry("480x520")
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        # Pre-fill fields with current track data
+        # Store on self to prevent garbage collection
+        self._edit_title_var = tk.StringVar(value=track.get("title", ""))
+        self._edit_artist_var = tk.StringVar(value=track.get("artist", ""))
+        self._edit_youtube_var = tk.StringVar(value=track.get("youtube", ""))
+        self._edit_description_var = tk.StringVar(value=track.get("hidden", {}).get("description", "") if isinstance(track.get("hidden"), dict) else track.get("description", ""))
+        # Aliases: store as a comma-separated string for editing, convert to list on save
+        aliases = track.get("aliases", [])
+        self._edit_aliases_var = tk.StringVar(value=", ".join(aliases) if aliases else "")
+
+        # Title
+        ttk.Label(dialog, text="Title:").grid(row=0, column=0, sticky=tk.W, padx=(10, 5), pady=5)
+        ttk.Entry(dialog, textvariable=self._edit_title_var, width=35).grid(row=0, column=1, padx=(0, 10), pady=5, sticky=tk.W)
+
+        # Artist
+        ttk.Label(dialog, text="Artist:").grid(row=1, column=0, sticky=tk.W, padx=(10, 5), pady=5)
+        ttk.Entry(dialog, textvariable=self._edit_artist_var, width=35).grid(row=1, column=1, padx=(0, 10), pady=5, sticky=tk.W)
+
+        # YouTube
+        ttk.Label(dialog, text="YouTube:").grid(row=2, column=0, sticky=tk.W, padx=(10, 5), pady=5)
+        ttk.Entry(dialog, textvariable=self._edit_youtube_var, width=35).grid(row=2, column=1, padx=(0, 10), pady=5, sticky=tk.W)
+
+        # Description
+        ttk.Label(dialog, text="Description:").grid(row=3, column=0, sticky=tk.W, padx=(10, 5), pady=5)
+        desc_entry = ttk.Entry(dialog, textvariable=self._edit_description_var, width=35)
+        desc_entry.grid(row=3, column=1, padx=(0, 10), pady=5, sticky=tk.W)
+
+        # Aliases
+        ttk.Label(dialog, text="Aliases:").grid(row=4, column=0, sticky=tk.W, padx=(10, 5), pady=5)
+        aliases_entry = ttk.Entry(dialog, textvariable=self._edit_aliases_var, width=35)
+        aliases_entry.grid(row=4, column=1, padx=(0, 10), pady=5, sticky=tk.W)
+        ttk.Label(dialog, text="(comma-separated)", foreground="gray", font=("sans-serif", 8)).grid(row=5, column=1, sticky=tk.W, padx=(0, 10), pady=(0, 5))
+
+        def save_edit():
+            new_title = self._edit_title_var.get().strip()
+            new_artist = self._edit_artist_var.get().strip()
+            new_youtube = self._edit_youtube_var.get().strip()
+            new_description = self._edit_description_var.get().strip()
+            # Parse aliases: split by comma, strip whitespace, filter empty strings
+            raw_aliases = self._edit_aliases_var.get().strip()
+            if raw_aliases:
+                new_aliases = [a.strip() for a in raw_aliases.split(",") if a.strip()]
+            else:
+                new_aliases = []
+
+            if not new_title:
+                self.goob_status_label.config(text="Title is required.")
+                return
+
+            # Update the track object in the JSON file
+            try:
+                with open(self.tracks_json_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except (FileNotFoundError, json.JSONDecodeError):
+                data = {"tracks": []}
+
+            if "tracks" not in data:
+                data["tracks"] = []
+
+            # Find and update the matching track
+            for i, t in enumerate(data["tracks"]):
+                if t.get("title") == track.get("title") and t.get("artist") == track.get("artist"):
+                    data["tracks"][i]["title"] = new_title
+                    data["tracks"][i]["artist"] = new_artist
+                    data["tracks"][i]["youtube"] = new_youtube
+                    data["tracks"][i]["aliases"] = new_aliases
+                    if "hidden" in data["tracks"][i] and isinstance(data["tracks"][i]["hidden"], dict):
+                        data["tracks"][i]["hidden"]["description"] = new_description
+                    elif "description" in data["tracks"][i]:
+                        data["tracks"][i]["description"] = new_description
+                    else:
+                        data["tracks"][i]["hidden"] = {"description": new_description}
+                    break
+
+            with open(self.tracks_json_file, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+
+            dialog.destroy()
+            self._load_tracks_list()
+            self.goob_status_label.config(text=f"Saved: {new_title} by {new_artist}")
+
+        # Save and Cancel buttons
+        btn_frame = ttk.Frame(dialog)
+        btn_frame.grid(row=6, column=0, columnspan=2, pady=(15, 10))
+
+        ttk.Button(btn_frame, text="Save", width=10, command=save_edit).pack(side=tk.LEFT, padx=(0, 10))
+        ttk.Button(btn_frame, text="Cancel", width=10, command=dialog.destroy).pack(side=tk.LEFT)
+
+        dialog.protocol("WM_DELETE_WINDOW", dialog.destroy)
 
     def _apply_track_to_placeholder(self, artist, title):
         """Apply artist and title from a track to the last placeholder timestamp line."""
