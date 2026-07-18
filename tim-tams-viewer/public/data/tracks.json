@@ -425,7 +425,7 @@
     {
       "title": "Tires on Fire",
       "artist": "Coda",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=QIgD5hoc_TE",
       "aliases": [
         "Coda, Lobo on Fire"
       ],
@@ -440,7 +440,7 @@
     {
       "title": "Windy and Co",
       "artist": "Conker's Bad Fur Day",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=eDWKrNRN3rY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -453,7 +453,7 @@
     {
       "title": "Airplane Mode (Live)",
       "artist": "Cory Wong",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=P1rpwCSYBOs",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -466,7 +466,7 @@
     {
       "title": "Otonoke",
       "artist": "Creepy Nuts",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=a4na2opArGY",
       "aliases": [],
       "hidden": {
         "description": "anime, dan da dan"
@@ -479,7 +479,7 @@
     {
       "title": "Title theme",
       "artist": "Croc",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=0IjeE45p91Y",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -492,7 +492,7 @@
     {
       "title": "Arena",
       "artist": "danasty warriors 3",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1SwgldWucqU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -505,7 +505,7 @@
     {
       "title": "En el Rio",
       "artist": "Daniel Fridell",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BUtWVsG3MKo",
       "aliases": [],
       "hidden": {
         "description": "toasted peas, beans "
@@ -518,7 +518,7 @@
     {
       "title": "Let Me Be Somebody Else",
       "artist": "Daniel Fridell",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=AeTKraF_Nu4",
       "aliases": [],
       "hidden": {
         "description": "cocktail, cheese"
@@ -531,7 +531,7 @@
     {
       "title": "Total Eclipse of the Heart Literal Video Version",
       "artist": "dascottjr",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=fsgWUq0fdKk",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -544,7 +544,7 @@
     {
       "title": "Let's Go Away",
       "artist": "Daytona USA",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=YVlcADaT94o",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -557,7 +557,7 @@
     {
       "title": "Grandma",
       "artist": "Death's Door",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=W1E_Yimv4fw",
       "aliases": [],
       "hidden": {
         "description": "skelleton delivering pizza"
@@ -570,35 +570,22 @@
     {
       "title": "Earth, Wind & Ozzys",
       "artist": "DJ Cummerbund",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=FuOuUixdSvY",
       "aliases": [
         "DJ Cummerbund, Earth, Sand & Fire"
       ],
       "hidden": {
         "description": "crazy train, september, Metallica, ear wind and fire"
       },
-      "number_of_times_played": 1,
+      "number_of_times_played": 2,
       "last_time_played": "2026-06-23",
-      "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1
-    },
-    {
-      "title": "Earth, Wind & Ozzys",
-      "artist": "DJ Cummerbund",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
     {
       "title": "Banana Dance",
       "artist": "Dr. Jean",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=MFmr_TZLpS0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -609,10 +596,12 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Hotline Bling",
-      "artist": "drake",
-      "youtube": "",
-      "aliases": [],
+      "title": "Main Theme - Wii Shop Channel",
+      "artist": "SilvaGunner",
+      "youtube": "https://www.youtube.com/watch?v=4Y_D6koUbWI",
+      "aliases": [
+        "drake, Hotline Bling"
+      ],
       "hidden": {
         "description": ""
       },
@@ -624,7 +613,7 @@
     {
       "title": "Good Luck, Frank!",
       "artist": "Earth Kenan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2xXsrA6b9oE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -637,7 +626,7 @@
     {
       "title": "Poison Lips",
       "artist": "Easton",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=8ByEjTslkYw",
       "aliases": [],
       "hidden": {
         "description": "Thick potatos, taca taca"
@@ -650,7 +639,7 @@
     {
       "title": "A Grama do Maracanã",
       "artist": "El Equipo Del Norte",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2WteBOoYNF4",
       "aliases": [],
       "hidden": {
         "description": "black waves with colours, palta jamon pan turkey"
@@ -663,7 +652,7 @@
     {
       "title": "Bossa Cara",
       "artist": "El Equipo Del Norte",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=eOASvaYwNtk",
       "aliases": [],
       "hidden": {
         "description": "pan enfermo, plastic bread, corn field, crops "
@@ -676,7 +665,7 @@
     {
       "title": "Call and Respond",
       "artist": "Elvin Vanguard",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2k8hbunnoi4",
       "aliases": [],
       "hidden": {
         "description": "black void, ice cream sandwich"
@@ -689,7 +678,7 @@
     {
       "title": "Cliffs of Dover",
       "artist": "Eric Johnson",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=5Nd7EZ3k39s",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -702,7 +691,7 @@
     {
       "title": "No.9 Frank's Waltz",
       "artist": "Esther Abrami",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=fbGJgzJS3Ws",
       "aliases": [
         "Esther Abrami, Frank Waltz",
         "Esther Abrami, Frank's Waltz"
@@ -718,7 +707,7 @@
     {
       "title": "Track 02",
       "artist": "F1 Challenge (Saturn)",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=VzE3kn7nsO4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -731,7 +720,7 @@
     {
       "title": "Hilarious Chinese Song!",
       "artist": "FerociousXFrederic",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=78FgFp1Gi9I",
       "aliases": [],
       "hidden": {
         "description": "rasist, vhs, chineese"
@@ -744,7 +733,7 @@
     {
       "title": "Boss music",
       "artist": "FF7",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=9JPzyjMQ-rI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -757,7 +746,7 @@
     {
       "title": "Let the battles Begin!",
       "artist": "FF7",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=U_lqfaQIZH4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -770,7 +759,7 @@
     {
       "title": "Cupid Remix",
       "artist": "Fifdy Fifdy mate",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=sfIxRxfkr1U",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -783,7 +772,7 @@
     {
       "title": "Hurry!",
       "artist": "Final Fantasy 7",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=QAOfIrNnSYk",
       "aliases": [],
       "hidden": {
         "description": "vhs music video 1980"
@@ -796,7 +785,7 @@
     {
       "title": "We Are Number Dank",
       "artist": "Flater",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=oNVfrxkHj1M",
       "aliases": [],
       "hidden": {
         "description": "lazy town, we are number one"
@@ -809,7 +798,7 @@
     {
       "title": "Fun House",
       "artist": "Fletcher Beasley",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BjP2hLxUaKs",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -822,7 +811,7 @@
     {
       "title": "Cityscapes",
       "artist": "Flyin",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=dxFV9VLajsU",
       "aliases": [],
       "hidden": {
         "description": "concert, tiki coctail"
@@ -835,7 +824,7 @@
     {
       "title": "South Bridge",
       "artist": "Frank City 3000",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hA_OK1UbmGI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -848,7 +837,7 @@
     {
       "title": "UpDown Town",
       "artist": "Frank City 3000",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=o4vRJF8L4SY",
       "aliases": [
         "Frank City 3000, Updoot Town",
         "Sim City 3000, Updoot Town"
@@ -864,7 +853,7 @@
     {
       "title": "Cha Cha Chiwawa",
       "artist": "From Hell itself",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=XCsX-Eco74E",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -877,7 +866,7 @@
     {
       "title": "Canon",
       "artist": "funtwo",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=TF6cnLnEARo",
       "aliases": [],
       "hidden": {
         "description": "classical music"
@@ -890,7 +879,7 @@
     {
       "title": "Feel Goob inc.",
       "artist": "Gabe the bork",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=muLAN-kP5pE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -903,7 +892,7 @@
     {
       "title": "bork till you're dead",
       "artist": "Gabe the dog",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=cif0Cm38yDI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -916,7 +905,7 @@
     {
       "title": "don't stop me now",
       "artist": "Gabe the dog",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=c--etqIJcow",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -929,7 +918,7 @@
     {
       "title": "Sucker",
       "artist": "Gamma Skies",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=c--etqIJcow",
       "aliases": [],
       "hidden": {
         "description": "cheese toasty, grilled cheese"
@@ -942,7 +931,7 @@
     {
       "title": "Everybody's Circulation",
       "artist": "Generuu",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=RQmEERvqq70",
       "aliases": [],
       "hidden": {
         "description": "Anime, mega mashup"
@@ -968,7 +957,7 @@
     {
       "title": "Cheeseburger Quesadilla!",
       "artist": "Goodboy Noah",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=fhPATUKfYz4",
       "aliases": [],
       "hidden": {
         "description": "cheeta puppet"
@@ -981,7 +970,7 @@
     {
       "title": "We stackin’ cheese",
       "artist": "Goodboy Noah",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/shorts/b7DBTNAv2hE",
       "aliases": [],
       "hidden": {
         "description": "cheeta puppet, lasagna"
@@ -994,7 +983,7 @@
     {
       "title": "Slipstream",
       "artist": "Gran Turismo 3",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2oSGhJfXSP0",
       "aliases": [],
       "hidden": {
         "description": "rotating rally car, highway"
@@ -1007,7 +996,7 @@
     {
       "title": "GT Mode 5",
       "artist": "Gran Turismo 4",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=NPik8kM-d9Y",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1020,7 +1009,7 @@
     {
       "title": "Theme song",
       "artist": "Halo",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=0jXTBAGv9ZQ",
       "aliases": [],
       "hidden": {
         "description": "chikens fighting t-rexes"
@@ -1033,7 +1022,7 @@
     {
       "title": "Birdhouse",
       "artist": "Hara Noda",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=vQ4fw_g47t4",
       "aliases": [],
       "hidden": {
         "description": "triple apple pie, blurry red white background"
@@ -1046,7 +1035,7 @@
     {
       "title": "Some",
       "artist": "Hara Noda",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7AF5to7l25U",
       "aliases": [],
       "hidden": {
         "description": "carrot cake, red curtains"
@@ -1059,7 +1048,7 @@
     {
       "title": "Hero to Zero",
       "artist": "Hercules",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=woO9FidFa6o",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1072,7 +1061,7 @@
     {
       "title": "I Really, Really, Really Like This Image",
       "artist": "Hot Dad",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7eKv4BEujFU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1085,7 +1074,7 @@
     {
       "title": "Hot Barbeque",
       "artist": "Jack McDuff",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=SNQBfAxkiIA",
       "aliases": [],
       "hidden": {
         "description": "dog eating hotdog"
@@ -1098,7 +1087,7 @@
     {
       "title": "Big iron on his alphabet",
       "artist": "Jackson Parodi",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=j_Dyg2Dw5xI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1111,7 +1100,7 @@
     {
       "title": "All star but its a Bach Chorale",
       "artist": "Jerry Sienfield",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=qdufOUHF8D0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1124,7 +1113,7 @@
     {
       "title": "Funky Dealer",
       "artist": "Jet Set Radio",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=CwE2k0HMDfo",
       "aliases": [],
       "hidden": {
         "description": "jet set radio"
@@ -1137,7 +1126,7 @@
     {
       "title": "Call Me Baby",
       "artist": "John Runefelt",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=vSsCx6yo3ug",
       "aliases": [],
       "hidden": {
         "description": "burger, graphs, office, dashboard"
@@ -1150,7 +1139,7 @@
     {
       "title": "My Name is John Daker",
       "artist": "Justin Kintzel",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=8PVal8Fy7CM",
       "aliases": [],
       "hidden": {
         "description": "old church recording"
@@ -1163,7 +1152,7 @@
     {
       "title": "Trap Remix FUN FUN FUN",
       "artist": "Kazoo Kid",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BCb1jmpsfO8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1189,7 +1178,7 @@
     {
       "title": "Floral Fury",
       "artist": "Kristofer Maddigan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2clUY-OsCpY",
       "aliases": [],
       "hidden": {
         "description": "cup head"
@@ -1202,7 +1191,7 @@
     {
       "title": "Inkwell Isle One",
       "artist": "Kristofer Maddigan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=jvOY2RvuvGs",
       "aliases": [],
       "hidden": {
         "description": "cup head"
@@ -1215,7 +1204,7 @@
     {
       "title": "Dragonfruit Salad",
       "artist": "Lacheque",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3KFKzlfD5Lw",
       "aliases": [],
       "hidden": {
         "description": "man dancing"
@@ -1228,7 +1217,7 @@
     {
       "title": "Noodle",
       "artist": "Limp Bizkit",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=JTMVOzPPtiw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1241,7 +1230,7 @@
     {
       "title": "Godly Minds",
       "artist": "Loreana",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=zFd7lcmN0Pk",
       "aliases": [],
       "hidden": {
         "description": "big ice cube cocktail, fireworks"
@@ -1254,7 +1243,7 @@
     {
       "title": "Hey Arnold",
       "artist": "Lucia Sarmiento & Jemma Heigis",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=91E7SxaPwnY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1267,7 +1256,7 @@
     {
       "title": "Watch Me Take That Crown",
       "artist": "Lukas Got Lucky",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1IRinbPziWw",
       "aliases": [
         "Lukas Got Rick Rolled, Watch Me Take That Crown"
       ],
@@ -1282,7 +1271,7 @@
     {
       "title": "K.O.",
       "artist": "Lupus Nocte",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=a3M8ldCyCcs",
       "aliases": [],
       "hidden": {
         "description": "space churro, nachos, hotdog?"
@@ -1295,7 +1284,7 @@
     {
       "title": "20190724",
       "artist": "Mac DeMarco",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=975vpVzfeRY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1308,7 +1297,7 @@
     {
       "title": "Theme song",
       "artist": "MacGyber",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=UKTNWI0eYJ4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1321,7 +1310,7 @@
     {
       "title": "Rude wii shop",
       "artist": "magic!",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=21JG5mVYoJM",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1334,7 +1323,7 @@
     {
       "title": "Hit me",
       "artist": "Malchezzar",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=XX61Ze6rfRk",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1347,7 +1336,7 @@
     {
       "title": "Bob-Omb",
       "artist": "Mario 64",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=bmP3UHXYi28",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1360,7 +1349,7 @@
     {
       "title": "Cacophonous",
       "artist": "Martin Klem",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=VuVK3JpKqFw",
       "aliases": [],
       "hidden": {
         "description": "ice cream, cake, fireworks, chocolate and vanilla"
@@ -1373,7 +1362,7 @@
     {
       "title": "Café De Manhã",
       "artist": "Martin Landstrom",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=lbsLbjy-vqk",
       "aliases": [],
       "hidden": {
         "description": "esparrago, pixalated colors, sparragous"
@@ -1386,7 +1375,7 @@
     {
       "title": "Froghopper",
       "artist": "Martin Landstrom",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=V4II0ZPxW2g",
       "aliases": [],
       "hidden": {
         "description": "cake with cream, cherries and chocolate, psychedelic sphere"
@@ -1399,7 +1388,7 @@
     {
       "title": "Sidewalk Shindig",
       "artist": "Martin Landstrom",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=SXM0BVoEPK0",
       "aliases": [],
       "hidden": {
         "description": "chiken, salteado, orange wave"
@@ -1412,7 +1401,7 @@
     {
       "title": "Wicked Man",
       "artist": "Martin Landstrom",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=IvW9-MR1lKg",
       "aliases": [],
       "hidden": {
         "description": "strawberry chocolate cake, yellow speed lines, stripes"
@@ -1425,7 +1414,7 @@
     {
       "title": "For Better or Worse",
       "artist": "Martin Landström",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=6g5g3_e-0F4",
       "aliases": [],
       "hidden": {
         "description": "breakfast bagel, rad and pink gradient, monster ink"
@@ -1438,7 +1427,7 @@
     {
       "title": "Tablespoons",
       "artist": "Martin Landström",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=LeiF-C8UI3Y",
       "aliases": [],
       "hidden": {
         "description": "decadent cookie, mermalade, peanut butter cup, forest autum"
@@ -1451,7 +1440,7 @@
     {
       "title": "Carnival Stage",
       "artist": "Marvel Vs Capcom 2",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=dvSQSusA9S0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1464,7 +1453,7 @@
     {
       "title": "Clock Tower",
       "artist": "Marvel Vs Capcom 2",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=IqP4khryIxA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1477,7 +1466,7 @@
     {
       "title": "Player Select",
       "artist": "Marvel Vs Capcom 2",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=D-tjEn7i9fA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1490,7 +1479,7 @@
     {
       "title": "Seinfield",
       "artist": "Mega Drive",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Aj66eoC8ntI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1503,7 +1492,7 @@
     {
       "title": "Fantasy",
       "artist": "Meiko Nakahara",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1516,7 +1505,7 @@
     {
       "title": "Gotta Catch 'Em All, But Michael Jackson Sang It",
       "artist": "melodio_brando",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=8LcdkVo09u0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1529,7 +1518,7 @@
     {
       "title": "POKEMON GO SONG!!!",
       "artist": "Mishovy silenosti",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=vfc42Pb5RA8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1542,7 +1531,7 @@
     {
       "title": "Tobacco Road X3.flv",
       "artist": "Miu ma",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=KmgUV4qSB_U",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1555,7 +1544,7 @@
     {
       "title": "Great Grey Wolf Sif",
       "artist": "Motoi Sakuraba",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Fg_AkYeZcNM",
       "aliases": [],
       "hidden": {
         "description": "dark souls boss music"
@@ -1566,10 +1555,12 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Star All",
-      "artist": "Mouth Smash",
-      "youtube": "",
-      "aliases": [],
+      "title": "All Star (Inverted Cover)",
+      "artist": "Hot Dad",
+      "youtube": "https://www.youtube.com/watch?v=A5kETiLtfEI",
+      "aliases": [
+        "Mouth Smash, Star All"
+      ],
       "hidden": {
         "description": ""
       },
@@ -1581,7 +1572,7 @@
     {
       "title": "Cre8ive Exercise",
       "artist": "MowtenDoo",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=tiOXY1fuv4k",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1594,7 +1585,7 @@
     {
       "title": "I'll make a man out of you",
       "artist": "Mulan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=elBKil5zE2g",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1607,7 +1598,7 @@
     {
       "title": "Aammoorree",
       "artist": "Neil Cicierega",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=UBPdjaXGs0E",
       "aliases": [],
       "hidden": {
         "description": "thats amore, drunk"
@@ -1620,7 +1611,7 @@
     {
       "title": "Busting",
       "artist": "Neil Cicierega",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=0tdyU_gW6WE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1633,7 +1624,7 @@
     {
       "title": "Daft Mouth",
       "artist": "Neil Cicierega",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=G_GQQlehGxE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1646,7 +1637,7 @@
     {
       "title": "The End",
       "artist": "Neil Cicierega",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3cXjcKTRWcg",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1659,7 +1650,7 @@
     {
       "title": "Funiculi Funicula",
       "artist": "Newton Zago",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=J4tIbyvY1Q0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1672,7 +1663,7 @@
     {
       "title": "Why You Always Lying",
       "artist": "Nick Fraser",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=WcWM_1hBu_c",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1685,7 +1676,7 @@
     {
       "title": "Eye on the Prize",
       "artist": "Nikki Gee",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hum_2egdKJI",
       "aliases": [],
       "hidden": {
         "description": "circle patterns, double layer sandwish, samish"
@@ -1698,7 +1689,7 @@
     {
       "title": "I Won't Stop Now",
       "artist": "Nikki Gee",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=pznX2w9qrPs",
       "aliases": [],
       "hidden": {
         "description": "rotating pancakes, thick pancakes, space, asteroids"
@@ -1711,7 +1702,7 @@
     {
       "title": "Spring Is You (Instrumental Version)",
       "artist": "Niklas Gabrielsson with Martin Landström & His Orchestra",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=q7ohNYN2fdY",
       "aliases": [],
       "hidden": {
         "description": "sunset mountains, bread with glaze"
@@ -1722,9 +1713,9 @@
       "most_reproductions_record": 2
     },
     {
-      "title": "Dog",
-      "artist": "Nintendogs",
-      "youtube": "",
+      "title": "Dog - Animools",
+      "artist": "Shoocharu",
+      "youtube": "https://www.youtube.com/watch?v=kKPxo_PjOZw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1737,7 +1728,7 @@
     {
       "title": "In a Dark Place",
       "artist": "No Fronks of Mine",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=9ZRPBtPKh5c",
       "aliases": [],
       "hidden": {
         "description": "mc.muffin, chorizo, egg"
@@ -1750,7 +1741,7 @@
     {
       "title": "Force Your Way",
       "artist": "Nobuo Uematsu",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hSm6_VZuyok",
       "aliases": [],
       "hidden": {
         "description": "final fantasy something"
@@ -1763,7 +1754,7 @@
     {
       "title": "The Hero!!",
       "artist": "One Punch Man",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=atxYe-nOa9w",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1776,7 +1767,7 @@
     {
       "title": "You Can Do It",
       "artist": "Patrick David Wilson",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=su2hi298B0g",
       "aliases": [],
       "hidden": {
         "description": "Duane"
@@ -1789,7 +1780,7 @@
     {
       "title": "Never Smile at a Crocodile",
       "artist": "Paulette Sisters",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=iDC_04gB_Os",
       "aliases": [],
       "hidden": {
         "description": "cocodrilo, mand handling cocodrilos"
@@ -1802,7 +1793,7 @@
     {
       "title": "Menu Screen",
       "artist": "Perfect Dark",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=cxEausPgUdc",
       "aliases": [],
       "hidden": {
         "description": "rotating dog"
@@ -1815,7 +1806,7 @@
     {
       "title": "Results",
       "artist": "Pilot Wings 64",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=gJ8jvDdR0gk",
       "aliases": [],
       "hidden": {
         "description": "Racoon walking down stares and doing stupid things"
@@ -1826,10 +1817,12 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Main Theme",
-      "artist": "Pirates of the Caribean",
-      "youtube": "",
-      "aliases": [],
+      "title": "He's a Pirate",
+      "artist": "Mr.ACCORDION",
+      "youtube": "https://www.youtube.com/watch?v=CgCMBFcifVE",
+      "aliases": [
+        "Pirates of the Caribean, Main Theme"
+      ],
       "hidden": {
         "description": ""
       },
@@ -1841,7 +1834,7 @@
     {
       "title": "Baby come Frank",
       "artist": "Player",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=NmEyGiaqm7k",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1854,7 +1847,7 @@
     {
       "title": "Red and Blue combat",
       "artist": "Pokemon",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=NrS523dOHU4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1867,7 +1860,7 @@
     {
       "title": "As it Frank (Harry Styles Cover)",
       "artist": "Prep",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=fn4JAuCfHQA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1880,7 +1873,7 @@
     {
       "title": "El Gavilán",
       "artist": "Quincas Moreira",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=JlkVcjL3x4A",
       "aliases": [],
       "hidden": {
         "description": "pink ambstract circles, tart"
@@ -1893,7 +1886,7 @@
     {
       "title": "Corneria [Remix]",
       "artist": "QUMU",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BDTSAlI2Vj4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1906,7 +1899,7 @@
     {
       "title": "All I want from Christmas is Creep",
       "artist": "Radiohead",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=ZE4shVkwqIk",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1919,7 +1912,7 @@
     {
       "title": "Banana Phone",
       "artist": "Raffi",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2U3Faa3DejQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1932,7 +1925,7 @@
     {
       "title": "Everybody",
       "artist": "rakohus",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=x1MWI13iRWc",
       "aliases": [],
       "hidden": {
         "description": "8 bit back street boys"
@@ -1945,7 +1938,7 @@
     {
       "title": "Monsters, Inc.",
       "artist": "Randy Newman",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=ayMPmc0_2r8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1958,20 +1951,22 @@
     {
       "title": "Arfrica",
       "artist": "Rapid Liquid",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=qYMuDXQG9K4",
+      "aliases": [
+        "Toto, Africa"
+      ],
       "hidden": {
         "description": "bork, gabe"
       },
-      "number_of_times_played": 2,
+      "number_of_times_played": 3,
       "last_time_played": "2026-06-26",
-      "date_with_most_reproductions": "2026-06-10",
+      "date_with_most_reproductions": "2026-05-13",
       "most_reproductions_record": 1
     },
     {
       "title": "Havana",
       "artist": "Rapid Liquid",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=y79YkMVMsOk",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1984,7 +1979,7 @@
     {
       "title": "Friday",
       "artist": "Rebecca Black",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=kfVsfOSbJY0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -1997,7 +1992,7 @@
     {
       "title": "Ok theme",
       "artist": "Rhythm Heaven",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=MTwnU-peJ4g",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2010,7 +2005,7 @@
     {
       "title": "Try Again Theme",
       "artist": "Rhythm heaven",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7vitd5WOX0s",
       "aliases": [
         "Rhythm heaven, Failure song"
       ],
@@ -2025,7 +2020,7 @@
     {
       "title": "People = Shit",
       "artist": "Richard Cheese",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3qDPSIm82Yw",
       "aliases": [],
       "hidden": {
         "description": "red ball on cheese, Sataaaaaaan"
@@ -2038,7 +2033,7 @@
     {
       "title": "Never gonna Frank you up",
       "artist": "Rick Asheley",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2051,20 +2046,22 @@
     {
       "title": "Smile, sweet, sister, sadistic, surprise, service, snoop dogg",
       "artist": "Rigboogle",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=3naJeF7OEDk",
+      "aliases": [
+        "Snoop doge, SMOKE WEED"
+      ],
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 1,
+      "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
-      "date_with_most_reproductions": "2026-06-16",
+      "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
     {
       "title": "Shia debuff live",
       "artist": "Robcantor",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=o0u4M6vppCI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2077,7 +2074,7 @@
     {
       "title": "Chicken Pickin'",
       "artist": "Roy Edwin Williams",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=mJZSpXM9Pqs",
       "aliases": [],
       "hidden": {
         "description": "fire, bigmac"
@@ -2090,7 +2087,7 @@
     {
       "title": "Walk the Floor and Think of You",
       "artist": "Roy Williams",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=m9OGF21u-HA",
       "aliases": [],
       "hidden": {
         "description": "horses, burger with egg"
@@ -2103,7 +2100,7 @@
     {
       "title": "Night Drive to Hell",
       "artist": "Ruzer",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=AH-cPyk4ixs",
       "aliases": [],
       "hidden": {
         "description": "Spagetti burger, flying ballons"
@@ -2116,7 +2113,7 @@
     {
       "title": "Balls of Steel",
       "artist": "Rymdklang Soundtracks",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=cZUTUYpv45o",
       "aliases": [],
       "hidden": {
         "description": "half panini, space shuttle"
@@ -2129,7 +2126,7 @@
     {
       "title": "Cherry Pepsi",
       "artist": "SAINT PEPSI",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=OrR1TGQY20Y",
       "aliases": [],
       "hidden": {
         "description": "bepis comercial"
@@ -2142,7 +2139,7 @@
     {
       "title": "Feliz Bottom Jeans",
       "artist": "Salvador Peralta",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=6uUWi59GBN4",
       "aliases": [],
       "hidden": {
         "description": "Feliz Navidad"
@@ -2155,7 +2152,7 @@
     {
       "title": "Can you fell the sunshine",
       "artist": "Sanic",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=XWoekUxnZ7w",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2168,7 +2165,7 @@
     {
       "title": "Chem plant",
       "artist": "Sanic",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=-LYB7iLZNWE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2181,7 +2178,7 @@
     {
       "title": "Green Hill",
       "artist": "Sanic",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=G-i8HYi1QH0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2194,7 +2191,7 @@
     {
       "title": "You can't do anything",
       "artist": "Sanic",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7fzMxxyklTw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2207,7 +2204,7 @@
     {
       "title": "Green grove",
       "artist": "Sanic 3D",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=m9YTsT2wfYU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2220,7 +2217,7 @@
     {
       "title": "Special Stage",
       "artist": "Sanic 3D Blast",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1_aAyZ1Iz84",
       "aliases": [],
       "hidden": {
         "description": "crappy 3d, low polygon"
@@ -2246,20 +2243,7 @@
     {
       "title": "Hide your fronk",
       "artist": "Schmoyoho",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-08",
-      "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1
-    },
-    {
-      "title": "It's Korn!",
-      "artist": "Schmoyoho",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hMtZfW2z9dw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2272,20 +2256,22 @@
     {
       "title": "It's 🌽",
       "artist": "Schmoyoho",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=_caMQpiwiaU",
+      "aliases": [
+        "Schmoyoho, It's Korn!"
+      ],
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 2,
+      "number_of_times_played": 3,
       "last_time_played": "2026-07-14",
-      "date_with_most_reproductions": "2026-05-11",
+      "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
     {
       "title": "Rent: Too Damn high!",
       "artist": "Schmoyoho",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Gg5SwyTvAHw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2296,10 +2282,12 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Tonk, Brought to you by Wrodl Of Fronks",
+      "title": "Tank!",
       "artist": "Seatbelts",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=UFFa0QoHWvE",
+      "aliases": [
+        "Seatbelts, Tonk, Brought to you by Wrodl Of Fronks"
+      ],
       "hidden": {
         "description": ""
       },
@@ -2311,7 +2299,7 @@
     {
       "title": "Sega GT 2002",
       "artist": "Sega GT 2002",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=n0EIAa2hRpw",
       "aliases": [],
       "hidden": {
         "description": "green car select"
@@ -2324,7 +2312,7 @@
     {
       "title": "RUSH E",
       "artist": "Sheet Music Boss",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Qskm9MTz2V4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2337,7 +2325,7 @@
     {
       "title": "You Reposted in the Wrong Neighborhood",
       "artist": "SHOKK",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=IdzI3tmvrCc",
       "aliases": [],
       "hidden": {
         "description": "lsd trippy drugs"
@@ -2350,7 +2338,7 @@
     {
       "title": "Inspector Gadget",
       "artist": "Shuki Levy",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=-7TH3nT9RO4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2363,7 +2351,7 @@
     {
       "title": "Stop the Bus",
       "artist": "Sight of Wonders",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=RAQwhRlSIs0",
       "aliases": [],
       "hidden": {
         "description": "chocolate cake, red curtains"
@@ -2376,7 +2364,7 @@
     {
       "title": "Fabulous Secret Powers",
       "artist": "SLACKCiRCUS",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=FR7wOGyAzpw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2389,7 +2377,7 @@
     {
       "title": "Before I love shack",
       "artist": "Slip B52",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=sQXNr7Y7qE0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2402,7 +2390,7 @@
     {
       "title": "Why can't we be fronk?",
       "artist": "Smash mouth",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=z5OXON8vIaA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2413,22 +2401,9 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "SMOKE WEED",
-      "artist": "Snoop doge",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-08",
-      "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1
-    },
-    {
       "title": "weed la weed",
       "artist": "Snoop doge",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=u6lhth99LT0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2441,7 +2416,7 @@
     {
       "title": "Sky Sanctuary",
       "artist": "Sonic Generations",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1FQQhSqO-ms",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2454,7 +2429,7 @@
     {
       "title": "Jesus Is My Friend",
       "artist": "Sonseed",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7-NOZU2iPA8",
       "aliases": [],
       "hidden": {
         "description": "pink studio"
@@ -2467,7 +2442,7 @@
     {
       "title": "Toxic",
       "artist": "Spacey man",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=e7rmVt77Zdo",
       "aliases": [],
       "hidden": {
         "description": "steper motors, britney spears"
@@ -2480,7 +2455,7 @@
     {
       "title": "Crater Mission",
       "artist": "Splatoon 3",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Lz0BKrW8MxI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2493,7 +2468,7 @@
     {
       "title": "We built chonk city with sausage rolls",
       "artist": "Starchip",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=K1b8AhIsSYQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2506,7 +2481,7 @@
     {
       "title": "Summer (Nature's Crescendo)",
       "artist": "Stardew Valley",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=k0nqXeM-sns",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2519,7 +2494,7 @@
     {
       "title": "You Set My Soul on Fire",
       "artist": "Sture Zetterberg",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=7wa9v67Ku8k",
       "aliases": [],
       "hidden": {
         "description": "french fries, classroom"
@@ -2532,7 +2507,7 @@
     {
       "title": "levitating by dua lipa but the vocals are 9 seconds delayed",
       "artist": "subarbiea0",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=yB6MCcaFMEo",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2545,7 +2520,7 @@
     {
       "title": "Pokettoni",
       "artist": "Sugoi",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3bkHtemOPGE",
       "aliases": [],
       "hidden": {
         "description": "pop's fries, trippy background, psychedelic"
@@ -2558,7 +2533,7 @@
     {
       "title": "Crank That",
       "artist": "Super Mario 64",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=k__HpRUeeL0",
       "aliases": [],
       "hidden": {
         "description": "Soulja Boy water theme"
@@ -2571,7 +2546,7 @@
     {
       "title": "Saffron City Theme",
       "artist": "Super Smash Bros N64",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=wSHJ0HQ5EPs",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2584,7 +2559,7 @@
     {
       "title": "Menu 1",
       "artist": "Super Smash Bros. Brawl",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=moKQn6lKrZI&t=73s",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2597,7 +2572,7 @@
     {
       "title": "Menu 1 Live Orchestra & Choir",
       "artist": "Super Smash Bros. Brawl",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=FzsfvqRH-FA",
       "aliases": [],
       "hidden": {
         "description": "Tony, rally"
@@ -2610,7 +2585,7 @@
     {
       "title": "Coming Closer instrumental",
       "artist": "Sven Lindvall",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=9XWGbV4MGKg",
       "aliases": [],
       "hidden": {
         "description": "fireworks, pepperoni pizza motzarella"
@@ -2623,7 +2598,7 @@
     {
       "title": "Dumb Ways to Die",
       "artist": "Tangerine Kitty",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=IJNR2EpS0jw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2636,7 +2611,7 @@
     {
       "title": "Escape From The City ...for City Escape",
       "artist": "Ted Poley",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=qR6mTJRbcaE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2649,7 +2624,7 @@
     {
       "title": "Radiation Song",
       "artist": "The Aquabats",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=n-a_YbpG08Y",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2662,7 +2637,7 @@
     {
       "title": "Main Theme",
       "artist": "The Bill",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=wc4Hqde7aDA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2675,7 +2650,7 @@
     {
       "title": "SMOKO",
       "artist": "The Chats",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=j58V2vC9EPc",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2688,7 +2663,7 @@
     {
       "title": "Dick In A Box",
       "artist": "The Lonely Island",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=6e9iR-hNKWY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2701,7 +2676,7 @@
     {
       "title": "Buy Mode 1",
       "artist": "The Sims",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=399YneFTwh0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2714,7 +2689,7 @@
     {
       "title": "Flashtrain",
       "artist": "The Table",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=mOs4eVDzPxA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2727,7 +2702,7 @@
     {
       "title": "Straight Outta Compton",
       "artist": "There I Ruined It",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=XLY4TsZBExY",
       "aliases": [
         "Oktoberfest, Straight Outta Compton"
       ],
@@ -2742,7 +2717,7 @@
     {
       "title": "Tetris Main Theme",
       "artist": "TheTrollFaceMan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=oFRSLqpq9xk",
       "aliases": [],
       "hidden": {
         "description": "Gabe"
@@ -2755,7 +2730,7 @@
     {
       "title": "Sugar, We're Goin Down Kung-Fu Fighting",
       "artist": "THiNGYBOBinc",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=R2DTXCEXnTU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2768,7 +2743,7 @@
     {
       "title": "Dragonball Durag",
       "artist": "Thudercat",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=ormQQG2UhtQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2781,7 +2756,7 @@
     {
       "title": "bring my friends",
       "artist": "tigerblood jewel",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=59GHwii6yMQ",
       "aliases": [],
       "hidden": {
         "description": "warehouse french fries"
@@ -2794,7 +2769,7 @@
     {
       "title": "A Father's Gift",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=b7HlegQjcP4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2807,7 +2782,7 @@
     {
       "title": "A Song for Dee Vee",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=5uQty7Z4pBw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2820,7 +2795,7 @@
     {
       "title": "A Song for Mommy",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=I6gqPvmKxPE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2833,7 +2808,7 @@
     {
       "title": "All the food is poison",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=_Re6pZri8Gw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2846,7 +2821,7 @@
     {
       "title": "Beach Blast",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=mHO8XtQZLFc",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2859,7 +2834,7 @@
     {
       "title": "Choo-Choo!",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1hlNXtMUYCw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2872,7 +2847,7 @@
     {
       "title": "Drink Molk",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=odmONUjr6Y8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2885,7 +2860,7 @@
     {
       "title": "Hamburgers and Hot Dogs too",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=b2Y_LmdfRC4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2898,7 +2873,7 @@
     {
       "title": "I sit on you",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=4us7Nkv_YwU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2911,7 +2886,7 @@
     {
       "title": "Live with my dad",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=JP_qF5E4w7U",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2924,7 +2899,7 @@
     {
       "title": "Mini Van Highway",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=2SAFC4_KbW0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2937,7 +2912,7 @@
     {
       "title": "Petite Feet",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=VsNzETaavrI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2950,7 +2925,7 @@
     {
       "title": "Rolo Tony Frank Town",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Jmm66wRj-b4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2963,7 +2938,7 @@
     {
       "title": "Salami",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=FWqimMpbTyU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2976,7 +2951,7 @@
     {
       "title": "So Many Bones to Spare",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=TFDffjVpYtk",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -2989,7 +2964,7 @@
     {
       "title": "Sports!",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=p5hDFHu8a4w",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3002,7 +2977,7 @@
     {
       "title": "The things I Like",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=xMbhMp-xtXI",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3015,7 +2990,7 @@
     {
       "title": "Perskeption cheek.",
       "artist": "Tom Cardy",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=8HqLysSnnlQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3028,7 +3003,7 @@
     {
       "title": "hihi",
       "artist": "Tones",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Sx-cY0mPo8g",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3041,7 +3016,7 @@
     {
       "title": "CHOP SUEY",
       "artist": "TONGO",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=PeS_lZySMf8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3054,33 +3029,22 @@
     {
       "title": "Czerwone jagody",
       "artist": "Tony's Folk Song",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=iQOf0XR6JWI",
+      "aliases": [
+        "Worldmus, Czerwone Jagody"
+      ],
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 2,
+      "number_of_times_played": 3,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-05-26",
       "most_reproductions_record": 1
     },
     {
-      "title": "Africa",
-      "artist": "Toto",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-13",
-      "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1
-    },
-    {
       "title": "Battle to save the Earth Theme",
       "artist": "Transformers Commadore C64",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=x_0qTTS4-uE",
       "aliases": [],
       "hidden": {
         "description": "full body skates"
@@ -3093,7 +3057,7 @@
     {
       "title": "Fire and Sword",
       "artist": "Under Earth",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=DKBpZIwdEao",
       "aliases": [],
       "hidden": {
         "description": "foot long, chicke, fish, dark side, space"
@@ -3106,7 +3070,7 @@
     {
       "title": "Spear of Justice",
       "artist": "Undertale",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=XGzYhJcm-Jw",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3119,7 +3083,7 @@
     {
       "title": "We Will Rock You - Queen vs Songsmith",
       "artist": "unknown",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=22AWPW5s4EA",
       "aliases": [
         "We well rick you, Songsmith edition"
       ],
@@ -3134,7 +3098,7 @@
     {
       "title": "It's My Life What Ever I Wanna Do",
       "artist": "Vennu Mallesh",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=kJa2kwoZ2a4",
       "aliases": [],
       "hidden": {
         "description": "Indian"
@@ -3147,7 +3111,7 @@
     {
       "title": "Rockman",
       "artist": "Vulcan",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=YUmvBYDXMrg",
       "aliases": [],
       "hidden": {
         "description": "YMCA at home"
@@ -3160,7 +3124,7 @@
     {
       "title": "1612",
       "artist": "Vulf",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=jRHQPG1xd9o",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3173,7 +3137,7 @@
     {
       "title": "Back Pocket",
       "artist": "Vulf",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=yG96RttfZtM",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3186,7 +3150,7 @@
     {
       "title": "Funky Frank",
       "artist": "Vulf",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=dhNfddJRulQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3199,7 +3163,7 @@
     {
       "title": "Stayin' in Black",
       "artist": "Wax Audio",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=OrlWWrSwaB8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3212,7 +3176,7 @@
     {
       "title": "Ocean Man",
       "artist": "Ween",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=vcaPiiFZu2o",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3225,7 +3189,7 @@
     {
       "title": "Rock N Roll McDonalds",
       "artist": "Wesley Willis",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=KwYGI8OjXvo",
       "aliases": [],
       "hidden": {
         "description": "crappy drawing bus terminal"
@@ -3238,7 +3202,7 @@
     {
       "title": "Break My Stride",
       "artist": "Wii Music",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=r1NvXnYU9iY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3251,7 +3215,7 @@
     {
       "title": "Last Resort But It's Rock Your Body By Justin Timberlake",
       "artist": "William Maranci Mashups",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3fMgPyjXCSs",
       "aliases": [
         "William Maranci Mashups, Last Resort But It's Rock Your Body"
       ],
@@ -3266,7 +3230,7 @@
     {
       "title": "Lose Yourself But It's Mr. Blue Sky",
       "artist": "William Maranci Mashups",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=HrTWjrYYxBU",
       "aliases": [],
       "hidden": {
         "description": "emminem, eminem"
@@ -3279,7 +3243,7 @@
     {
       "title": "The Black Eyed Peas - My Humps (feat. Mozart)",
       "artist": "William Maranci Mashups",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=6KpvuUS4U8w",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3292,7 +3256,7 @@
     {
       "title": "Walk But It's September",
       "artist": "William Maranci Mashups",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=p5faHg_FjG4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3305,7 +3269,7 @@
     {
       "title": "Outset Island",
       "artist": "Wind Waker",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=vwMCZ6B499c",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3318,7 +3282,7 @@
     {
       "title": "you reposted in the wrong plastic love",
       "artist": "WithoutWhy",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=oZazVpuooQ0",
       "aliases": [],
       "hidden": {
         "description": "black and white"
@@ -3329,22 +3293,9 @@
       "most_reproductions_record": 2
     },
     {
-      "title": "Czerwone Jagody",
-      "artist": "Worldmus",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-19",
-      "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1
-    },
-    {
       "title": "Fly-day Chinatown",
       "artist": "Yasuha",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=g0p_jI6T2WQ",
       "aliases": [],
       "hidden": {
         "description": "anime"
@@ -3357,7 +3308,7 @@
     {
       "title": "Zungguzungguguzungguzeng",
       "artist": "Yellow boy",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=X-tfYbRK2OA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3370,7 +3321,7 @@
     {
       "title": "Athletic",
       "artist": "Yoshi's island",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=oKJ2EZnnZRE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3383,7 +3334,7 @@
     {
       "title": "Flower garden",
       "artist": "Yoshi's island",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=DTpksvCC-hg",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3396,7 +3347,7 @@
     {
       "title": "DAGOTHWAVE",
       "artist": "young scrolls",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=iR-K2rUP86M",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3409,7 +3360,7 @@
     {
       "title": "Gangsta's Paradise (Sega Genesis Remix)",
       "artist": "Yuzoboy",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=91BYDsSk-4A",
       "aliases": [],
       "hidden": {
         "description": "awful sanic drawing with human feet"
@@ -3422,7 +3373,7 @@
     {
       "title": "Dance the Day Away",
       "artist": "Zorro",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Pg5W87xdshg",
       "aliases": [],
       "hidden": {
         "description": "pink and white stripped cake, highways, street cars"
@@ -3435,7 +3386,7 @@
     {
       "title": "Call an ambulance please",
       "artist": "Zuiikin' English",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=M1VO3TF2LBs",
       "aliases": [],
       "hidden": {
         "description": "i have a bad case of diarrea"
@@ -3448,7 +3399,7 @@
     {
       "title": "I Am Very Glad Because I’m Finally Returning To The Goob Strem",
       "artist": "Эдуард Анатольевич Хиль",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=qEJyvADFCU4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3461,7 +3412,7 @@
     {
       "title": "DOOMfeld",
       "artist": "Ｒｕｓｈｎｅｒｄ",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=thEbQkcjUWk",
       "aliases": [],
       "hidden": {
         "description": "Seinfield"
@@ -3474,7 +3425,7 @@
     {
       "title": "Lemon Squeezy",
       "artist": "Martin Landstrom",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=HGn7edMw5Rk",
       "aliases": [],
       "hidden": {
         "description": "plane, sunset, giro, kebab"
@@ -3487,7 +3438,7 @@
     {
       "title": "Careful Steps",
       "artist": "The Fly Guy Five",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Q80fVjp6Tws",
       "aliases": [],
       "hidden": {
         "description": "void, grilled cheese"
@@ -3500,7 +3451,7 @@
     {
       "title": "Them Changes",
       "artist": "Thundercat",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BuzJ5NArvgw",
       "aliases": [],
       "hidden": {
         "description": "samurai fighting"
@@ -3513,7 +3464,7 @@
     {
       "title": "pizza time",
       "artist": "Chris Kogos",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=lpvT-Fciu-4",
       "aliases": [],
       "hidden": {
         "description": "spiderman"
@@ -3526,7 +3477,7 @@
     {
       "title": "Photograph",
       "artist": "Nickelback",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=ULwIM6Za0QA",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3552,7 +3503,7 @@
     {
       "title": "Puddy Puddy",
       "artist": "Drip Central",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1S2nuZsBz8g",
       "aliases": [],
       "hidden": {
         "description": "giant pudding"
@@ -3565,7 +3516,7 @@
     {
       "title": "Brick by Brick by Tim Heidecker and Fred Armisen (Office Hours Live 4/3/19)",
       "artist": "Daniel Cupps",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=0SqgA_9kuJE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -3578,7 +3529,7 @@
     {
       "title": "リサフランク420 / 現代のコンピュー",
       "artist": "Macintosh plus",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=aQkPcPqTq4M",
       "aliases": [],
       "hidden": {
         "description": "satisfying machines"
@@ -3591,7 +3542,7 @@
     {
       "title": "A perfect dad day",
       "artist": "Tim and Eric",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=D42rBvCVK8A",
       "aliases": [],
       "hidden": {
         "description": ""
