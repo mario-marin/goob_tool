@@ -9,12 +9,17 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import json
 import os
 import re
 import threading
+from pathlib import Path
 
 # Debugging toggle - set to False to disable debug logging
 DEBUG_MODE = False
+
+# Static tracks JSON file path 
+TRACKS_JSON_FILE = Path(__file__).parent / "tim-tams-viewer/public/data/tracks.json"
 
 
 class TimestampTool:
@@ -41,6 +46,9 @@ class TimestampTool:
         self.use_override = False
         self.override_date_var = tk.StringVar(value=datetime.now().strftime("%Y-%m-%d"))
         self.override_time_var = tk.StringVar(value=datetime.now().strftime("%H:%M"))
+
+        # === Goob Tracks: JSON file path ===
+        self.tracks_json_file = TRACKS_JSON_FILE
 
         self._build_ui()
         # Set initial pane sizes to 540 pixels each for 1080p screen
@@ -263,7 +271,74 @@ class TimestampTool:
         # ==================== RIGHT: Goob Tracks Section ====================
         goob_tracks_frame = ttk.LabelFrame(paned_window, text="Goob Tracks", padding="10")
         paned_window.add(goob_tracks_frame, weight=1)
-        # The Goob Tracks section is intentionally left blank for future use.
+
+        # --- Add Track form ---
+        add_track_frame = ttk.LabelFrame(goob_tracks_frame, text="Add New Track", padding="5")
+        add_track_frame.pack(fill=tk.X, pady=(5, 5))
+
+        # Title
+        ttk.Label(add_track_frame, text="Title:").grid(row=0, column=0, sticky=tk.W, padx=(0, 5), pady=2)
+        self.track_title_var = tk.StringVar()
+        ttk.Entry(add_track_frame, textvariable=self.track_title_var, width=30).grid(
+            row=0, column=1, padx=(0, 10), pady=2, sticky=tk.W
+        )
+
+        # Artist
+        ttk.Label(add_track_frame, text="Artist:").grid(row=1, column=0, sticky=tk.W, padx=(0, 5), pady=2)
+        self.track_artist_var = tk.StringVar()
+        ttk.Entry(add_track_frame, textvariable=self.track_artist_var, width=30).grid(
+            row=1, column=1, padx=(0, 10), pady=2, sticky=tk.W
+        )
+
+        # YouTube
+        ttk.Label(add_track_frame, text="YouTube:").grid(row=2, column=0, sticky=tk.W, padx=(0, 5), pady=2)
+        self.track_youtube_var = tk.StringVar()
+        ttk.Entry(add_track_frame, textvariable=self.track_youtube_var, width=30).grid(
+            row=2, column=1, padx=(0, 10), pady=2, sticky=tk.W
+        )
+
+        # Description
+        ttk.Label(add_track_frame, text="Description:").grid(row=3, column=0, sticky=tk.W, padx=(0, 5), pady=2)
+        self.track_description_var = tk.StringVar()
+        ttk.Entry(add_track_frame, textvariable=self.track_description_var, width=30).grid(
+            row=3, column=1, padx=(0, 10), pady=2, sticky=tk.W
+        )
+
+        # Add button
+        self.add_track_btn = ttk.Button(
+            add_track_frame,
+            text="Add Track",
+            command=self._add_track,
+        )
+        self.add_track_btn.grid(row=4, column=0, columnspan=2, pady=(10, 0))
+
+        # --- Track list ---
+        track_list_frame = ttk.LabelFrame(goob_tracks_frame, text="Tracks", padding="5")
+        track_list_frame.pack(fill=tk.BOTH, expand=True, pady=(5, 5))
+
+        list_container = ttk.Frame(track_list_frame)
+        list_container.pack(fill=tk.BOTH, expand=True)
+
+        list_scrollbar = ttk.Scrollbar(list_container)
+        list_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        self.track_listbox = tk.Listbox(
+            list_container,
+            font=("monospace", 10),
+            yscrollcommand=list_scrollbar.set,
+            height=12,
+        )
+        self.track_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        list_scrollbar.config(command=self.track_listbox.yview)
+
+        # --- Status bar for Goob Tracks ---
+        self.goob_status_label = ttk.Label(
+            goob_tracks_frame,
+            text="",
+            foreground="gray",
+            font=("sans-serif", 8),
+        )
+        self.goob_status_label.pack(anchor=tk.E, pady=(5, 0))
 
     def _update_adelaide_clock(self):
         """Update the Adelaide, Australia clock display."""
@@ -905,6 +980,91 @@ class TimestampTool:
             self.status_bar.config(text=f"Error saving file: {e}")
         # Reschedule to run again in 1 second
         self.after_id_save = self.root.after(1000, self._periodic_save)
+
+    # ================================================================
+    # Goob Tracks methods
+    # ================================================================
+
+    def _load_tracks_list(self):
+        """Load and display all track titles in the listbox."""
+        self.track_listbox.delete(0, tk.END)
+        try:
+            with open(self.tracks_json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            tracks = data.get("tracks", [])
+            for track in tracks:
+                title = track.get("title", "Untitled")
+                artist = track.get("artist", "Unknown")
+                self.track_listbox.insert(tk.END, f"{title} — {artist}")
+        except FileNotFoundError:
+            self.goob_status_label.config(text=f"File not found: {self.tracks_json_file}")
+        except json.JSONDecodeError as e:
+            self.goob_status_label.config(text=f"Invalid JSON: {e}")
+        except Exception as e:
+            self.goob_status_label.config(text=f"Error loading tracks: {e}")
+
+    def _add_track(self):
+        """Add a new track entry to the JSON file."""
+        title = self.track_title_var.get().strip()
+        artist = self.track_artist_var.get().strip()
+        youtube = self.track_youtube_var.get().strip()
+        description = self.track_description_var.get().strip()
+
+        if not title:
+            self.goob_status_label.config(text="Title is required.")
+            return
+
+        # Build the new track object.
+        #
+        # NOTE: If the JSON schema gains new keys in the future, add them here.
+        # For each new key, decide whether to:
+        #   1. Add a new UI field (Entry / Checkbutton / etc.) and populate it, or
+        #   2. Use a sensible default (empty string, 0, False, [], {}, etc.)
+        #
+        # Example for a new key "genre":
+        #   new_track["genre"] = ""
+        #
+        new_track = {
+            "title": title,
+            "artist": artist,
+            "youtube": youtube,
+            "aliases": [],
+            "hidden": {
+                "description": description,
+            },
+            "number_of_times_played": 0,
+            "last_time_played": "",
+            "date_with_most_reproductions": "",
+            "most_reproductions_record": 0,
+        }
+
+        try:
+            with open(self.tracks_json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            data = {"tracks": []}
+
+        if "tracks" not in data:
+            data["tracks"] = []
+
+        data["tracks"].append(new_track)
+
+        with open(self.tracks_json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        # Clear form fields
+        self.track_title_var.set("")
+        self.track_artist_var.set("")
+        self.track_youtube_var.set("")
+        self.track_description_var.set("")
+
+        # Refresh the list
+        self._load_tracks_list()
+        self.goob_status_label.config(text=f"Added: {title} by {artist}")
+
+    # ================================================================
+    # End Goob Tracks methods
+    # ================================================================
 
     def on_closing(self):
         """Handle window close event."""
