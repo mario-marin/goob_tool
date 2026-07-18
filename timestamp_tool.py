@@ -1039,10 +1039,8 @@ class TimestampTool:
 
                 # Track info label with larger font and better spacing
                 info_text = f"{title} - {artist}"
-                if youtube:
-                    info_text += f"\n    YouTube: {youtube}"
                 if description:
-                    info_text += f"\n    Description: {description}"
+                    info_text += f"\n    {description}"
 
                 info_label = ttk.Label(
                     row_frame,
@@ -1054,14 +1052,16 @@ class TimestampTool:
                 )
                 info_label.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10), pady=3)
 
-                # Copy button (right side) with larger size
-                copy_btn = ttk.Button(
+                # YouTube button (right side) - grayed out if no youtube link
+                btn_state = tk.NORMAL if youtube else tk.DISABLED
+                youtube_btn = ttk.Button(
                     row_frame,
-                    text="Copy",
+                    text="youtube",
                     width=8,
+                    state=btn_state,
                     command=lambda url=youtube: self._copy_youtube_link(url),
                 )
-                copy_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
+                youtube_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
 
         except FileNotFoundError:
             error_label = ttk.Label(self.scrollable_frame, text=f"File not found: {self.tracks_json_file}", foreground="red", font=("sans-serif", 10))
