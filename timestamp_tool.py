@@ -1063,6 +1063,15 @@ class TimestampTool:
                 )
                 youtube_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
 
+                # Apply button (right side) - applies artist, title to last placeholder timestamp
+                apply_btn = ttk.Button(
+                    row_frame,
+                    text="Apply",
+                    width=8,
+                    command=lambda a=artist, t=title: self._apply_track_to_placeholder(a, t),
+                )
+                apply_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
+
         except FileNotFoundError:
             error_label = ttk.Label(self.scrollable_frame, text=f"File not found: {self.tracks_json_file}", foreground="red", font=("sans-serif", 10))
             error_label.pack(pady=30)
@@ -1075,6 +1084,44 @@ class TimestampTool:
             error_label = ttk.Label(self.scrollable_frame, text=f"Error loading tracks: {e}", foreground="red", font=("sans-serif", 10))
             error_label.pack(pady=30)
             self.goob_status_label.config(text=f"Error loading tracks: {e}")
+
+    def _apply_track_to_placeholder(self, artist, title):
+        """Apply artist and title from a track to the last placeholder timestamp line."""
+        content = self.text_box.get("1.0", tk.END)
+
+        # Remove trailing newline before splitting
+        if content.endswith("\n"):
+            content = content[:-1]
+
+        lines = content.split("\n")
+
+        # Find the last non-blank line (the target placeholder)
+        last_non_blank_idx = None
+        for i in range(len(lines) - 1, -1, -1):
+            if lines[i].strip():
+                last_non_blank_idx = i
+                break
+
+        if last_non_blank_idx is None:
+            self.status_bar.config(text="No placeholder timestamp found")
+            return
+
+        # Check if the last non-blank line matches the placeholder pattern
+        last_line = lines[last_non_blank_idx]
+        if not re.match(r"^\d{2}:\d{2}:\d{2} - _artist_, _song_$", last_line):
+            self.status_bar.config(text="Last line is not a placeholder timestamp")
+            return
+
+        # Replace _artist_, _song_ with the track's artist and title
+        time_part = last_line.split(" - ")[0]
+        new_line = f"{time_part} - {artist}, {title}"
+        lines[last_non_blank_idx] = new_line
+
+        # Update the text box
+        self.text_box.delete("1.0", tk.END)
+        self.text_box.insert(tk.END, "\n".join(lines))
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Applied: {artist}, {title}")
 
     def _add_track(self):
         """Add a new track entry to the JSON file."""
