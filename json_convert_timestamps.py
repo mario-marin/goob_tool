@@ -60,6 +60,8 @@ def _verify_filename(
 def convert_file(
     input_path: Path,
     date_str: str,
+    time_str: str,
+    floatplane_link: str | None,
     all_events: dict[str, list[str]],
 ) -> tuple[list[str], set[str]]:
     """Convert a single timestamp file to JSON and write to output folder.
@@ -67,6 +69,8 @@ def convert_file(
     Args:
         input_path: Path to the input timestamp file.
         date_str: The date string extracted from the file header.
+        time_str: The time string extracted from the file header.
+        floatplane_link: The Floatplane link from the header, or None if absent.
         all_events: Shared dict mapping event titles to lists of dates they appeared on.
                     Modified in-place to accumulate occurrences.
 
@@ -75,16 +79,6 @@ def convert_file(
     """
     content = input_path.read_text(encoding="utf-8")
     warnings: list[str] = []
-
-    # Extract date and time from the header comment
-    header_match = re.search(
-        r"# Timestamps started:\s+(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2})",
-        content,
-    )
-    if not header_match:
-        raise ValueError(f"Could not find header in {input_path}")
-
-    time_str = header_match.group(2)
 
     songs = []
     events = []
@@ -157,6 +151,7 @@ def convert_file(
         json.dumps({
             "date": date_str,
             "time": time_str,
+            "floatplane_link": floatplane_link,
             "songs": songs,
             "events": events,
         }, indent=2, ensure_ascii=False) + "\n",
@@ -256,12 +251,29 @@ def main() -> None:
             date_str = header_match.group(1)
             time_str = header_match.group(2)
 
+            # Extract floatplane_link from header (only if it contains a URL)
+            floatplane_match = re.search(
+                r"^floatplane_link:\s*(https?://.+)$",
+                content,
+                re.MULTILINE,
+            )
+            if floatplane_match:
+                floatplane_link = floatplane_match.group(1).strip()
+            else:
+                floatplane_link = None
+
+            # Warn if floatplane_link is missing or blank
+            if floatplane_link is None:
+                print(f"  ⚠️  Warning ({filepath.name}): floatplane_link is missing or blank")
+
             # Verify filename matches header date/time
             filename_warning = _verify_filename(filepath, date_str, time_str)
             if filename_warning:
                 print(f"  ⚠️  Warning ({filepath.name}): {filename_warning}")
 
-            warnings, seen_events = convert_file(filepath, date_str, all_events)
+            warnings, seen_events = convert_file(
+                filepath, date_str, time_str, floatplane_link, all_events
+            )
 
             for warning in warnings:
                 print(f"  ⚠️  Warning ({filepath.name}): {warning}")
