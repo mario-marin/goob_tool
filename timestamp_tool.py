@@ -1038,7 +1038,7 @@ class TimestampTool:
                 row_frame.pack(fill=tk.X, padx=5, pady=(2, 8))
 
                 # Track info label with larger font and better spacing
-                info_text = f"{title} - {artist}"
+                info_text = f"{artist}, {title}"
                 if description:
                     info_text += f"\n    {description}"
 
