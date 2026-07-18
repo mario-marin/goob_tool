@@ -1024,7 +1024,8 @@ class TimestampTool:
             with open(self.save_file, "w", encoding="utf-8") as f:
                 # Only add header if it's not already present in the content
                 if not content.startswith("# Timestamps started:"):
-                    f.write(f"# Timestamps started: {self.opening_time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                    f.write(f"# Timestamps started: {self.opening_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    f.write("floatplane_link: \n\n")
                 f.write(content)
         except Exception as e:
             self.status_bar.config(text=f"Error saving file: {e}")

@@ -234,6 +234,22 @@
   color: var(--text-h);
 }
 
+.stream-detail-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.15s;
+}
+
+.stream-detail-link:hover {
+  color: var(--text-h);
+}
+
 .stream-section {
   margin-bottom: 28px;
 }

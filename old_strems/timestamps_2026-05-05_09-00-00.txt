@@ -1,5 +1,5 @@
 # Timestamps started: 2026-05-05 09:00:00
-floatplane_link: 
+floatplane_link: https://www.floatplane.com/post/QC9bceXbNH
 
 00:05:54 - Vulf, Funky Frank
 00:08:50 - Vulf, 1612

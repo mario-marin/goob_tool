@@ -49,6 +49,16 @@ function StreamDetail({ data, tracks, events, onSelectDate, onOpenTrack, onOpenE
         <h2>
           {data.date} at {data.time}
         </h2>
+        {data.floatplane_link && (
+          <a
+            href={data.floatplane_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="stream-detail-link"
+          >
+            Floatplane Stream Link ↗
+          </a>
+        )}
       </div>
 
       {data.songs && data.songs.length > 0 && (
