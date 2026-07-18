@@ -314,25 +314,31 @@ class TimestampTool:
         )
         self.add_track_btn.grid(row=4, column=0, columnspan=2, pady=(10, 0))
 
-        # --- Track list (full details) ---
+        # --- Track list (with copy buttons) ---
         track_list_frame = ttk.LabelFrame(goob_tracks_frame, text="Tracks", padding="5")
         track_list_frame.pack(fill=tk.BOTH, expand=True, pady=(5, 5))
 
-        list_container = ttk.Frame(track_list_frame)
-        list_container.pack(fill=tk.BOTH, expand=True)
+        # Canvas + scrollbar for scrollable track list
+        canvas_container = ttk.Frame(track_list_frame)
+        canvas_container.pack(fill=tk.BOTH, expand=True)
 
-        list_scrollbar = ttk.Scrollbar(list_container)
-        list_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.tracks_canvas = tk.Canvas(canvas_container, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(canvas_container, orient="vertical", command=self.tracks_canvas.yview)
+        self.scrollable_frame = ttk.Frame(self.tracks_canvas)
 
-        self.track_listbox = tk.Text(
-            list_container,
-            font=("monospace", 10),
-            yscrollcommand=list_scrollbar.set,
-            height=12,
-            wrap=tk.NONE,
+        self.scrollable_frame.bind(
+            "<Configure>",
+            lambda e: self.tracks_canvas.configure(scrollregion=self.tracks_canvas.bbox("all"))
         )
-        self.track_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        list_scrollbar.config(command=self.track_listbox.yview)
+
+        self.tracks_canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+        self.tracks_canvas.configure(yscrollcommand=scrollbar.set)
+
+        self.tracks_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        # Mouse wheel scrolling support
+        self.tracks_canvas.bind_all("<MouseWheel>", self._on_canvas_mousewheel)
 
         # --- Status bar for Goob Tracks ---
         self.goob_status_label = ttk.Label(
@@ -342,6 +348,19 @@ class TimestampTool:
             font=("sans-serif", 8),
         )
         self.goob_status_label.pack(anchor=tk.E, pady=(5, 0))
+
+    def _on_canvas_mousewheel(self, event):
+        """Handle mouse wheel scrolling on the tracks canvas."""
+        self.tracks_canvas.yview_scroll(int(-1*(event.delta / 120)), "units")
+
+    def _copy_youtube_link(self, youtube_url):
+        """Copy a YouTube URL to the clipboard."""
+        if youtube_url:
+            self.root.clipboard_clear()
+            self.root.clipboard_append(youtube_url)
+            self.goob_status_label.config(text=f"Copied: {youtube_url}")
+        else:
+            self.goob_status_label.config(text="No YouTube link to copy")
 
     def _update_adelaide_clock(self):
         """Update the Adelaide, Australia clock display."""
@@ -989,36 +1008,72 @@ class TimestampTool:
     # ================================================================
 
     def _load_tracks_list(self):
-        """Load and display all track details in the text widget."""
-        self.track_listbox.delete("1.0", tk.END)
+        """Load and display all tracks as rows with copy buttons."""
+        # Clear existing track rows
+        for widget in self.scrollable_frame.winfo_children():
+            widget.destroy()
+
         try:
             with open(self.tracks_json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
             tracks = data.get("tracks", [])
             if not tracks:
-                self.track_listbox.insert(tk.END, "(no tracks found)")
+                empty_label = ttk.Label(self.scrollable_frame, text="(no tracks found)", foreground="gray", font=("sans-serif", 10))
+                empty_label.pack(pady=30)
                 return
 
-            for track in tracks:
+            for idx, track in enumerate(tracks):
                 title = track.get("title", "Untitled")
                 artist = track.get("artist", "Unknown")
                 youtube = track.get("youtube", "")
                 description = track.get("hidden", {}).get("description", "") if isinstance(track.get("hidden"), dict) else track.get("description", "")
 
-                self.track_listbox.insert(tk.END, f"Title:    {title}\n")
-                self.track_listbox.insert(tk.END, f"Artist:   {artist}\n")
-                self.track_listbox.insert(tk.END, f"YouTube:  {youtube}\n")
-                self.track_listbox.insert(tk.END, f"Description: {description}\n")
-                self.track_listbox.insert(tk.END, "\n")
+                # Add separator between tracks (except before the first one)
+                if idx > 0:
+                    separator = ttk.Separator(self.scrollable_frame, orient=tk.HORIZONTAL)
+                    separator.pack(fill=tk.X, padx=5, pady=(8, 4))
+
+                # Create a row frame for this track with more padding
+                row_frame = ttk.Frame(self.scrollable_frame)
+                row_frame.pack(fill=tk.X, padx=5, pady=(2, 8))
+
+                # Track info label with larger font and better spacing
+                info_text = f"{title} - {artist}"
+                if youtube:
+                    info_text += f"\n    YouTube: {youtube}"
+                if description:
+                    info_text += f"\n    Description: {description}"
+
+                info_label = ttk.Label(
+                    row_frame,
+                    text=info_text,
+                    font=("monospace", 10),
+                    wraplength=500,
+                    justify=tk.LEFT,
+                    anchor=tk.W,
+                )
+                info_label.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10), pady=3)
+
+                # Copy button (right side) with larger size
+                copy_btn = ttk.Button(
+                    row_frame,
+                    text="Copy",
+                    width=8,
+                    command=lambda url=youtube: self._copy_youtube_link(url),
+                )
+                copy_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
 
         except FileNotFoundError:
-            self.track_listbox.insert(tk.END, f"File not found: {self.tracks_json_file}")
+            error_label = ttk.Label(self.scrollable_frame, text=f"File not found: {self.tracks_json_file}", foreground="red", font=("sans-serif", 10))
+            error_label.pack(pady=30)
             self.goob_status_label.config(text=f"File not found: {self.tracks_json_file}")
         except json.JSONDecodeError as e:
-            self.track_listbox.insert(tk.END, f"Invalid JSON: {e}")
+            error_label = ttk.Label(self.scrollable_frame, text=f"Invalid JSON: {e}", foreground="red", font=("sans-serif", 10))
+            error_label.pack(pady=30)
             self.goob_status_label.config(text=f"Invalid JSON: {e}")
         except Exception as e:
-            self.track_listbox.insert(tk.END, f"Error loading tracks: {e}")
+            error_label = ttk.Label(self.scrollable_frame, text=f"Error loading tracks: {e}", foreground="red", font=("sans-serif", 10))
+            error_label.pack(pady=30)
             self.goob_status_label.config(text=f"Error loading tracks: {e}")
 
     def _add_track(self):
