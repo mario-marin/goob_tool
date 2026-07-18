@@ -94,7 +94,7 @@
     {
       "title": "Bubblegum kk",
       "artist": "Animal Crossing",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1nomS1pYeZ0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -107,7 +107,7 @@
     {
       "title": "Apple Bottom Jeans - Beach Boys",
       "artist": "Salvador Peralta",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=-xtYm_poF_8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -120,7 +120,7 @@
     {
       "title": "BGM 1",
       "artist": "Arnold Palmer Tournament Golf",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1dbtaCLSOwY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -133,7 +133,7 @@
     {
       "title": "BGM 4",
       "artist": "Arnold Palmer Tournament Golf",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=uVfi8iH6JYY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -146,7 +146,7 @@
     {
       "title": "Hotdogs for Breakfast",
       "artist": "Aunty Donna",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=BA1ffXiz_Z0",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -159,7 +159,7 @@
     {
       "title": "Exit Plan",
       "artist": "Ava Low",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=d56lBmCaqSM",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -172,7 +172,7 @@
     {
       "title": "Complicated",
       "artist": "Avril Lavigne",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=5NPBIwQyPWE",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -185,7 +185,7 @@
     {
       "title": "Sk8er Boi",
       "artist": "Avril Lavigne",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=TIy3n2b7V9k",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -196,22 +196,9 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Skater Boi",
-      "artist": "Avril Lavigne",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-29",
-      "date_with_most_reproductions": "2026-06-29",
-      "most_reproductions_record": 1
-    },
-    {
       "title": "Plastic 50 cents",
       "artist": "B L A N K",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=Ve2aib93Cs8",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -224,7 +211,7 @@
     {
       "title": "Hip to Be the Sandman",
       "artist": "Bill McClintock",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=3MRx4LpYbQ4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -237,7 +224,7 @@
     {
       "title": "If You Wanna Breathe My Sulfur",
       "artist": "Bill McClintock",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=pm08v69vG10",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -250,7 +237,7 @@
     {
       "title": "Uptown Gorl",
       "artist": "Billy Joel",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hCuMWrfXG4E",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -263,7 +250,7 @@
     {
       "title": "Video Games",
       "artist": "Black Out",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=hpsbj0OoeNo",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -276,7 +263,7 @@
     {
       "title": "Careless Whisper (TikTok Remix)",
       "artist": "Blissful Mind",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=pVmuFdh1WAg",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -289,7 +276,7 @@
     {
       "title": "Sweeter",
       "artist": "Blood Harmony",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=1ITBKUKdH-s",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -300,23 +287,12 @@
       "most_reproductions_record": 3
     },
     {
-      "title": "\"All Star\" by Smash Mouth",
-      "artist": "BobbaGob",
-      "youtube": "",
-      "aliases": [],
-      "hidden": {
-        "description": ""
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-30",
-      "date_with_most_reproductions": "2026-06-30",
-      "most_reproductions_record": 1
-    },
-    {
       "title": "All C",
       "artist": "BobbaGob",
-      "youtube": "",
-      "aliases": [],
+      "youtube": "https://www.youtube.com/watch?v=qVIyE5717AU",
+      "aliases": [
+        "\"All Star\" by Smash Mouth"
+      ],
       "hidden": {
         "description": ""
       },
@@ -328,7 +304,7 @@
     {
       "title": "Baby One more Chonk",
       "artist": "Britney Spears",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=C-u5WLJ9Yk4",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -341,7 +317,7 @@
     {
       "title": "That's What I Like",
       "artist": "Bruno Mars",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=EK4ousC7SSQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -354,7 +330,7 @@
     {
       "title": "Chicken in The Corn",
       "artist": "Brushy One String",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=E8H-67ILaqc",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -367,7 +343,7 @@
     {
       "title": "The Duck Song",
       "artist": "Bryant Oden",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=MtN1YnoL46Q",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -380,7 +356,7 @@
     {
       "title": "Take me",
       "artist": "Cassiopea",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=G0JMs7Q3j_o",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -393,7 +369,7 @@
     {
       "title": "My Life",
       "artist": "Chetreo",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=UA40Jruo_JQ",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -406,7 +382,7 @@
     {
       "title": "Please don't take your Frank from meeee",
       "artist": "CHEW",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=c_De56NKPWU",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -419,7 +395,7 @@
     {
       "title": "Leave Me Now!",
       "artist": "Chicago",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=5bG6zpJ9GNY",
       "aliases": [],
       "hidden": {
         "description": ""
@@ -432,7 +408,7 @@
     {
       "title": "All right",
       "artist": "Christopher is Crossed",
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=QVJKn7I6MyA",
       "aliases": [],
       "hidden": {
         "description": ""
