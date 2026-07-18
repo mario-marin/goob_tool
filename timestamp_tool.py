@@ -314,6 +314,24 @@ class TimestampTool:
         )
         self.add_track_btn.grid(row=4, column=0, columnspan=2, pady=(10, 0))
 
+        # --- Search bar for track list ---
+        search_frame = ttk.Frame(goob_tracks_frame)
+        search_frame.pack(fill=tk.X, pady=(5, 5))
+
+        ttk.Label(search_frame, text="Search:").pack(side=tk.LEFT, padx=(0, 5))
+        self.track_search_var = tk.StringVar()
+        self.track_search_var.trace_add("write", self._on_track_search_changed)
+        self.search_entry = ttk.Entry(search_frame, textvariable=self.track_search_var, width=30)
+        self.search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
+
+        self.clear_search_btn = ttk.Button(
+            search_frame,
+            text="Clear",
+            width=8,
+            command=self._clear_track_search,
+        )
+        self.clear_search_btn.pack(side=tk.LEFT, padx=(0, 5))
+
         # --- Track list (with copy buttons) ---
         track_list_frame = ttk.LabelFrame(goob_tracks_frame, text="Tracks", padding="5")
         track_list_frame.pack(fill=tk.BOTH, expand=True, pady=(5, 5))
@@ -352,6 +370,16 @@ class TimestampTool:
     def _on_canvas_mousewheel(self, event):
         """Handle mouse wheel scrolling on the tracks canvas."""
         self.tracks_canvas.yview_scroll(int(-1*(event.delta / 120)), "units")
+
+    def _clear_track_search(self):
+        """Clear the track search field and reload all tracks."""
+        self.track_search_var.set("")
+        self._load_tracks_list()
+
+    def _on_track_search_changed(self, *args):
+        """Callback triggered when the search text changes."""
+        filter_text = self.track_search_var.get()
+        self._load_tracks_list(filter_text)
 
     def _copy_youtube_link(self, youtube_url):
         """Copy a YouTube URL to the clipboard."""
@@ -1007,8 +1035,12 @@ class TimestampTool:
     # Goob Tracks methods
     # ================================================================
 
-    def _load_tracks_list(self):
-        """Load and display all tracks as rows with copy buttons."""
+    def _load_tracks_list(self, filter_text=""):
+        """Load and display all tracks as rows with copy buttons.
+
+        Args:
+            filter_text: Optional text to filter tracks by (case-insensitive).
+        """
         # Clear existing track rows
         for widget in self.scrollable_frame.winfo_children():
             widget.destroy()
@@ -1022,14 +1054,24 @@ class TimestampTool:
                 empty_label.pack(pady=30)
                 return
 
+            # Normalize filter text for case-insensitive matching
+            filter_lower = filter_text.strip().lower()
+
+            visible_count = 0
             for idx, track in enumerate(tracks):
                 title = track.get("title", "Untitled")
                 artist = track.get("artist", "Unknown")
                 youtube = track.get("youtube", "")
                 description = track.get("hidden", {}).get("description", "") if isinstance(track.get("hidden"), dict) else track.get("description", "")
 
-                # Add separator between tracks (except before the first one)
-                if idx > 0:
+                # Check if track matches the filter
+                if filter_lower:
+                    searchable = f"{artist} {title} {description}".lower()
+                    if filter_lower not in searchable:
+                        continue
+
+                # Add separator between visible tracks (except before the first visible one)
+                if visible_count > 0:
                     separator = ttk.Separator(self.scrollable_frame, orient=tk.HORIZONTAL)
                     separator.pack(fill=tk.X, padx=5, pady=(8, 4))
 
@@ -1071,6 +1113,12 @@ class TimestampTool:
                     command=lambda a=artist, t=title: self._apply_track_to_placeholder(a, t),
                 )
                 apply_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
+
+                visible_count += 1
+
+            if visible_count == 0 and filter_lower:
+                empty_label = ttk.Label(self.scrollable_frame, text="(no matching tracks)", foreground="gray", font=("sans-serif", 10))
+                empty_label.pack(pady=30)
 
         except FileNotFoundError:
             error_label = ttk.Label(self.scrollable_frame, text=f"File not found: {self.tracks_json_file}", foreground="red", font=("sans-serif", 10))
