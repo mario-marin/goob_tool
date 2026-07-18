@@ -49,6 +49,8 @@ function TrackDialog({ track, onClose, onSelectDate }) {
               const dateInfo = dateFields.find((f) => f.key === key);
               const isDate = dateInfo && typeof value === 'string' && value.includes('-');
 
+              const isYouTubeLink = typeof value === 'string' && (value.startsWith('https://www.youtube.com/') || value.startsWith('https://youtu.be/'));
+
               return (
                 <div key={key} className="track-dialog-field">
                   <dt className="track-dialog-label">{dateInfo?.label || key}</dt>
@@ -73,6 +75,15 @@ function TrackDialog({ track, onClose, onSelectDate }) {
                       >
                         {value}
                       </button>
+                    ) : isYouTubeLink ? (
+                      <a
+                        className="track-dialog-youtube"
+                        href={value}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {value}
+                      </a>
                     ) : (
                       <span>{value ?? <span className="track-dialog-empty">(empty)</span>}</span>
                     )}

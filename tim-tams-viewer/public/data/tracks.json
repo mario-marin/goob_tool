@@ -186,12 +186,14 @@
       "title": "Sk8er Boi",
       "artist": "Avril Lavigne",
       "youtube": "https://www.youtube.com/watch?v=TIy3n2b7V9k",
-      "aliases": [],
+      "aliases": [
+        "Avril Lavigne, Skater Boi"
+      ],
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-02",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-06-02",
       "most_reproductions_record": 1
     },
@@ -291,13 +293,13 @@
       "artist": "BobbaGob",
       "youtube": "https://www.youtube.com/watch?v=qVIyE5717AU",
       "aliases": [
-        "\"All Star\" by Smash Mouth"
+        "BobbaGob, \"All Star\" by Smash Mouth"
       ],
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-20",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
