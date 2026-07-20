@@ -2220,7 +2220,7 @@
       "youtube": "https://www.youtube.com/watch?v=1_aAyZ1Iz84",
       "aliases": [],
       "hidden": {
-        "description": "crappy 3d, low polygon"
+        "description": "crappy 3d, low polygon, half tube, colorful"
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -3272,7 +3272,7 @@
       "youtube": "https://www.youtube.com/watch?v=vwMCZ6B499c",
       "aliases": [],
       "hidden": {
-        "description": ""
+        "description": "zelda"
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
@@ -3642,6 +3642,19 @@
       "last_time_played": "2026-04-30",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
+    },
+    {
+      "title": "Babushka Song",
+      "artist": "Sight of Wonders",
+      "youtube": "https://www.youtube.com/watch?v=nZvA_8EBBjo",
+      "aliases": [],
+      "hidden": {
+        "description": "chicken sub, glitched background"
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
     }
   ]
 }
