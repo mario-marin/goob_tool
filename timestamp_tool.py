@@ -13,6 +13,7 @@ import json
 import os
 import re
 import threading
+import time
 from pathlib import Path
 
 # Debugging toggle - set to False to disable debug logging
@@ -39,6 +40,7 @@ class TimestampTool:
         # Stopwatch state
         self.elapsed_seconds = 0
         self.running = False
+        self._stopwatch_start = None  # time.monotonic() timestamp when stopwatch was started
         self.after_id_stopwatch = None
         self.after_id_save = None
 
@@ -430,6 +432,8 @@ class TimestampTool:
         """Start the stopwatch."""
         self.running = True
         self.start_btn.config(text="Stop")
+        # Record the monotonic start time for drift-free elapsed calculation
+        self._stopwatch_start = time.monotonic()
         # Set opening_time and save_file only when Start is pressed (not when loading a file)
         if self.opening_time is None and self.loaded_timestamp is False:
             if self.override_var.get():
@@ -465,10 +469,18 @@ class TimestampTool:
             self.after_id_save = None
         self.status_label.config(text="Not saving")
 
+    def calculate_elapsed_seconds(self):
+        # Compute elapsed seconds from the monotonic start time — this is immune
+        # to callback delays caused by event-loop blocking (e.g. track search).
+        if self._stopwatch_start is not None:
+            self.elapsed_seconds = int(time.monotonic() - self._stopwatch_start)
+            return self.elapsed_seconds
+        return None
+
     def _tick(self):
-        """Update the stopwatch every second."""
+        """Update the stopwatch every second, using monotonic clock to avoid drift."""
         if self.running:
-            self.elapsed_seconds += 1
+            self.calculate_elapsed_seconds()
             self._update_display()
             self.after_id_stopwatch = self.root.after(1000, self._tick)
 
@@ -476,12 +488,13 @@ class TimestampTool:
         """Reset the stopwatch to zero."""
         self._stop()
         self.elapsed_seconds = 0
+        self._stopwatch_start = None
         self._update_display()
         self.status_bar.config(text="Stopwatch reset")
 
     def add_timestamp(self):
         """Add a timestamp with placeholder values."""
-        time_str = self._format_time(self.elapsed_seconds)
+        time_str = self._format_time(self.calculate_elapsed_seconds())
         timestamp_line = f"{time_str} - _artist_, _song_"
         self.text_box.insert(tk.END, timestamp_line + "\n")
         self.text_box.see(tk.END)
@@ -490,7 +503,7 @@ class TimestampTool:
 
     def add_frank_moves(self):
         """Add a Frank Moves timestamp."""
-        time_str = self._format_time(self.elapsed_seconds)
+        time_str = self._format_time(self.calculate_elapsed_seconds())
         timestamp_line = f"{time_str} - F R A N K - M O V E S -"
         self.text_box.insert(tk.END, timestamp_line + "\n")
         self.text_box.see(tk.END)
@@ -498,7 +511,7 @@ class TimestampTool:
 
     def add_fronk_times(self):
         """Add a Fronk Times timestamp."""
-        time_str = self._format_time(self.elapsed_seconds)
+        time_str = self._format_time(self.calculate_elapsed_seconds())
         timestamp_line = f"{time_str} - Esther Abrami, No.9 Frank's Waltz"
         self.text_box.insert(tk.END, timestamp_line + "\n")
         self.text_box.see(tk.END)
