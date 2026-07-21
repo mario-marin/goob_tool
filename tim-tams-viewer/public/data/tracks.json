@@ -521,7 +521,7 @@
       "youtube": "https://www.youtube.com/watch?v=AeTKraF_Nu4",
       "aliases": [],
       "hidden": {
-        "description": "cocktail, cheese"
+        "description": "cocktail, cheese, cocktel, tabla de quesos"
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-05-29",
@@ -1863,7 +1863,7 @@
       "youtube": "https://www.youtube.com/watch?v=fn4JAuCfHQA",
       "aliases": [],
       "hidden": {
-        "description": ""
+        "description": "upside down room"
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
@@ -3650,6 +3650,32 @@
       "aliases": [],
       "hidden": {
         "description": "chicken sub, glitched background"
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "Wii Theme but its September",
+      "artist": "Mr Rock",
+      "youtube": "https://www.youtube.com/watch?v=LnDp_wWKcEE",
+      "aliases": [],
+      "hidden": {
+        "description": "wii throbbing"
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "Monkeybars",
+      "artist": "baegel",
+      "youtube": "https://www.youtube.com/watch?v=OE1Gb_f3nE0",
+      "aliases": [],
+      "hidden": {
+        "description": "sea, smoll pizza box"
       },
       "number_of_times_played": 0,
       "last_time_played": "",
