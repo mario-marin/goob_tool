@@ -161,7 +161,8 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>Tim Tams Viewer</h1>
-        <p className="app-subtitle">Browse stream timestamp data</p>
+        <p className="app-subtitle">Browse all the Tim Tams that we have in offer!</p>
+        <p className="app-subtitle">All fresh straight from the bin!!</p>
         <button
           className="theme-toggle"
           onClick={toggleTheme}
@@ -197,13 +198,6 @@ function App() {
             selectedDate={selectedDate}
             onSelectDate={handleSelectDate}
           />
-          {availableDates.length > 0 && (
-            <div className="legend">
-              <span className="legend-item">
-                <span className="stream-dot" /> Available
-              </span>
-            </div>
-          )}
           <SearchBar tracks={tracks || []} events={events || []} onResults={handleSearchResults} />
         </div>
 
