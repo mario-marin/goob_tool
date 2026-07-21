@@ -1115,6 +1115,15 @@ class TimestampTool:
                 )
                 apply_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
 
+                # Copy button (right side) - copies artist, title to clipboard
+                copy_btn = ttk.Button(
+                    row_frame,
+                    text="Copy",
+                    width=8,
+                    command=lambda a=artist, t=title: self._copy_track_to_clipboard(a, t),
+                )
+                copy_btn.pack(side=tk.RIGHT, padx=(5, 0), pady=3)
+
                 # Edit button (right side) - opens edit dialog for this track
                 edit_btn = ttk.Button(
                     row_frame,
@@ -1142,6 +1151,12 @@ class TimestampTool:
             error_label = ttk.Label(self.scrollable_frame, text=f"Error loading tracks: {e}", foreground="red", font=("sans-serif", 10))
             error_label.pack(pady=30)
             self.goob_status_label.config(text=f"Error loading tracks: {e}")
+
+    def _copy_track_to_clipboard(self, artist, title):
+        """Copy artist and title to the clipboard in the format: {artist}, {title}."""
+        self.root.clipboard_clear()
+        self.root.clipboard_append(f"{artist}, {title}")
+        self.goob_status_label.config(text=f"Copied: {artist}, {title}")
 
     def _edit_track(self, track):
         """Open a dialog to edit a track's metadata."""
