@@ -40,7 +40,7 @@ class TimestampTool:
         # Stopwatch state
         self.elapsed_seconds = 0
         self.running = False
-        self._stopwatch_start = None  # time.monotonic() timestamp when stopwatch was started
+        self._stopwatch_start = None  
         self.after_id_stopwatch = None
         self.after_id_save = None
 
@@ -433,7 +433,8 @@ class TimestampTool:
         self.running = True
         self.start_btn.config(text="Stop")
         # Record the monotonic start time for drift-free elapsed calculation
-        self._stopwatch_start = time.monotonic()
+        #self._stopwatch_start = time.monotonic()
+        self._stopwatch_start = time.time()
         # Set opening_time and save_file only when Start is pressed (not when loading a file)
         if self.opening_time is None and self.loaded_timestamp is False:
             if self.override_var.get():
@@ -473,7 +474,8 @@ class TimestampTool:
         # Compute elapsed seconds from the monotonic start time — this is immune
         # to callback delays caused by event-loop blocking (e.g. track search).
         if self._stopwatch_start is not None:
-            self.elapsed_seconds = int(time.monotonic() - self._stopwatch_start)
+            #self.elapsed_seconds = int(time.monotonic() - self._stopwatch_start)
+            self.elapsed_seconds = int(time.time() - self._stopwatch_start)
             return self.elapsed_seconds
         return None
 
