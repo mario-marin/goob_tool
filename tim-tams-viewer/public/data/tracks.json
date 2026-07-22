@@ -21,8 +21,8 @@
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-19",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-19",
       "most_reproductions_record": 1
     },
@@ -47,8 +47,8 @@
       "hidden": {
         "description": "coach, sfm, source"
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -203,10 +203,10 @@
       "youtube": "https://www.youtube.com/watch?v=Ve2aib93Cs8",
       "aliases": [],
       "hidden": {
-        "description": ""
+        "description": "black and white, its your birthday!"
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-05-19",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -725,8 +725,8 @@
       "hidden": {
         "description": "rasist, vhs, chineese"
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-24",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -1289,8 +1289,8 @@
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-05-20",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -1889,10 +1889,10 @@
       "youtube": "https://www.youtube.com/watch?v=BDTSAlI2Vj4",
       "aliases": [],
       "hidden": {
-        "description": ""
+        "description": "star fox"
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-18",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-18",
       "most_reproductions_record": 1
     },
@@ -2538,8 +2538,8 @@
       "hidden": {
         "description": "Soulja Boy water theme"
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -2943,8 +2943,8 @@
       "hidden": {
         "description": ""
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-05-08",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 2
     },
@@ -3391,8 +3391,8 @@
       "hidden": {
         "description": "i have a bad case of diarrea"
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-17",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -3680,6 +3680,32 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-07-20",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Down Under",
+      "artist": "Men At Work",
+      "youtube": "https://www.youtube.com/watch?v=XfR9iY5y94s",
+      "aliases": [],
+      "hidden": {
+        "description": "australia"
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-07-22",
+      "date_with_most_reproductions": "2026-07-22",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Cranky's Theme",
+      "artist": "Donkey Kong Country",
+      "youtube": "https://www.youtube.com/watch?v=_KycvSI-lkg",
+      "aliases": [],
+      "hidden": {
+        "description": ""
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-07-22",
+      "date_with_most_reproductions": "2026-07-22",
       "most_reproductions_record": 1
     }
   ]
