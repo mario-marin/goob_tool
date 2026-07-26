@@ -308,13 +308,21 @@ class TimestampTool:
             row=3, column=1, padx=(0, 10), pady=2, sticky=tk.W
         )
 
+        # Is Bin checkbox
+        self.is_bin_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(
+            add_track_frame,
+            text="Is Bin",
+            variable=self.is_bin_var,
+        ).grid(row=5, column=0, columnspan=2, pady=(5, 0), sticky=tk.W, padx=(0, 10))
+
         # Add button
         self.add_track_btn = ttk.Button(
             add_track_frame,
             text="Add Track",
             command=self._add_track,
         )
-        self.add_track_btn.grid(row=4, column=0, columnspan=2, pady=(10, 0))
+        self.add_track_btn.grid(row=6, column=0, columnspan=2, pady=(5, 0))
 
         # --- Search bar for track list ---
         search_frame = ttk.Frame(goob_tracks_frame)
@@ -1191,6 +1199,9 @@ class TimestampTool:
         aliases = track.get("aliases", [])
         self._edit_aliases_var = tk.StringVar(value=", ".join(aliases) if aliases else "")
 
+        # Is Bin checkbox
+        self._edit_is_bin_var = tk.BooleanVar(value=track.get("hidden", {}).get("is_bin", False) if isinstance(track.get("hidden"), dict) else False)
+
         # Title
         ttk.Label(dialog, text="Title:").grid(row=0, column=0, sticky=tk.W, padx=(10, 5), pady=5)
         ttk.Entry(dialog, textvariable=self._edit_title_var, width=35).grid(row=0, column=1, padx=(0, 10), pady=5, sticky=tk.W)
@@ -1214,11 +1225,15 @@ class TimestampTool:
         aliases_entry.grid(row=4, column=1, padx=(0, 10), pady=5, sticky=tk.W)
         ttk.Label(dialog, text="(comma-separated)", foreground="gray", font=("sans-serif", 8)).grid(row=5, column=1, sticky=tk.W, padx=(0, 10), pady=(0, 5))
 
+        # Is Bin checkbox
+        ttk.Checkbutton(dialog, text="Is Bin", variable=self._edit_is_bin_var).grid(row=6, column=0, columnspan=2, pady=(5, 5), sticky=tk.W, padx=(10, 10))
+
         def save_edit():
             new_title = self._edit_title_var.get().strip()
             new_artist = self._edit_artist_var.get().strip()
             new_youtube = self._edit_youtube_var.get().strip()
             new_description = self._edit_description_var.get().strip()
+            new_is_bin = self._edit_is_bin_var.get()
             # Parse aliases: split by comma, strip whitespace, filter empty strings
             raw_aliases = self._edit_aliases_var.get().strip()
             if raw_aliases:
@@ -1249,10 +1264,12 @@ class TimestampTool:
                     data["tracks"][i]["aliases"] = new_aliases
                     if "hidden" in data["tracks"][i] and isinstance(data["tracks"][i]["hidden"], dict):
                         data["tracks"][i]["hidden"]["description"] = new_description
+                        data["tracks"][i]["hidden"]["is_bin"] = new_is_bin
                     elif "description" in data["tracks"][i]:
                         data["tracks"][i]["description"] = new_description
+                        data["tracks"][i]["hidden"] = {"description": new_description, "is_bin": new_is_bin}
                     else:
-                        data["tracks"][i]["hidden"] = {"description": new_description}
+                        data["tracks"][i]["hidden"] = {"description": new_description, "is_bin": new_is_bin}
                     break
 
             with open(self.tracks_json_file, "w", encoding="utf-8") as f:
@@ -1315,6 +1332,7 @@ class TimestampTool:
         artist = self.track_artist_var.get().strip()
         youtube = self.track_youtube_var.get().strip()
         description = self.track_description_var.get().strip()
+        is_bin = self.is_bin_var.get() 
 
         if not title:
             self.goob_status_label.config(text="Title is required.")
@@ -1337,7 +1355,8 @@ class TimestampTool:
             "aliases": [],
             "hidden": {
                 "description": description,
-                "ignore_stats": False
+                "ignore_stats": False,
+                "is_bin": is_bin
             },
             "number_of_times_played": 0,
             "last_time_played": "",
@@ -1364,6 +1383,7 @@ class TimestampTool:
         self.track_artist_var.set("")
         self.track_youtube_var.set("")
         self.track_description_var.set("")
+        self.is_bin_var.set(False)
 
         # Refresh the list
         self._load_tracks_list()

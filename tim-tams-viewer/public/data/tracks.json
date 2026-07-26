@@ -7,7 +7,8 @@
       "aliases": [],
       "hidden": {
         "description": "DevelopersDevelopersDevelopersDevelopersDevelopers",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
@@ -21,7 +22,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
@@ -35,7 +37,8 @@
       "aliases": [],
       "hidden": {
         "description": "nespresso, ice cream, coffee, dark space",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-17",
@@ -49,7 +52,8 @@
       "aliases": [],
       "hidden": {
         "description": "coach, sfm, source",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
@@ -63,7 +67,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-26",
@@ -77,7 +82,8 @@
       "aliases": [],
       "hidden": {
         "description": "ramen, pork ramen, red nebula space",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-20",
@@ -91,7 +97,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -105,7 +112,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -119,7 +127,8 @@
       "aliases": [],
       "hidden": {
         "description": "cartoon, red and white striped shirt",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -133,7 +142,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-05-12",
@@ -147,7 +157,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -161,7 +172,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-20",
@@ -175,7 +187,8 @@
       "aliases": [],
       "hidden": {
         "description": "lava cookies",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-29",
@@ -189,7 +202,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -205,7 +219,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-29",
@@ -219,7 +234,8 @@
       "aliases": [],
       "hidden": {
         "description": "black and white, its your birthday!",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
@@ -233,7 +249,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
@@ -247,7 +264,8 @@
       "aliases": [],
       "hidden": {
         "description": "spice girls and korn",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -261,7 +279,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-08",
@@ -275,7 +294,8 @@
       "aliases": [],
       "hidden": {
         "description": "just want to play video games",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -289,7 +309,8 @@
       "aliases": [],
       "hidden": {
         "description": "vegetablews rolling in ice, potato, onion",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-13",
@@ -303,7 +324,8 @@
       "aliases": [],
       "hidden": {
         "description": "sushi, pouring water",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-22",
@@ -319,7 +341,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -333,7 +356,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -347,7 +371,8 @@
       "aliases": [],
       "hidden": {
         "description": "Live song",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -361,7 +386,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-01",
@@ -375,7 +401,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -391,7 +418,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-01",
@@ -405,7 +433,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -419,7 +448,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -433,7 +463,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
@@ -447,7 +478,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-26",
@@ -463,7 +495,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-30",
@@ -477,7 +510,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-10",
@@ -491,7 +525,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-29",
@@ -505,7 +540,8 @@
       "aliases": [],
       "hidden": {
         "description": "anime, dan da dan",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -519,7 +555,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -533,7 +570,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -547,7 +585,8 @@
       "aliases": [],
       "hidden": {
         "description": "toasted peas, beans ",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -561,7 +600,8 @@
       "aliases": [],
       "hidden": {
         "description": "cocktail, cheese, cocktel, tabla de quesos",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 5,
       "last_time_played": "2026-07-21",
@@ -575,7 +615,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -589,7 +630,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -603,7 +645,8 @@
       "aliases": [],
       "hidden": {
         "description": "skelleton delivering pizza",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -617,7 +660,8 @@
       "aliases": [],
       "hidden": {
         "description": "crazy train, september, ear wind and fire",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -631,7 +675,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -647,7 +692,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -661,7 +707,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-05-19",
@@ -675,7 +722,8 @@
       "aliases": [],
       "hidden": {
         "description": "Thick potatos, taca taca",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
@@ -689,7 +737,8 @@
       "aliases": [],
       "hidden": {
         "description": "black waves with colours, palta jamon pan turkey",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-03",
@@ -703,7 +752,8 @@
       "aliases": [],
       "hidden": {
         "description": "pan enfermo, plastic bread, corn field, crops ",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 11,
       "last_time_played": "2026-07-23",
@@ -717,7 +767,8 @@
       "aliases": [],
       "hidden": {
         "description": "black void, ice cream sandwich",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -731,7 +782,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -748,7 +800,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": true
+        "ignore_stats": true,
+        "is_bin": false
       },
       "number_of_times_played": 108,
       "last_time_played": "2026-07-24",
@@ -762,7 +815,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
@@ -776,7 +830,8 @@
       "aliases": [],
       "hidden": {
         "description": "rasist, vhs, chineese",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
@@ -790,7 +845,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -804,7 +860,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-29",
@@ -818,7 +875,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-01",
@@ -832,7 +890,8 @@
       "aliases": [],
       "hidden": {
         "description": "vhs music video 1980",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -846,7 +905,8 @@
       "aliases": [],
       "hidden": {
         "description": "lazy town, we are number one",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -860,7 +920,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-09",
@@ -874,7 +935,8 @@
       "aliases": [],
       "hidden": {
         "description": "concert, tiki coctail",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-30",
@@ -888,7 +950,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -905,7 +968,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-13",
@@ -919,7 +983,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
@@ -933,7 +998,8 @@
       "aliases": [],
       "hidden": {
         "description": "classical music",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-09",
@@ -947,7 +1013,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -961,7 +1028,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
@@ -975,7 +1043,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -989,7 +1058,8 @@
       "aliases": [],
       "hidden": {
         "description": "cheese toasty, grilled cheese",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-23",
@@ -1003,7 +1073,8 @@
       "aliases": [],
       "hidden": {
         "description": "Anime, mega mashup",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1017,7 +1088,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
@@ -1031,7 +1103,8 @@
       "aliases": [],
       "hidden": {
         "description": "cheeta puppet",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -1045,7 +1118,8 @@
       "aliases": [],
       "hidden": {
         "description": "cheeta puppet, lasagna",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-22",
@@ -1059,7 +1133,8 @@
       "aliases": [],
       "hidden": {
         "description": "rotating rally car, highway",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-17",
@@ -1073,7 +1148,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
@@ -1087,7 +1163,8 @@
       "aliases": [],
       "hidden": {
         "description": "chikens fighting t-rexes",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
@@ -1101,7 +1178,8 @@
       "aliases": [],
       "hidden": {
         "description": "triple apple pie, blurry red white background",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-23",
@@ -1115,7 +1193,8 @@
       "aliases": [],
       "hidden": {
         "description": "carrot cake, red curtains",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-16",
@@ -1129,7 +1208,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -1143,7 +1223,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-21",
@@ -1157,7 +1238,8 @@
       "aliases": [],
       "hidden": {
         "description": "dog eating hotdog",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-18",
@@ -1171,7 +1253,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-12",
@@ -1185,7 +1268,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -1199,7 +1283,8 @@
       "aliases": [],
       "hidden": {
         "description": "jet set radio",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -1213,7 +1298,8 @@
       "aliases": [],
       "hidden": {
         "description": "burger, graphs, office, dashboard",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-21",
@@ -1227,7 +1313,8 @@
       "aliases": [],
       "hidden": {
         "description": "old church recording",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -1241,7 +1328,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
@@ -1255,7 +1343,8 @@
       "aliases": [],
       "hidden": {
         "description": "one piece",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -1269,7 +1358,8 @@
       "aliases": [],
       "hidden": {
         "description": "cup head",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -1283,7 +1373,8 @@
       "aliases": [],
       "hidden": {
         "description": "cup head",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
@@ -1297,7 +1388,8 @@
       "aliases": [],
       "hidden": {
         "description": "man dancing",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -1311,7 +1403,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
@@ -1325,7 +1418,8 @@
       "aliases": [],
       "hidden": {
         "description": "big ice cube cocktail, fireworks",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -1339,7 +1433,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -1355,7 +1450,8 @@
       ],
       "hidden": {
         "description": "sorbete, money, gorlpop",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 32,
       "last_time_played": "2026-07-24",
@@ -1369,7 +1465,8 @@
       "aliases": [],
       "hidden": {
         "description": "space churro, nachos, hotdog?",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
@@ -1383,7 +1480,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
@@ -1397,7 +1495,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
@@ -1411,7 +1510,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
@@ -1425,7 +1525,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-19",
@@ -1439,7 +1540,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -1453,7 +1555,8 @@
       "aliases": [],
       "hidden": {
         "description": "ice cream, cake, fireworks, chocolate and vanilla",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-14",
@@ -1467,7 +1570,8 @@
       "aliases": [],
       "hidden": {
         "description": "esparrago, pixalated colors, sparragous",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1481,7 +1585,8 @@
       "aliases": [],
       "hidden": {
         "description": "cake with cream, cherries and chocolate, psychedelic sphere",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1495,7 +1600,8 @@
       "aliases": [],
       "hidden": {
         "description": "chiken, salteado, orange wave",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-05-29",
@@ -1509,7 +1615,8 @@
       "aliases": [],
       "hidden": {
         "description": "strawberry chocolate cake, yellow speed lines, stripes",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-13",
@@ -1523,7 +1630,8 @@
       "aliases": [],
       "hidden": {
         "description": "breakfast bagel, rad and pink gradient, monster ink",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 16,
       "last_time_played": "2026-07-24",
@@ -1537,7 +1645,8 @@
       "aliases": [],
       "hidden": {
         "description": "decadent cookie, mermalade, peanut butter cup, forest autum",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -1551,7 +1660,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
@@ -1565,7 +1675,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -1579,7 +1690,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
@@ -1593,7 +1705,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -1607,7 +1720,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -1621,7 +1735,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -1635,7 +1750,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -1649,7 +1765,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1663,7 +1780,8 @@
       "aliases": [],
       "hidden": {
         "description": "dark souls boss music",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-14",
@@ -1679,7 +1797,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -1693,7 +1812,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -1707,7 +1827,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -1721,7 +1842,8 @@
       "aliases": [],
       "hidden": {
         "description": "thats amore, drunk",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-19",
@@ -1735,7 +1857,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
@@ -1749,7 +1872,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-05-19",
@@ -1763,7 +1887,8 @@
       "aliases": [],
       "hidden": {
         "description": "fat man dancing",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-24",
@@ -1777,7 +1902,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
@@ -1791,7 +1917,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -1805,7 +1932,8 @@
       "aliases": [],
       "hidden": {
         "description": "circle patterns, double layer sandwish, samish",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-03",
@@ -1819,7 +1947,8 @@
       "aliases": [],
       "hidden": {
         "description": "rotating pancakes, thick pancakes, space, asteroids",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-15",
@@ -1833,7 +1962,8 @@
       "aliases": [],
       "hidden": {
         "description": "sunset mountains, bread with glaze",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-18",
@@ -1847,7 +1977,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -1861,7 +1992,8 @@
       "aliases": [],
       "hidden": {
         "description": "mc.muffin, chorizo, egg",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 14,
       "last_time_played": "2026-07-16",
@@ -1875,7 +2007,8 @@
       "aliases": [],
       "hidden": {
         "description": "final fantasy something",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -1889,7 +2022,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -1903,7 +2037,8 @@
       "aliases": [],
       "hidden": {
         "description": "Duane",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
@@ -1917,7 +2052,8 @@
       "aliases": [],
       "hidden": {
         "description": "cocodrilo, mand handling cocodrilos",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -1931,7 +2067,8 @@
       "aliases": [],
       "hidden": {
         "description": "rotating dog",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-14",
@@ -1945,7 +2082,8 @@
       "aliases": [],
       "hidden": {
         "description": "Racoon walking down stares and doing stupid things",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -1961,7 +2099,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -1975,7 +2114,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -1989,7 +2129,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -2003,7 +2144,8 @@
       "aliases": [],
       "hidden": {
         "description": "upside down room",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -2017,7 +2159,8 @@
       "aliases": [],
       "hidden": {
         "description": "pink ambstract circles, tart",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -2031,7 +2174,8 @@
       "aliases": [],
       "hidden": {
         "description": "star fox",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
@@ -2045,7 +2189,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -2059,7 +2204,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
@@ -2073,7 +2219,8 @@
       "aliases": [],
       "hidden": {
         "description": "8 bit back street boys",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -2087,7 +2234,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -2103,7 +2251,8 @@
       ],
       "hidden": {
         "description": "bork, gabe",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-26",
@@ -2117,7 +2266,8 @@
       "aliases": [],
       "hidden": {
         "description": "shiva inu, shiba",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
@@ -2131,7 +2281,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -2145,7 +2296,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
@@ -2161,7 +2313,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -2175,7 +2328,8 @@
       "aliases": [],
       "hidden": {
         "description": "red ball on cheese, Sataaaaaaan",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
@@ -2189,7 +2343,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -2205,7 +2360,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-24",
@@ -2219,7 +2375,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -2233,7 +2390,8 @@
       "aliases": [],
       "hidden": {
         "description": "fire, bigmac",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -2247,7 +2405,8 @@
       "aliases": [],
       "hidden": {
         "description": "horses, burger with egg",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 8,
       "last_time_played": "2026-07-23",
@@ -2261,7 +2420,8 @@
       "aliases": [],
       "hidden": {
         "description": "Spagetti burger, flying ballons",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-02",
@@ -2275,7 +2435,8 @@
       "aliases": [],
       "hidden": {
         "description": "half panini, space shuttle",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 10,
       "last_time_played": "2026-07-03",
@@ -2289,7 +2450,8 @@
       "aliases": [],
       "hidden": {
         "description": "bepis comercial",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-13",
@@ -2303,7 +2465,8 @@
       "aliases": [],
       "hidden": {
         "description": "Feliz Navidad",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -2317,7 +2480,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-29",
@@ -2331,7 +2495,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -2345,7 +2510,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -2359,7 +2525,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -2373,7 +2540,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -2387,7 +2555,8 @@
       "aliases": [],
       "hidden": {
         "description": "crappy 3d, low polygon, half tube, colorful",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -2401,7 +2570,8 @@
       "aliases": [],
       "hidden": {
         "description": "awful 3d sanic",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-17",
@@ -2415,7 +2585,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -2431,7 +2602,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-14",
@@ -2445,7 +2617,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -2461,7 +2634,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
@@ -2475,7 +2649,8 @@
       "aliases": [],
       "hidden": {
         "description": "green car select",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -2489,7 +2664,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -2503,7 +2679,8 @@
       "aliases": [],
       "hidden": {
         "description": "lsd trippy drugs",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -2517,7 +2694,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
@@ -2531,7 +2709,8 @@
       "aliases": [],
       "hidden": {
         "description": "chocolate cake, red curtains",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -2545,7 +2724,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
@@ -2559,7 +2739,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -2573,7 +2754,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -2587,7 +2769,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -2601,7 +2784,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -2615,7 +2799,8 @@
       "aliases": [],
       "hidden": {
         "description": "pink studio",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -2629,7 +2814,8 @@
       "aliases": [],
       "hidden": {
         "description": "steper motors, britney spears",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -2643,7 +2829,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -2657,7 +2844,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -2671,7 +2859,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
@@ -2685,7 +2874,8 @@
       "aliases": [],
       "hidden": {
         "description": "french fries, classroom",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-11",
@@ -2699,7 +2889,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -2713,7 +2904,8 @@
       "aliases": [],
       "hidden": {
         "description": "pop's fries, trippy background, psychedelic",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-21",
@@ -2727,7 +2919,8 @@
       "aliases": [],
       "hidden": {
         "description": "Soulja Boy water theme",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
@@ -2741,7 +2934,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -2755,7 +2949,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -2769,7 +2964,8 @@
       "aliases": [],
       "hidden": {
         "description": "Tony, rally",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -2783,7 +2979,8 @@
       "aliases": [],
       "hidden": {
         "description": "fireworks, pepperoni pizza motzarella",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-20",
@@ -2797,7 +2994,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -2811,7 +3009,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
@@ -2825,7 +3024,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
@@ -2839,7 +3039,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -2853,7 +3054,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -2867,7 +3069,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
@@ -2881,7 +3084,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -2895,7 +3099,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -2911,7 +3116,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
@@ -2925,7 +3131,8 @@
       "aliases": [],
       "hidden": {
         "description": "Gabe",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -2939,7 +3146,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-02",
@@ -2953,7 +3161,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-12",
@@ -2967,7 +3176,8 @@
       "aliases": [],
       "hidden": {
         "description": "warehouse french fries",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-24",
@@ -2981,7 +3191,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -2995,7 +3206,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-29",
@@ -3009,7 +3221,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -3023,7 +3236,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
@@ -3037,7 +3251,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -3051,7 +3266,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-13",
@@ -3065,7 +3281,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
@@ -3079,7 +3296,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
@@ -3093,7 +3311,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -3107,7 +3326,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-08",
@@ -3121,7 +3341,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
@@ -3135,7 +3356,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
@@ -3149,7 +3371,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
@@ -3163,7 +3386,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
@@ -3177,7 +3401,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-12",
@@ -3191,7 +3416,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -3205,7 +3431,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -3219,7 +3446,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -3233,7 +3461,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
@@ -3247,7 +3476,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
@@ -3263,7 +3493,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-26",
@@ -3277,7 +3508,8 @@
       "aliases": [],
       "hidden": {
         "description": "full body skates",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -3291,7 +3523,8 @@
       "aliases": [],
       "hidden": {
         "description": "foot long, chicke, fish, dark side, space",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
@@ -3305,7 +3538,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -3321,7 +3555,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-01",
@@ -3335,7 +3570,8 @@
       "aliases": [],
       "hidden": {
         "description": "Indian",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -3349,7 +3585,8 @@
       "aliases": [],
       "hidden": {
         "description": "YMCA at home",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -3363,7 +3600,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-02",
@@ -3377,7 +3615,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
@@ -3391,7 +3630,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
@@ -3405,7 +3645,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
@@ -3419,7 +3660,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
@@ -3433,7 +3675,8 @@
       "aliases": [],
       "hidden": {
         "description": "crappy drawing bus terminal",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -3447,7 +3690,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
@@ -3463,7 +3707,8 @@
       ],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-03",
@@ -3477,7 +3722,8 @@
       "aliases": [],
       "hidden": {
         "description": "emminem, eminem",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -3491,7 +3737,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -3505,7 +3752,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
@@ -3519,7 +3767,8 @@
       "aliases": [],
       "hidden": {
         "description": "zelda",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -3533,7 +3782,8 @@
       "aliases": [],
       "hidden": {
         "description": "black and white",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-16",
@@ -3547,7 +3797,8 @@
       "aliases": [],
       "hidden": {
         "description": "anime",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -3561,7 +3812,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
@@ -3575,7 +3827,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
@@ -3589,7 +3842,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -3603,7 +3857,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -3617,7 +3872,8 @@
       "aliases": [],
       "hidden": {
         "description": "awful sanic drawing with human feet",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -3631,7 +3887,8 @@
       "aliases": [],
       "hidden": {
         "description": "pink and white stripped cake, highways, street cars",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-24",
@@ -3645,7 +3902,8 @@
       "aliases": [],
       "hidden": {
         "description": "i have a bad case of diarrea",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
@@ -3659,7 +3917,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
@@ -3673,7 +3932,8 @@
       "aliases": [],
       "hidden": {
         "description": "Seinfield",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-10",
@@ -3687,7 +3947,8 @@
       "aliases": [],
       "hidden": {
         "description": "plane, sunset, giro, kebab",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -3701,7 +3962,8 @@
       "aliases": [],
       "hidden": {
         "description": "void, grilled cheese",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -3715,7 +3977,8 @@
       "aliases": [],
       "hidden": {
         "description": "samurai fighting",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
@@ -3729,7 +3992,8 @@
       "aliases": [],
       "hidden": {
         "description": "spiderman",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
@@ -3743,7 +4007,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
@@ -3757,7 +4022,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
@@ -3771,7 +4037,8 @@
       "aliases": [],
       "hidden": {
         "description": "giant pudding",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
@@ -3785,7 +4052,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -3799,7 +4067,8 @@
       "aliases": [],
       "hidden": {
         "description": "satisfying machines",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
@@ -3813,7 +4082,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-17",
@@ -3827,7 +4097,8 @@
       "aliases": [],
       "hidden": {
         "description": "puttet rat cooking pizza",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
@@ -3841,7 +4112,8 @@
       "aliases": [],
       "hidden": {
         "description": "racing, wreked cars, crashing",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
@@ -3855,7 +4127,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
@@ -3869,7 +4142,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
@@ -3883,7 +4157,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
@@ -3897,7 +4172,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
@@ -3911,7 +4187,8 @@
       "aliases": [],
       "hidden": {
         "description": "bepis, bepis man",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
@@ -3925,7 +4202,8 @@
       "aliases": [],
       "hidden": {
         "description": "chicken sub, glitched background",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",
@@ -3939,7 +4217,8 @@
       "aliases": [],
       "hidden": {
         "description": "wii throbbing",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-21",
@@ -3953,7 +4232,8 @@
       "aliases": [],
       "hidden": {
         "description": "sea, smoll pizza box",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",
@@ -3967,7 +4247,8 @@
       "aliases": [],
       "hidden": {
         "description": "australia",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-22",
@@ -3981,7 +4262,8 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-22",
@@ -3995,7 +4277,8 @@
       "aliases": [],
       "hidden": {
         "description": "Metallica, earth wind and fire",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
@@ -4009,7 +4292,8 @@
       "aliases": [],
       "hidden": {
         "description": "Beach Boys",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-23",
@@ -4023,7 +4307,8 @@
       "aliases": [],
       "hidden": {
         "description": "bike",
-        "ignore_stats": false
+        "ignore_stats": false,
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-24",
