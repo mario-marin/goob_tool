@@ -1337,6 +1337,7 @@ class TimestampTool:
             "aliases": [],
             "hidden": {
                 "description": description,
+                "ignore_stats": False
             },
             "number_of_times_played": 0,
             "last_time_played": "",
