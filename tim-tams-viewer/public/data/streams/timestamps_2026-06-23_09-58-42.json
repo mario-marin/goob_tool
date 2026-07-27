@@ -104,5 +104,9 @@
       "song_title": "Inkwell Isle One"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 16,
+    "youtube_friendly": 0
+  }
 }

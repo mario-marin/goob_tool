@@ -39,5 +39,9 @@
       "song_title": "Cops and Crooks"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 7,
+    "youtube_friendly": 0
+  }
 }

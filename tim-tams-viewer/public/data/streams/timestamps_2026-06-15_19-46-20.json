@@ -157,5 +157,9 @@
       "time": "01:00:58",
       "name": "F R A N K - M O V E S -"
     }
-  ]
+  ],
+  "statistics": {
+    "bin_songs": 14,
+    "youtube_friendly": 0
+  }
 }

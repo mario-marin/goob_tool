@@ -154,5 +154,9 @@
       "song_title": "Stop the Bus"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 17,
+    "youtube_friendly": 0
+  }
 }

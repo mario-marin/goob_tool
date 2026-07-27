@@ -94,5 +94,9 @@
       "song_title": "Cha Cha Chiwawa"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 18,
+    "youtube_friendly": 0
+  }
 }

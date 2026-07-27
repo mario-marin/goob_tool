@@ -124,5 +124,9 @@
       "song_title": "Tank!"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 15,
+    "youtube_friendly": 0
+  }
 }

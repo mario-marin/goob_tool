@@ -69,5 +69,9 @@
       "song_title": "Earth, Wind & Ozzys"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
 }

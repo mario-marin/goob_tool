@@ -99,5 +99,9 @@
       "song_title": "In a Dark Place"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 19,
+    "youtube_friendly": 0
+  }
 }

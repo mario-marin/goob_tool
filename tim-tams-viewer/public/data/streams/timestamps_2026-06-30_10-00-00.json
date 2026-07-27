@@ -79,5 +79,9 @@
       "song_title": "Cheeseburger Quesadilla!"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 15,
+    "youtube_friendly": 0
+  }
 }

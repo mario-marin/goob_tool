@@ -74,5 +74,9 @@
       "song_title": "People = Shit"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
 }

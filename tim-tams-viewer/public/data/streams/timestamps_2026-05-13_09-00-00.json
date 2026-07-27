@@ -79,5 +79,9 @@
       "song_title": "Dog - Animools"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 15,
+    "youtube_friendly": 0
+  }
 }

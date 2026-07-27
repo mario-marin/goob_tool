@@ -59,5 +59,9 @@
       "song_title": "Crank That"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 0
+  }
 }

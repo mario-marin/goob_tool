@@ -104,5 +104,9 @@
       "song_title": "Never gonna Frank you up"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
 }

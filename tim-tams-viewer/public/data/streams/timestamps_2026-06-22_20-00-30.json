@@ -124,5 +124,9 @@
       "song_title": "Puddy Puddy"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 18,
+    "youtube_friendly": 0
+  }
 }

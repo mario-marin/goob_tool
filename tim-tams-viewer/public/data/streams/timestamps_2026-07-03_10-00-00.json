@@ -139,5 +139,9 @@
       "song_title": "Last Resort But It's Rock Your Body By Justin Timberlake"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 14,
+    "youtube_friendly": 0
+  }
 }

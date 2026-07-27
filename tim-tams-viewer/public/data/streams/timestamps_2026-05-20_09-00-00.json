@@ -84,5 +84,9 @@
       "time": "00:30:40",
       "name": "C R A Z Y - B U S -"
     }
-  ]
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
 }

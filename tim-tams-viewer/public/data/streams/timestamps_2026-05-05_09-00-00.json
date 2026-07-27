@@ -74,5 +74,9 @@
       "song_title": "Baby come Frank"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 14,
+    "youtube_friendly": 0
+  }
 }
