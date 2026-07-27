@@ -5,6 +5,7 @@ function Statistics() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState('histograph');
+  const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0, content: '' });
 
   useEffect(() => {
     fetch('./data/statistics.json')
@@ -81,12 +82,16 @@ function Statistics() {
                     <div
                       className="histogram-bar histogram-bar-youtube"
                       style={{ height: `${youtubeHeight}%` }}
-                      title={`${entry.date} ${entry.time} — ${entry.youtube_friendly} youtube friendly`}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly: ${entry.youtube_friendly}` })}
+                      onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
+                      onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                     <div
                       className="histogram-bar histogram-bar-bin"
                       style={{ height: `${binHeight}%` }}
-                      title={`${entry.date} ${entry.time} — ${entry.bin_songs} bin songs`}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nBin Songs: ${entry.bin_songs}` })}
+                      onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
+                      onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                   </div>
                   <div className="histogram-label">{entry.bin_songs}</div>
@@ -127,12 +132,16 @@ function Statistics() {
                     <div
                       className="histogram-bar histogram-bar-youtube"
                       style={{ height: `${youtubeHeight}%` }}
-                      title={`${entry.date} ${entry.time} — ${entry.youtube_friendly} youtube friendly`}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly: ${entry.youtube_friendly}` })}
+                      onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
+                      onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                     <div
                       className="histogram-bar histogram-bar-bin"
                       style={{ height: `${binHeight}%` }}
-                      title={`${entry.date} ${entry.time} — ${entry.bin_songs} bin songs`}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nBin Songs: ${entry.bin_songs}` })}
+                      onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
+                      onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                   </div>
                   <div className="histogram-label">{entry.bin_songs}</div>
@@ -199,6 +208,23 @@ function Statistics() {
               </tbody>
             </table>
           </div>
+        </div>
+      )}
+
+      {tooltip.visible && (
+        <div
+          className="histogram-tooltip"
+          style={{
+            position: 'fixed',
+            left: tooltip.x + 12,
+            top: tooltip.y - 12,
+            pointerEvents: 'none',
+            zIndex: 9999,
+          }}
+        >
+          {tooltip.content.split('\n').map((line, i) => (
+            <div key={i}>{line}</div>
+          ))}
         </div>
       )}
     </div>
