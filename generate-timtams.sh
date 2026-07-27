@@ -21,6 +21,14 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
+# Run update_stream_stats.py
+echo "Running update_stream_stats.py..."
+python3 "$SCRIPT_DIR/update_stream_stats.py"
+if [ $? -ne 0 ]; then
+  echo "Error: update_stream_stats.py failed"
+  exit 1
+fi
+
 if [ ! -d "$STREAMS_DIR" ]; then
   echo "Error: $STREAMS_DIR directory not found"
   exit 1
