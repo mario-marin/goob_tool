@@ -94,7 +94,7 @@ function Statistics() {
                       onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                   </div>
-                  <div className="histogram-label">{entry.bin_songs}</div>
+                  <div className="histogram-label">{entry.bin_songs+entry.youtube_friendly}</div>
                 </div>
               );
             })}
@@ -144,7 +144,7 @@ function Statistics() {
                       onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
                   </div>
-                  <div className="histogram-label">{entry.bin_songs}</div>
+                  <div className="histogram-label">{entry.bin_songs+entry.youtube_friendly}</div>
                 </div>
               );
             })}
