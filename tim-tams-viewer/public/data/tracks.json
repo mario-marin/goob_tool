@@ -38,7 +38,7 @@
       "hidden": {
         "description": "nespresso, ice cream, coffee, dark space",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-17",
@@ -83,7 +83,7 @@
       "hidden": {
         "description": "ramen, pork ramen, red nebula space",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-20",
@@ -188,7 +188,7 @@
       "hidden": {
         "description": "lava cookies",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-29",
@@ -325,7 +325,7 @@
       "hidden": {
         "description": "sushi, pouring water",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-22",
@@ -586,7 +586,7 @@
       "hidden": {
         "description": "toasted peas, beans ",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -601,7 +601,7 @@
       "hidden": {
         "description": "cocktail, cheese, cocktel, tabla de quesos",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 5,
       "last_time_played": "2026-07-21",
@@ -723,7 +723,7 @@
       "hidden": {
         "description": "Thick potatos, taca taca",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
@@ -738,7 +738,7 @@
       "hidden": {
         "description": "black waves with colours, palta jamon pan turkey",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-03",
@@ -753,7 +753,7 @@
       "hidden": {
         "description": "pan enfermo, plastic bread, corn field, crops ",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 11,
       "last_time_played": "2026-07-23",
@@ -768,7 +768,7 @@
       "hidden": {
         "description": "black void, ice cream sandwich",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -936,7 +936,7 @@
       "hidden": {
         "description": "concert, tiki coctail",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-30",
@@ -1059,7 +1059,7 @@
       "hidden": {
         "description": "cheese toasty, grilled cheese",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-23",
@@ -1179,7 +1179,7 @@
       "hidden": {
         "description": "triple apple pie, blurry red white background",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-23",
@@ -1299,7 +1299,7 @@
       "hidden": {
         "description": "burger, graphs, office, dashboard",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-21",
@@ -1419,7 +1419,7 @@
       "hidden": {
         "description": "big ice cube cocktail, fireworks",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
@@ -1451,7 +1451,7 @@
       "hidden": {
         "description": "sorbete, money, gorlpop",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 32,
       "last_time_played": "2026-07-24",
@@ -1466,7 +1466,7 @@
       "hidden": {
         "description": "space churro, nachos, hotdog?",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
@@ -1556,7 +1556,7 @@
       "hidden": {
         "description": "ice cream, cake, fireworks, chocolate and vanilla",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-14",
@@ -1571,7 +1571,7 @@
       "hidden": {
         "description": "esparrago, pixalated colors, sparragous",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1586,7 +1586,7 @@
       "hidden": {
         "description": "cake with cream, cherries and chocolate, psychedelic sphere",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
@@ -1601,7 +1601,7 @@
       "hidden": {
         "description": "chiken, salteado, orange wave",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-05-29",
@@ -1616,7 +1616,7 @@
       "hidden": {
         "description": "strawberry chocolate cake, yellow speed lines, stripes",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-13",
@@ -1631,7 +1631,7 @@
       "hidden": {
         "description": "breakfast bagel, rad and pink gradient, monster ink",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 16,
       "last_time_played": "2026-07-24",
@@ -1646,7 +1646,7 @@
       "hidden": {
         "description": "decadent cookie, mermalade, peanut butter cup, forest autum",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -1933,7 +1933,7 @@
       "hidden": {
         "description": "circle patterns, double layer sandwish, samish",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-03",
@@ -1948,7 +1948,7 @@
       "hidden": {
         "description": "rotating pancakes, thick pancakes, space, asteroids",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-15",
@@ -1963,7 +1963,7 @@
       "hidden": {
         "description": "sunset mountains, bread with glaze",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-18",
@@ -1993,7 +1993,7 @@
       "hidden": {
         "description": "mc.muffin, chorizo, egg",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 14,
       "last_time_played": "2026-07-16",
@@ -2008,7 +2008,7 @@
       "hidden": {
         "description": "final fantasy something",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
@@ -2160,7 +2160,7 @@
       "hidden": {
         "description": "pink ambstract circles, tart",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
@@ -2391,7 +2391,7 @@
       "hidden": {
         "description": "fire, bigmac",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
@@ -2406,7 +2406,7 @@
       "hidden": {
         "description": "horses, burger with egg",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 8,
       "last_time_played": "2026-07-23",
@@ -2421,7 +2421,7 @@
       "hidden": {
         "description": "Spagetti burger, flying ballons",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-02",
@@ -2436,7 +2436,7 @@
       "hidden": {
         "description": "half panini, space shuttle",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 10,
       "last_time_played": "2026-07-03",
@@ -2710,7 +2710,7 @@
       "hidden": {
         "description": "chocolate cake, red curtains",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
@@ -2875,7 +2875,7 @@
       "hidden": {
         "description": "french fries, classroom",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-11",
@@ -2905,7 +2905,7 @@
       "hidden": {
         "description": "pop's fries, trippy background, psychedelic",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-21",
@@ -2980,7 +2980,7 @@
       "hidden": {
         "description": "fireworks, pepperoni pizza motzarella",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-20",
@@ -3177,7 +3177,7 @@
       "hidden": {
         "description": "warehouse french fries",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-24",
@@ -3524,7 +3524,7 @@
       "hidden": {
         "description": "foot long, chicke, fish, dark side, space",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
@@ -3888,7 +3888,7 @@
       "hidden": {
         "description": "pink and white stripped cake, highways, street cars",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-24",
@@ -3948,7 +3948,7 @@
       "hidden": {
         "description": "plane, sunset, giro, kebab",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
@@ -3963,7 +3963,7 @@
       "hidden": {
         "description": "void, grilled cheese",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
