@@ -31,6 +31,15 @@ function Statistics() {
     return Math.max(...stats.histograph.map((s) => s.bin_songs), 1);
   }, [stats]);
 
+  const maxYoutubeFriendly = useMemo(() => {
+    if (!stats) return 1;
+    return Math.max(...stats.histograph.map((s) => s.youtube_friendly), 1);
+  }, [stats]);
+
+  const maxChartValue = useMemo(() => {
+    return Math.max(maxBinSongs, maxYoutubeFriendly);
+  }, [maxBinSongs, maxYoutubeFriendly]);
+
   if (loading) return <div className="loading">Loading statistics...</div>;
   if (error) return <div className="error">{error}</div>;
   if (!stats) return null;
@@ -51,17 +60,35 @@ function Statistics() {
 
       {activeTab === 'histograph' && (
         <div className="statistics-section">
+          <div className="histogram-legend">
+            <span className="histogram-legend-item">
+              <span className="histogram-legend-swatch" style={{ background: 'var(--accent)' }}></span>
+              Bin Songs
+            </span>
+            <span className="histogram-legend-item">
+              <span className="histogram-legend-swatch" style={{ background: 'var(--accent-hover)' }}></span>
+              YouTube Friendly
+            </span>
+          </div>
           <h3>Bin Songs per Stream (Chronological)</h3>
           <div className="histogram-chart">
             {stats.histograph.map((entry, i) => {
-              const heightPercent = (entry.bin_songs / maxBinSongs) * 100;
+              const binHeight = (entry.bin_songs / maxChartValue) * 100;
+              const youtubeHeight = (entry.youtube_friendly / maxChartValue) * 100;
               return (
                 <div key={i} className="histogram-bar-wrapper">
-                  <div
-                    className="histogram-bar"
-                    style={{ height: `${heightPercent}%` }}
-                    title={`${entry.date} ${entry.time} — ${entry.bin_songs} songs`}
-                  />
+                  <div className="histogram-bars">
+                    <div
+                      className="histogram-bar histogram-bar-youtube"
+                      style={{ height: `${youtubeHeight}%` }}
+                      title={`${entry.date} ${entry.time} — ${entry.youtube_friendly} youtube friendly`}
+                    />
+                    <div
+                      className="histogram-bar histogram-bar-bin"
+                      style={{ height: `${binHeight}%` }}
+                      title={`${entry.date} ${entry.time} — ${entry.bin_songs} bin songs`}
+                    />
+                  </div>
                   <div className="histogram-label">{entry.bin_songs}</div>
                 </div>
               );
@@ -79,17 +106,35 @@ function Statistics() {
 
       {activeTab === 'sorted_histograph' && (
         <div className="statistics-section">
+          <div className="histogram-legend">
+            <span className="histogram-legend-item">
+              <span className="histogram-legend-swatch" style={{ background: 'var(--accent)' }}></span>
+              Bin Songs
+            </span>
+            <span className="histogram-legend-item">
+              <span className="histogram-legend-swatch" style={{ background: 'var(--accent-hover)' }}></span>
+              YouTube Friendly
+            </span>
+          </div>
           <h3>Bin Songs per Stream (Sorted by Count)</h3>
           <div className="histogram-chart">
             {stats.sorted_histograph.map((entry, i) => {
-              const heightPercent = (entry.bin_songs / maxBinSongs) * 100;
+              const binHeight = (entry.bin_songs / maxChartValue) * 100;
+              const youtubeHeight = (entry.youtube_friendly / maxChartValue) * 100;
               return (
                 <div key={i} className="histogram-bar-wrapper">
-                  <div
-                    className="histogram-bar"
-                    style={{ height: `${heightPercent}%` }}
-                    title={`${entry.date} ${entry.time} — ${entry.bin_songs} songs`}
-                  />
+                  <div className="histogram-bars">
+                    <div
+                      className="histogram-bar histogram-bar-youtube"
+                      style={{ height: `${youtubeHeight}%` }}
+                      title={`${entry.date} ${entry.time} — ${entry.youtube_friendly} youtube friendly`}
+                    />
+                    <div
+                      className="histogram-bar histogram-bar-bin"
+                      style={{ height: `${binHeight}%` }}
+                      title={`${entry.date} ${entry.time} — ${entry.bin_songs} bin songs`}
+                    />
+                  </div>
                   <div className="histogram-label">{entry.bin_songs}</div>
                 </div>
               );
