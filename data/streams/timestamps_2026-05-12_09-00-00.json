@@ -69,5 +69,9 @@
       "song_title": "So Many Bones to Spare"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 8,
+    "youtube_friendly": 4
+  }
 }

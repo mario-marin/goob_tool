@@ -84,5 +84,9 @@
       "song_title": "Sega GT 2002"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 16,
+    "youtube_friendly": 0
+  }
 }

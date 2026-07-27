@@ -84,5 +84,9 @@
       "song_title": "Haunted Graveyard"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 9,
+    "youtube_friendly": 5
+  }
 }

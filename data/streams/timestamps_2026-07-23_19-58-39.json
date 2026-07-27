@@ -124,5 +124,9 @@
       "song_title": "Trap Remix FUN FUN FUN"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 6,
+    "youtube_friendly": 11
+  }
 }

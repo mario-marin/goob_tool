@@ -64,5 +64,9 @@
       "song_title": "Hilarious Chinese Song!"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 1
+  }
 }

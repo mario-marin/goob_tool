@@ -79,5 +79,9 @@
       "song_title": "Hot Barbeque"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 4,
+    "youtube_friendly": 7
+  }
 }
