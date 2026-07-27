@@ -168,6 +168,7 @@ function Statistics() {
                 <tr>
                   <th>Day</th>
                   <th>Avg Bin Songs</th>
+                  <th>Avg YouTube Friendly</th>
                   <th>Streams</th>
                 </tr>
               </thead>
@@ -176,6 +177,7 @@ function Statistics() {
                   <tr key={i}>
                     <td className="stats-day">{row.day}</td>
                     <td className="stats-value">{row.bin_songs.toFixed(2)}</td>
+                    <td className="stats-value">{row.youtube_friendly?.toFixed(2) ?? 'N/A'}</td>
                     <td className="stats-count">{row.streams}</td>
                   </tr>
                 ))}
@@ -194,6 +196,7 @@ function Statistics() {
                 <tr>
                   <th>Period</th>
                   <th>Avg Bin Songs</th>
+                  <th>Avg YouTube Friendly</th>
                   <th>Streams</th>
                 </tr>
               </thead>
@@ -202,6 +205,7 @@ function Statistics() {
                   <tr key={i}>
                     <td className="stats-period">{row.period}</td>
                     <td className="stats-value">{row.bin_songs.toFixed(2)}</td>
+                    <td className="stats-value">{row.youtube_friendly?.toFixed(2) ?? 'N/A'}</td>
                     <td className="stats-count">{row.streams}</td>
                   </tr>
                 ))}
