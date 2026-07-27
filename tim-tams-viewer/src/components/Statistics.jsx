@@ -22,9 +22,9 @@ function Statistics() {
 
   const tabs = useMemo(() => [
     { key: 'histograph', label: 'Histogram' },
-    { key: 'sorted_histograph', label: 'Sorted' },
-    { key: 'day_of_week', label: 'Day of Week' },
-    { key: 'time_of_day', label: 'Time of Day' },
+    { key: 'sorted_histograph', label: 'Sorted Histogram' },
+    { key: 'day_of_week', label: 'Days of Week' },
+    { key: 'time_of_day', label: 'Morning v/s Afternoon' },
   ], []);
 
   const maxBinSongs = useMemo(() => {
@@ -68,10 +68,10 @@ function Statistics() {
             </span>
             <span className="histogram-legend-item">
               <span className="histogram-legend-swatch" style={{ background: 'var(--accent-hover)' }}></span>
-              YouTube Friendly
+              YouTube Friendly Songs
             </span>
           </div>
-          <h3>Bin Songs per Stream (Chronological)</h3>
+          <h3>Number of songs per strem (Chronological)</h3>
           <div className="histogram-chart">
             {stats.histograph.map((entry, i) => {
               const binHeight = (entry.bin_songs / maxChartValue) * 100;
@@ -82,7 +82,7 @@ function Statistics() {
                     <div
                       className="histogram-bar histogram-bar-youtube"
                       style={{ height: `${youtubeHeight}%` }}
-                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly: ${entry.youtube_friendly}` })}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly Songs: ${entry.youtube_friendly}` })}
                       onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
                       onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
@@ -118,10 +118,10 @@ function Statistics() {
             </span>
             <span className="histogram-legend-item">
               <span className="histogram-legend-swatch" style={{ background: 'var(--accent-hover)' }}></span>
-              YouTube Friendly
+              YouTube Friendly Songs
             </span>
           </div>
-          <h3>Bin Songs per Stream (Sorted by Count)</h3>
+          <h3>Number of songs per strem (Sorted)</h3>
           <div className="histogram-chart">
             {stats.sorted_histograph.map((entry, i) => {
               const binHeight = (entry.bin_songs / maxChartValue) * 100;
@@ -132,7 +132,7 @@ function Statistics() {
                     <div
                       className="histogram-bar histogram-bar-youtube"
                       style={{ height: `${youtubeHeight}%` }}
-                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly: ${entry.youtube_friendly}` })}
+                      onMouseEnter={(e) => setTooltip({ visible: true, x: e.clientX, y: e.clientY, content: `${entry.date} ${entry.time}\nYouTube Friendly Songs: ${entry.youtube_friendly}` })}
                       onMouseMove={(e) => setTooltip((prev) => ({ ...prev, x: e.clientX, y: e.clientY }))}
                       onMouseLeave={() => setTooltip({ visible: false, x: 0, y: 0, content: '' })}
                     />
@@ -161,14 +161,14 @@ function Statistics() {
 
       {activeTab === 'day_of_week' && (
         <div className="statistics-section">
-          <h3>Average Bin Songs by Day of Week</h3>
+          <h3>Average Number of Songs by Day of Week</h3>
           <div className="stats-table">
             <table>
               <thead>
                 <tr>
                   <th>Day</th>
                   <th>Avg Bin Songs</th>
-                  <th>Avg YouTube Friendly</th>
+                  <th>Avg YouTube Friendly Songs</th>
                   <th>Streams</th>
                 </tr>
               </thead>
@@ -189,14 +189,14 @@ function Statistics() {
 
       {activeTab === 'time_of_day' && (
         <div className="statistics-section">
-          <h3>Average Bin Songs by Time of Day</h3>
+          <h3>Average Number of Songs by Time of Day</h3>
           <div className="stats-table">
             <table>
               <thead>
                 <tr>
                   <th>Period</th>
                   <th>Avg Bin Songs</th>
-                  <th>Avg YouTube Friendly</th>
+                  <th>Avg YouTube Friendly Songs</th>
                   <th>Streams</th>
                 </tr>
               </thead>
