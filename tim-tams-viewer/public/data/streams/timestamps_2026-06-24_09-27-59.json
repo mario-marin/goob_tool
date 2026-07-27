@@ -87,5 +87,9 @@
       "time": "01:01:47",
       "name": "L A P - O N E - O F - T H E - B I N -"
     }
-  ]
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 1
+  }
 }

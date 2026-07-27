@@ -74,5 +74,9 @@
       "song_title": "It's My Life What Ever I Wanna Do"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 4,
+    "youtube_friendly": 10
+  }
 }

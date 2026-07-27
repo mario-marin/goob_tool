@@ -89,5 +89,8 @@
       "song_title": "Arfrica"
     }
   ],
-  "events": []
+  "statistics": {
+    "bin_songs": 8,
+    "youtube_friendly": 7
+  }
 }

@@ -59,5 +59,9 @@
       "song_title": "Gangsta's Paradise (Sega Genesis Remix)"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 7,
+    "youtube_friendly": 4
+  }
 }

@@ -134,5 +134,9 @@
       "song_title": "Careless Whisper (TikTok Remix)"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 4,
+    "youtube_friendly": 10
+  }
 }

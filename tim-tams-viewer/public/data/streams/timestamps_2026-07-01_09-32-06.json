@@ -64,5 +64,9 @@
       "song_title": "Cupid Remix"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
 }

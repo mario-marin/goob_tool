@@ -4,6 +4,7 @@ import StreamDetail from './components/StreamDetail';
 import SearchBar from './components/SearchBar';
 import TrackDialog from './components/TrackDialog';
 import EventDialog from './components/EventDialog';
+import Statistics from './components/Statistics';
 import { getAvailableDates, fetchStreamData } from './utils/streams';
 import './App.css';
 
@@ -19,6 +20,9 @@ function App() {
   // Search state
   const [searchResults, setSearchResults] = useState({ songs: [], events: [] });
   const [searchActive, setSearchActive] = useState(false);
+
+  // View state
+  const [activeView, setActiveView] = useState('calendar');
 
   // Theme state
   const [theme, setTheme] = useState(() => {
@@ -163,6 +167,31 @@ function App() {
         <h1>Tim Tams Viewer</h1>
         <p className="app-subtitle">Browse all the Tim Tams that we have in offer!</p>
         <p className="app-subtitle">All fresh straight from the bin!!</p>
+        <div className="view-tabs">
+          <button
+            className={`view-tab${activeView === 'calendar' ? ' active' : ''}`}
+            onClick={() => setActiveView('calendar')}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+            Calendar
+          </button>
+          <button
+            className={`view-tab${activeView === 'statistics' ? ' active' : ''}`}
+            onClick={() => setActiveView('statistics')}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="18" y1="20" x2="18" y2="10" />
+              <line x1="12" y1="20" x2="12" y2="4" />
+              <line x1="6" y1="20" x2="6" y2="14" />
+            </svg>
+            Statistics
+          </button>
+        </div>
         <button
           className="theme-toggle"
           onClick={toggleTheme}
@@ -192,78 +221,87 @@ function App() {
       </header>
 
       <main className="app-main">
-        <div className="calendar-panel">
-          <Calendar
-            availableDates={availableDates}
-            selectedDate={selectedDate}
-            onSelectDate={handleSelectDate}
-          />
-          <SearchBar tracks={tracks || []} events={events || []} onResults={handleSearchResults} />
-        </div>
-
-        <div className="detail-panel">
-          {searchActive && (
-            <div className="search-results-panel">
-              <div className="search-results-header">
-                <h3>Search Results</h3>
-                <button className="search-results-close" onClick={handleClearSearch} aria-label="Clear search">
-                  ✕
-                </button>
-              </div>
-              {searchResults.songs.length > 0 && (
-                <div className="search-results-section">
-                  <h4>Songs ({searchResults.songs.length})</h4>
-                  <div className="search-results-list">
-                    {searchResults.songs.map((track, i) => (
-                      <div
-                        key={i}
-                        className="search-result-item search-result-song"
-                        onClick={() => handleSearchTrackClick(track)}
-                        style={{ cursor: 'pointer' }}
-                      >
-                        <span className="search-result-title">{track.title}</span>
-                        {' '}
-                        <span className="search-result-subtitle">{track.artist}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-              {searchResults.events.length > 0 && (
-                <div className="search-results-section">
-                  <h4>Events ({searchResults.events.length})</h4>
-                  <div className="search-results-list">
-                    {searchResults.events.map((event, i) => (
-                      <div
-                        key={i}
-                        className="search-result-item search-result-event"
-                        onClick={() => handleSearchEventClick(event)}
-                        style={{ cursor: 'pointer' }}
-                      >
-                        <span className="search-result-title">{event.title}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+        {activeView === 'calendar' && (
+          <>
+            <div className="calendar-panel">
+              <Calendar
+                availableDates={availableDates}
+                selectedDate={selectedDate}
+                onSelectDate={handleSelectDate}
+              />
+              <SearchBar tracks={tracks || []} events={events || []} onResults={handleSearchResults} />
             </div>
-          )}
-          {!searchActive && (
-            <>
-              {loading && <div className="loading">Loading...</div>}
-              {error && <div className="error">{error}</div>}
-              {!loading && !error && streamData && (
-                <StreamDetail data={streamData} tracks={tracks} events={events} onSelectDate={handleSelectDate} onOpenTrack={setSelectedTrack} onOpenEvent={setSelectedEvent} />
-              )}
-              {!loading && !error && !streamData && (
-                <div className="empty-state">
-                  <p>Select a date to view stream data</p>
+
+            <div className="detail-panel">
+              {searchActive && (
+                <div className="search-results-panel">
+                  <div className="search-results-header">
+                    <h3>Search Results</h3>
+                    <button className="search-results-close" onClick={handleClearSearch} aria-label="Clear search">
+                      ✕
+                    </button>
+                  </div>
+                  {searchResults.songs.length > 0 && (
+                    <div className="search-results-section">
+                      <h4>Songs ({searchResults.songs.length})</h4>
+                      <div className="search-results-list">
+                        {searchResults.songs.map((track, i) => (
+                          <div
+                            key={i}
+                            className="search-result-item search-result-song"
+                            onClick={() => handleSearchTrackClick(track)}
+                            style={{ cursor: 'pointer' }}
+                          >
+                            <span className="search-result-title">{track.title}</span>
+                            {' '}
+                            <span className="search-result-subtitle">{track.artist}</span>
+                          </div>
+                        ))}
+                      </div>
+                  </div>
+                  )}
+                  {searchResults.events.length > 0 && (
+                    <div className="search-results-section">
+                      <h4>Events ({searchResults.events.length})</h4>
+                      <div className="search-results-list">
+                        {searchResults.events.map((event, i) => (
+                          <div
+                            key={i}
+                            className="search-result-item search-result-event"
+                            onClick={() => handleSearchEventClick(event)}
+                            style={{ cursor: 'pointer' }}
+                          >
+                            <span className="search-result-title">{event.title}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
-            </>
-          )}
+              {!searchActive && (
+                <>
+                  {loading && <div className="loading">Loading...</div>}
+                  {error && <div className="error">{error}</div>}
+                  {!loading && !error && streamData && (
+                    <StreamDetail data={streamData} tracks={tracks} events={events} onSelectDate={handleSelectDate} onOpenTrack={setSelectedTrack} onOpenEvent={setSelectedEvent} />
+                  )}
+                  {!loading && !error && !streamData && (
+                    <div className="empty-state">
+                      <p>Select a date to view stream data</p>
+                    </div>
+                  )}
+                </>
+              )}
         </div>
+          </>
+        )}
 
+        {activeView === 'statistics' && (
+          <div className="detail-panel statistics-view">
+            <Statistics />
+          </div>
+        )}
       </main>
 
       {/* Dialogs rendered at App level so they work from both search and stream detail */}

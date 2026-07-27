@@ -89,5 +89,9 @@
       "song_title": "A Song for Mommy"
     }
   ],
-  "events": []
+  "events": [],
+  "statistics": {
+    "bin_songs": 9,
+    "youtube_friendly": 3
+  }
 }
