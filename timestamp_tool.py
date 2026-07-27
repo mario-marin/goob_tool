@@ -15,6 +15,7 @@ import re
 import threading
 import time
 from pathlib import Path
+import emoji
 
 # Debugging toggle - set to False to disable debug logging
 DEBUG_MODE = False
@@ -1117,6 +1118,16 @@ class TimestampTool:
                     anchor=tk.W,
                 )
                 info_label.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10), pady=3)
+
+                # Trash icon for bins (left side, before buttons)
+                is_bin = track.get("hidden", {}).get("is_bin", False) if isinstance(track.get("hidden"), dict) else False
+                if is_bin:
+                    trash_label = ttk.Label(
+                        row_frame,
+                        text=f'{emoji.emojize(":wastebasket:")}',
+                        font=("sans-serif", 12),
+                    )
+                    trash_label.pack(side=tk.LEFT, padx=(0, 5), pady=3)
 
                 # YouTube button (right side) - grayed out if no youtube link
                 btn_state = tk.NORMAL if youtube else tk.DISABLED
