@@ -70,7 +70,7 @@ function Statistics() {
           <div className="histogram-dates">
             {stats.histograph.map((entry, i) => (
               <div key={i} className="histogram-date-label">
-                {entry.date.slice(5)}
+                {entry.date.split('').join('\n')}
               </div>
             ))}
           </div>
@@ -98,7 +98,7 @@ function Statistics() {
           <div className="histogram-dates">
             {stats.sorted_histograph.map((entry, i) => (
               <div key={i} className="histogram-date-label">
-                {entry.date.slice(5)}
+                {entry.date.split('').join('\n')}
               </div>
             ))}
           </div>

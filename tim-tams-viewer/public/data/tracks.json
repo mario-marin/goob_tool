@@ -4022,7 +4022,7 @@
       "aliases": [],
       "hidden": {
         "description": "",
-        "ignore_stats": false,
+        "ignore_stats": true,
         "is_bin": true
       },
       "number_of_times_played": 1,
@@ -4203,7 +4203,7 @@
       "hidden": {
         "description": "chicken sub, glitched background",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": false
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",

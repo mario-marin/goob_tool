@@ -1016,6 +1016,10 @@
   min-width: 12px;
   text-align: center;
   white-space: nowrap;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 /* ===== Stats Table ===== */
