@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-04",
+  "time": "09:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/7fkDATWc2i",
+  "songs": [
+    {
+      "time": "00:04:22",
+      "artist": "Spider-Man 2",
+      "song_title": "The Game Pizza Theme"
+    },
+    {
+      "time": "00:07:25",
+      "artist": "CHEW",
+      "song_title": "Please don't take your Frank from meeee"
+    },
+    {
+      "time": "00:14:34",
+      "artist": "Seatbelts",
+      "song_title": "Tank!"
+    },
+    {
+      "time": "00:20:10",
+      "artist": "Generuu",
+      "song_title": "Everybody's Circulation"
+    },
+    {
+      "time": "00:26:07",
+      "artist": "Adam Hatton",
+      "song_title": "Ace of Spades - Songsmith Version"
+    },
+    {
+      "time": "00:30:45",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:36:38",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:41:35",
+      "artist": "Gabe the dog",
+      "song_title": "don't stop me now"
+    },
+    {
+      "time": "00:46:34",
+      "artist": "Sonic Generations",
+      "song_title": "Sky Sanctuary"
+    },
+    {
+      "time": "00:50:31",
+      "artist": "Tones",
+      "song_title": "hihi"
+    },
+    {
+      "time": "00:54:45",
+      "artist": "Tim and Eric",
+      "song_title": "Sports!"
+    },
+    {
+      "time": "00:56:52",
+      "artist": "Skyrim",
+      "song_title": "One They Fear"
+    }
+  ],
+  "events": [],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}
