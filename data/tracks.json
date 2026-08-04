@@ -451,8 +451,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-08",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -1046,8 +1046,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-17",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -1076,8 +1076,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-24",
       "most_reproductions_record": 1
     },
@@ -2633,12 +2633,12 @@
         "Seatbelts, Tonk, Brought to you by Wrodl Of Fronks"
       ],
       "hidden": {
-        "description": "",
+        "description": "tanks spinning, tonk",
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-24",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -2783,12 +2783,12 @@
       "youtube": "https://www.youtube.com/watch?v=1FQQhSqO-ms",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "sanic",
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-16",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-16",
       "most_reproductions_record": 1
     },
@@ -3419,8 +3419,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-19",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -3464,8 +3464,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-04",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -4100,8 +4100,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-04-30",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -4190,10 +4190,10 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-03",
-      "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1
+      "number_of_times_played": 5,
+      "last_time_played": "2026-08-04",
+      "date_with_most_reproductions": "2026-08-04",
+      "most_reproductions_record": 2
     },
     {
       "title": "Babushka Song",
@@ -4343,6 +4343,36 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-08-03",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Ace of Spades - Songsmith Version",
+      "artist": "Adam Hatton",
+      "youtube": "https://www.youtube.com/watch?v=mg0l7f25bhU",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-04",
+      "date_with_most_reproductions": "2026-08-04",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "One They Fear",
+      "artist": "Skyrim",
+      "youtube": "https://www.youtube.com/watch?v=ez6jJHk3X4A",
+      "aliases": [],
+      "hidden": {
+        "description": "skyrim compilation",
+        "ignore_stats": false,
+        "is_bin": true
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-04",
+      "date_with_most_reproductions": "2026-08-04",
       "most_reproductions_record": 1
     }
   ]
