@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-05",
+  "time": "09:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/9Ky2MdqEvS",
+  "songs": [
+    {
+      "time": "00:02:34",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:05:38",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:08:45",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:14:58",
+      "artist": "Neil Cicierega",
+      "song_title": "Daft Mouth"
+    },
+    {
+      "time": "00:20:09",
+      "artist": "William Maranci Mashups",
+      "song_title": "The Black Eyed Peas - My Humps (feat. Mozart)"
+    },
+    {
+      "time": "00:24:39",
+      "artist": "Yuzoboy",
+      "song_title": "Gangsta's Paradise (Sega Genesis Remix)"
+    },
+    {
+      "time": "00:30:40",
+      "artist": "Lukas Got Lucky",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:36:10",
+      "artist": "Arnold Palmer Tournament Golf",
+      "song_title": "BGM 4"
+    },
+    {
+      "time": "00:41:48",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:46:00",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:49:16",
+      "artist": "Schmoyoho",
+      "song_title": "It's 🌽"
+    },
+    {
+      "time": "00:54:47",
+      "artist": "Blissful Mind",
+      "song_title": "Careless Whisper (TikTok Remix)"
+    },
+    {
+      "time": "01:04:34",
+      "artist": "SilvaGunner",
+      "song_title": "Main Theme - Wii Shop Channel"
+    },
+    {
+      "time": "01:10:44",
+      "artist": "Nick Fraser",
+      "song_title": "Why You Always Lying"
+    },
+    {
+      "time": "01:18:12",
+      "artist": "Tim and Eric",
+      "song_title": "Live with my dad"
+    },
+    {
+      "time": "01:20:18",
+      "artist": "Aunty Donna",
+      "song_title": "Hotdogs for Breakfast"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:01:58",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:07:09",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 1
+  }
+}
