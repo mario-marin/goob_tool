@@ -803,8 +803,8 @@
         "ignore_stats": true,
         "is_bin": true
       },
-      "number_of_times_played": 112,
-      "last_time_played": "2026-08-05",
+      "number_of_times_played": 113,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -908,8 +908,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -1719,12 +1719,12 @@
       "youtube": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "japan, 80's,",
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-21",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -2254,8 +2254,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-13",
       "most_reproductions_record": 1
     },
@@ -2967,8 +2967,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-02",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -3145,12 +3145,12 @@
       "youtube": "https://www.youtube.com/watch?v=R2DTXCEXnTU",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "maxwell",
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-07-02",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -3344,8 +3344,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-02",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-08",
       "most_reproductions_record": 1
     },
@@ -3678,8 +3678,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-01",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -3815,8 +3815,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-08",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -4190,8 +4190,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 6,
-      "last_time_played": "2026-08-05",
+      "number_of_times_played": 7,
+      "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-08-04",
       "most_reproductions_record": 2
     },
@@ -4373,6 +4373,36 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-08-04",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Rammstein-Du Hast(Bossa Nova Version)",
+      "artist": "Andy Rehfeldt",
+      "youtube": "https://www.youtube.com/watch?v=PyTqXqRuYq0",
+      "aliases": [],
+      "hidden": {
+        "description": "bosa nova,",
+        "ignore_stats": false,
+        "is_bin": true
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-06",
+      "date_with_most_reproductions": "2026-08-06",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Who Turned Out The Lights",
+      "artist": "Earthworm Jim",
+      "youtube": "https://www.youtube.com/watch?v=QARsJSNPy7E",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-06",
+      "date_with_most_reproductions": "2026-08-06",
       "most_reproductions_record": 1
     }
   ]

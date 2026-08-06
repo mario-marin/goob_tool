@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-06",
+  "time": "19:56:02",
+  "floatplane_link": "https://www.floatplane.com/post/KjcJyEJhpB",
+  "songs": [
+    {
+      "time": "00:05:32",
+      "artist": "Tim and Eric",
+      "song_title": "Mini Van Highway"
+    },
+    {
+      "time": "00:09:15",
+      "artist": "THiNGYBOBinc",
+      "song_title": "Sugar, We're Goin Down Kung-Fu Fighting"
+    },
+    {
+      "time": "00:14:15",
+      "artist": "Andy Rehfeldt",
+      "song_title": "Rammstein-Du Hast(Bossa Nova Version)"
+    },
+    {
+      "time": "00:20:29",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:26:01",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:28:27",
+      "artist": "Earthworm Jim",
+      "song_title": "Who Turned Out The Lights"
+    },
+    {
+      "time": "00:31:52",
+      "artist": "Meiko Nakahara",
+      "song_title": "Fantasy"
+    },
+    {
+      "time": "00:38:45",
+      "artist": "Super Smash Bros. Brawl",
+      "song_title": "Menu 1 Live Orchestra & Choir"
+    },
+    {
+      "time": "00:45:04",
+      "artist": "Flater",
+      "song_title": "We Are Number Dank"
+    },
+    {
+      "time": "00:49:51",
+      "artist": "Wesley Willis",
+      "song_title": "Rock N Roll McDonalds"
+    },
+    {
+      "time": "00:54:00",
+      "artist": "Rapid Liquid",
+      "song_title": "Arfrica"
+    },
+    {
+      "time": "00:56:58",
+      "artist": "Yellow boy",
+      "song_title": "Zungguzungguguzungguzeng"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:24:50",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:26:31",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 0
+  }
+}
