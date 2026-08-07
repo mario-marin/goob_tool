@@ -359,8 +359,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-05",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -803,8 +803,8 @@
         "ignore_stats": true,
         "is_bin": true
       },
-      "number_of_times_played": 113,
-      "last_time_played": "2026-08-06",
+      "number_of_times_played": 115,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -2006,12 +2006,12 @@
       "youtube": "https://www.youtube.com/watch?v=hSm6_VZuyok",
       "aliases": [],
       "hidden": {
-        "description": "final fantasy something",
+        "description": "final fantasy something ff7 ff8",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-24",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-24",
       "most_reproductions_record": 1
     },
@@ -2892,8 +2892,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-01",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -3119,8 +3119,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-10",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -3194,8 +3194,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-01",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-26",
       "most_reproductions_record": 1
     },
@@ -3239,8 +3239,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-20",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
@@ -3648,8 +3648,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-16",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-16",
       "most_reproductions_record": 1
     },
@@ -3770,8 +3770,8 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-20",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-18",
       "most_reproductions_record": 1
     },
@@ -4190,10 +4190,10 @@
         "ignore_stats": false,
         "is_bin": true
       },
-      "number_of_times_played": 7,
-      "last_time_played": "2026-08-06",
-      "date_with_most_reproductions": "2026-08-04",
-      "most_reproductions_record": 2
+      "number_of_times_played": 10,
+      "last_time_played": "2026-08-07",
+      "date_with_most_reproductions": "2026-08-07",
+      "most_reproductions_record": 3
     },
     {
       "title": "Babushka Song",
@@ -4403,6 +4403,21 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-08-06",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "You're Correct Horse",
+      "artist": "Isaiah",
+      "youtube": "https://www.youtube.com/watch?v=b3_lVSrPB6w",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-07",
+      "date_with_most_reproductions": "2026-08-07",
       "most_reproductions_record": 1
     }
   ]
