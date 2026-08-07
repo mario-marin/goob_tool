@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-07",
+  "time": "09:55:43",
+  "floatplane_link": "https://www.floatplane.com/post/R36wmRCZx9",
+  "songs": [
+    {
+      "time": "00:06:20",
+      "artist": "Tim and Eric",
+      "song_title": "All the food is poison"
+    },
+    {
+      "time": "00:09:07",
+      "artist": "Nobuo Uematsu",
+      "song_title": "Force Your Way"
+    },
+    {
+      "time": "00:15:00",
+      "artist": "subarbiea0",
+      "song_title": "levitating by dua lipa but the vocals are 9 seconds delayed"
+    },
+    {
+      "time": "00:20:27",
+      "artist": "Britney Spears",
+      "song_title": "Baby One more Chonk"
+    },
+    {
+      "time": "00:26:28",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:33:10",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:39:17",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:42:45",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:45:04",
+      "artist": "Isaiah",
+      "song_title": "You're Correct Horse"
+    },
+    {
+      "time": "00:46:44",
+      "artist": "Tim and Eric",
+      "song_title": "A Father's Gift"
+    },
+    {
+      "time": "00:49:56",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:52:47",
+      "artist": "There I Ruined It",
+      "song_title": "Straight Outta Compton"
+    },
+    {
+      "time": "00:55:06",
+      "artist": "Wax Audio",
+      "song_title": "Stayin' in Black"
+    },
+    {
+      "time": "01:00:29",
+      "artist": "Wind Waker",
+      "song_title": "Outset Island"
+    }
+  ],
+  "events": [],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}
