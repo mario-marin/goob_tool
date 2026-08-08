@@ -51,11 +51,12 @@ def main() -> None:
         return None
 
     # Accumulate stats across all stream files
-    # track_index -> {count, last_date, date_counts: {date: count}}
+    # track_index -> {count, last_date, date_counts: {date: count}, dates_played: set}
     track_stats: dict[int, dict] = defaultdict(lambda: {
         "count": 0,
         "last_date": "",
         "date_counts": defaultdict(int),
+        "dates_played": set(),
     })
 
     stream_files = sorted(STREAMS_FOLDER.glob("timestamps_*.json"))
@@ -78,6 +79,7 @@ def main() -> None:
                 stats = track_stats[idx]
                 stats["count"] += 1
                 stats["date_counts"][date] += 1
+                stats["dates_played"].add(date)
                 if date > stats["last_date"]:
                     stats["last_date"] = date
             else:
@@ -106,6 +108,7 @@ def main() -> None:
         track["last_time_played"] = last_date
         track["date_with_most_reproductions"] = best_date
         track["most_reproductions_record"] = best_count
+        track["hidden"]["dates_played"] = sorted(stats["dates_played"])
         updated_count += 1
 
     # Write back

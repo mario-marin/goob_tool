@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import Calendar from './Calendar';
 
 function TrackDialog({ track, onClose, onSelectDate }) {
   const overlayRef = useRef(null);
@@ -24,6 +25,8 @@ function TrackDialog({ track, onClose, onSelectDate }) {
   const dateFields = [
     { key: 'last_time_played', label: 'Last played' },
     { key: 'date_with_most_reproductions', label: 'Most reproductions' },
+    { key: 'most_reproductions_record', label: 'Most reproductions record' },
+    { key: 'number_of_times_played', label: 'Number of times played' },
   ];
 
   const hasNavigableDates = dateFields.some((f) => track[f.key]);
@@ -50,7 +53,6 @@ function TrackDialog({ track, onClose, onSelectDate }) {
               const isDate = dateInfo && typeof value === 'string' && value.includes('-');
 
               const isYouTubeLink = typeof value === 'string' && (value.startsWith('https://www.youtube.com/') || value.startsWith('https://youtu.be/'));
-
               return (
                 <div key={key} className="track-dialog-field">
                   <dt className="track-dialog-label">{dateInfo?.label || key}</dt>
@@ -91,6 +93,19 @@ function TrackDialog({ track, onClose, onSelectDate }) {
                 </div>
               );
             })}
+
+          {track.hidden.dates_played && track.hidden.dates_played.length > 0 && (
+            <div className="track-dialog-field">
+              <dt className="track-dialog-label">Played on these dates</dt>
+              <dd className="track-dialog-value">
+                <Calendar
+                  availableDates={track.hidden.dates_played}
+                  selectedDate={track.last_time_played}
+                  onSelectDate={onSelectDate}
+                />
+              </dd>
+            </div>
+          )}
         </div>
       </div>
     </div>

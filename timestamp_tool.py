@@ -1349,7 +1349,7 @@ class TimestampTool:
             self.goob_status_label.config(text="Title is required.")
             return
 
-        # Build the new track object.
+        # Build the new track object. edit me!!!!!
         #
         # NOTE: If the JSON schema gains new keys in the future, add them here.
         # For each new key, decide whether to:
@@ -1367,7 +1367,8 @@ class TimestampTool:
             "hidden": {
                 "description": description,
                 "ignore_stats": False,
-                "is_bin": is_bin
+                "is_bin": is_bin,
+                "dates_played": []
             },
             "number_of_times_played": 0,
             "last_time_played": "",
