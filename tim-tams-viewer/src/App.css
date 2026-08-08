@@ -1132,3 +1132,79 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   pointer-events: none;
 }
+
+/* ===== Track Dialog Mini Calendar ===== */
+.track-dialog-calendars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.track-dialog-mini-calendar {
+  min-width: 200px;
+}
+
+.track-dialog-mini-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin-bottom: 4px;
+}
+
+.track-dialog-mini-day-headers {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 2px;
+}
+
+.track-dialog-mini-day-label {
+  font-size: 10px;
+  text-align: center;
+  color: var(--text);
+  opacity: 0.5;
+  padding: 2px 0;
+}
+
+.track-dialog-mini-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+.track-dialog-mini-day {
+  aspect-ratio: 1;
+  border: none;
+  background: transparent;
+  cursor: default;
+  font-size: 12px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 3px;
+  padding: 0;
+  transition: background 0.15s;
+}
+
+.track-dialog-mini-day.empty {
+  background: transparent;
+  cursor: default;
+}
+
+.track-dialog-mini-day.has-stream {
+  cursor: pointer;
+}
+
+.track-dialog-mini-day.has-stream:hover {
+  background: var(--accent-bg);
+}
+
+.track-dialog-mini-day.has-stream .stream-dot {
+  position: absolute;
+  bottom: 2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
