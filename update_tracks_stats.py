@@ -108,7 +108,7 @@ def main() -> None:
         track["last_time_played"] = last_date
         track["date_with_most_reproductions"] = best_date
         track["most_reproductions_record"] = best_count
-        track["dates_played"] = sorted(stats["dates_played"])
+        track["hidden"]["dates_played"] = sorted(stats["dates_played"])
         updated_count += 1
 
     # Write back

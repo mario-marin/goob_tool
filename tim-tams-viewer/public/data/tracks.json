@@ -8,17 +8,17 @@
       "hidden": {
         "description": "DevelopersDevelopersDevelopersDevelopersDevelopers",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-07-14",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-07-14",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rock and Roll Boogie",
@@ -28,16 +28,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-19",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-19",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Love Me",
@@ -47,16 +47,16 @@
       "hidden": {
         "description": "nespresso, ice cream, coffee, dark space",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-07-17",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-02",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "A challenger approaches",
@@ -66,16 +66,16 @@
       "hidden": {
         "description": "coach, sfm, source",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Berdst friend",
@@ -85,15 +85,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-26",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cops and Crooks",
@@ -103,19 +103,19 @@
       "hidden": {
         "description": "ramen, pork ramen, red nebula space",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-01",
+          "2026-06-19",
+          "2026-06-30",
+          "2026-07-03",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-01",
-        "2026-06-19",
-        "2026-06-30",
-        "2026-07-03",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Enter Sandman",
@@ -125,15 +125,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Bubblegum kk",
@@ -143,15 +143,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Apple Bottom Jeans - Beach Boys",
@@ -161,15 +161,15 @@
       "hidden": {
         "description": "cartoon, red and white striped shirt",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "BGM 1",
@@ -179,16 +179,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-05-12"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-05-12",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-05-12"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "BGM 4",
@@ -198,17 +198,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-06-30",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-06-30",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hotdogs for Breakfast",
@@ -218,20 +218,20 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10",
+          "2026-07-17",
+          "2026-07-20",
+          "2026-08-03",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 8,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-08-03",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Exit Plan",
@@ -241,17 +241,17 @@
       "hidden": {
         "description": "lava cookies",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-08",
+          "2026-06-23",
+          "2026-06-29"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-08",
-        "2026-06-23",
-        "2026-06-29"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Complicated",
@@ -261,16 +261,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-07-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-07-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sk8er Boi",
@@ -282,16 +282,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-02",
+          "2026-06-29"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-06-29"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Plastic 50 cents",
@@ -301,17 +301,17 @@
       "hidden": {
         "description": "black and white, its your birthday!",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-19",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-19",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hip to Be the Sandman",
@@ -321,16 +321,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "If You Wanna Breathe My Sulfur",
@@ -340,15 +340,15 @@
       "hidden": {
         "description": "spice girls and korn",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Uptown Gorl",
@@ -358,15 +358,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-08"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-08",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-08"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Video Games",
@@ -376,16 +376,16 @@
       "hidden": {
         "description": "just want to play video games",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Careless Whisper (TikTok Remix)",
@@ -395,17 +395,17 @@
       "hidden": {
         "description": "vegetablews rolling in ice, potato, onion",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-07-13",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24",
-        "2026-07-13",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sweeter",
@@ -415,16 +415,16 @@
       "hidden": {
         "description": "sushi, pouring water",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-06-02",
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "All C",
@@ -436,16 +436,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Baby One more Chonk",
@@ -455,16 +455,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "That's What I Like",
@@ -474,15 +474,15 @@
       "hidden": {
         "description": "Live song",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Chicken in The Corn",
@@ -492,15 +492,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-07-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The Duck Song",
@@ -510,15 +510,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Take me",
@@ -530,17 +530,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-01",
+          "2026-06-16",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-05-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-01",
-        "2026-06-16",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "My Life",
@@ -550,16 +550,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Please don't take your Frank from meeee",
@@ -569,16 +569,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Leave Me Now!",
@@ -588,15 +588,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "All right",
@@ -606,15 +606,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-26",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Tires on Fire",
@@ -626,17 +626,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-05-12",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-05-12",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Windy and Co",
@@ -646,16 +646,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Airplane Mode (Live)",
@@ -665,15 +665,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-29"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-29",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-29"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Otonoke",
@@ -683,17 +683,17 @@
       "hidden": {
         "description": "anime, dan da dan",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Title theme",
@@ -703,16 +703,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Arena",
@@ -722,15 +722,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "En el Rio",
@@ -740,16 +740,16 @@
       "hidden": {
         "description": "toasted peas, beans ",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-22",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Let Me Be Somebody Else",
@@ -759,18 +759,18 @@
       "hidden": {
         "description": "cocktail, cheese, cocktel, tabla de quesos",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-12",
+          "2026-05-13",
+          "2026-05-29",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 5,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-12",
-        "2026-05-13",
-        "2026-05-29",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Total Eclipse of the Heart Literal Video Version",
@@ -780,16 +780,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Let's Go Away",
@@ -799,15 +799,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Grandma",
@@ -817,15 +817,15 @@
       "hidden": {
         "description": "skelleton delivering pizza",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Earth, Wind & Ozzys",
@@ -835,15 +835,15 @@
       "hidden": {
         "description": "crazy train, september, ear wind and fire",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Banana Dance",
@@ -853,16 +853,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Main Theme - Wii Shop Channel",
@@ -874,16 +874,16 @@
       "hidden": {
         "description": "black man dancing in a box",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Good Luck, Frank!",
@@ -893,16 +893,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-05-19"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-05-19",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18",
-        "2026-05-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Poison Lips",
@@ -912,16 +912,16 @@
       "hidden": {
         "description": "Thick potatos, taca taca",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-18",
+          "2026-06-02"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-18",
-        "2026-06-02"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "A Grama do Maracanã",
@@ -931,16 +931,16 @@
       "hidden": {
         "description": "black waves with colours, palta jamon pan turkey",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-22",
+          "2026-07-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-03",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-22",
-        "2026-07-03"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Bossa Cara",
@@ -950,20 +950,20 @@
       "hidden": {
         "description": "pan enfermo, plastic bread, corn field, crops ",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-20",
+          "2026-05-29",
+          "2026-06-08",
+          "2026-06-29",
+          "2026-07-14",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 11,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-20",
-        "2026-05-29",
-        "2026-06-08",
-        "2026-06-29",
-        "2026-07-14",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Call and Respond",
@@ -973,16 +973,16 @@
       "hidden": {
         "description": "black void, ice cream sandwich",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-07-02",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-07-02",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-07-02",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Cliffs of Dover",
@@ -992,15 +992,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "No.9 Frank's Waltz",
@@ -1013,40 +1013,40 @@
       "hidden": {
         "description": "",
         "ignore_stats": true,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-05-12",
+          "2026-05-20",
+          "2026-05-26",
+          "2026-06-08",
+          "2026-06-11",
+          "2026-06-15",
+          "2026-06-16",
+          "2026-06-18",
+          "2026-06-19",
+          "2026-06-22",
+          "2026-06-23",
+          "2026-06-24",
+          "2026-06-26",
+          "2026-07-02",
+          "2026-07-03",
+          "2026-07-13",
+          "2026-07-14",
+          "2026-07-16",
+          "2026-07-17",
+          "2026-07-20",
+          "2026-07-23",
+          "2026-07-24",
+          "2026-08-05",
+          "2026-08-06",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 115,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-07-03",
-      "most_reproductions_record": 13,
-      "dates_played": [
-        "2026-04-30",
-        "2026-05-12",
-        "2026-05-20",
-        "2026-05-26",
-        "2026-06-08",
-        "2026-06-11",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-18",
-        "2026-06-19",
-        "2026-06-22",
-        "2026-06-23",
-        "2026-06-24",
-        "2026-06-26",
-        "2026-07-02",
-        "2026-07-03",
-        "2026-07-13",
-        "2026-07-14",
-        "2026-07-16",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-23",
-        "2026-07-24",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 13
     },
     {
       "title": "Track 02",
@@ -1056,15 +1056,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hilarious Chinese Song!",
@@ -1074,17 +1074,17 @@
       "hidden": {
         "description": "rasist, vhs, chineese",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-06-24",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-06-24",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Boss music",
@@ -1094,15 +1094,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Let the battles Begin!",
@@ -1112,16 +1112,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-19",
+          "2026-06-29"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-05-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-19",
-        "2026-06-29"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cupid Remix",
@@ -1131,17 +1131,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-05-26",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-05-26",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hurry!",
@@ -1151,15 +1151,15 @@
       "hidden": {
         "description": "vhs music video 1980",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "We Are Number Dank",
@@ -1169,16 +1169,16 @@
       "hidden": {
         "description": "lazy town, we are number one",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Fun House",
@@ -1188,15 +1188,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-09",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cityscapes",
@@ -1206,17 +1206,17 @@
       "hidden": {
         "description": "concert, tiki coctail",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-18",
+          "2026-06-22",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-18",
-        "2026-06-22",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "South Bridge",
@@ -1226,16 +1226,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "UpDown Town",
@@ -1248,17 +1248,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-06-10",
+          "2026-07-13"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-13",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-06-10",
-        "2026-07-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cha Cha Chiwawa",
@@ -1268,16 +1268,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Canon",
@@ -1287,15 +1287,15 @@
       "hidden": {
         "description": "classical music",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-09",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Feel Goob inc.",
@@ -1305,16 +1305,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "bork till you're dead",
@@ -1324,16 +1324,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "don't stop me now",
@@ -1343,16 +1343,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sucker",
@@ -1362,15 +1362,15 @@
       "hidden": {
         "description": "cheese toasty, grilled cheese",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-23"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Everybody's Circulation",
@@ -1380,17 +1380,17 @@
       "hidden": {
         "description": "Anime, mega mashup",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-06-26",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24",
-        "2026-06-26",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Haunted Graveyard",
@@ -1400,16 +1400,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cheeseburger Quesadilla!",
@@ -1419,16 +1419,16 @@
       "hidden": {
         "description": "cheeta puppet",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-15",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-06-15",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-15",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "We stackin’ cheese",
@@ -1438,16 +1438,16 @@
       "hidden": {
         "description": "cheeta puppet, lasagna",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-11",
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-11",
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Slipstream",
@@ -1457,17 +1457,17 @@
       "hidden": {
         "description": "rotating rally car, highway",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-19",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-19",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "GT Mode 5",
@@ -1477,16 +1477,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Theme song",
@@ -1496,16 +1496,16 @@
       "hidden": {
         "description": "chikens fighting t-rexes",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Birdhouse",
@@ -1515,17 +1515,17 @@
       "hidden": {
         "description": "triple apple pie, blurry red white background",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-01",
+          "2026-07-02",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-07-02",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Some",
@@ -1535,18 +1535,18 @@
       "hidden": {
         "description": "carrot cake, red curtains",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26",
+          "2026-06-15",
+          "2026-06-18",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-26",
-        "2026-06-15",
-        "2026-06-18",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Hero to Zero",
@@ -1556,15 +1556,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "I Really, Really, Really Like This Image",
@@ -1574,17 +1574,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-05-12",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-05-12",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hot Barbeque",
@@ -1594,15 +1594,15 @@
       "hidden": {
         "description": "dog eating hotdog",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-18"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-18",
       "date_with_most_reproductions": "2026-06-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-18"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Big iron on his alphabet",
@@ -1612,16 +1612,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-12",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-05-12",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-12",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "All star but its a Bach Chorale",
@@ -1631,15 +1631,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Funky Dealer",
@@ -1649,15 +1649,15 @@
       "hidden": {
         "description": "jet set radio",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Call Me Baby",
@@ -1667,17 +1667,17 @@
       "hidden": {
         "description": "burger, graphs, office, dashboard",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-20",
+          "2026-07-13",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-07-13",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-20",
-        "2026-07-13",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "My Name is John Daker",
@@ -1687,15 +1687,15 @@
       "hidden": {
         "description": "old church recording",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Trap Remix FUN FUN FUN",
@@ -1705,16 +1705,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-18",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-18",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "We Are! (eng)",
@@ -1724,17 +1724,17 @@
       "hidden": {
         "description": "one piece",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Floral Fury",
@@ -1744,15 +1744,15 @@
       "hidden": {
         "description": "cup head",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Inkwell Isle One",
@@ -1762,15 +1762,15 @@
       "hidden": {
         "description": "cup head",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Dragonfruit Salad",
@@ -1780,15 +1780,15 @@
       "hidden": {
         "description": "man dancing",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Noodle",
@@ -1798,15 +1798,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Godly Minds",
@@ -1816,16 +1816,16 @@
       "hidden": {
         "description": "big ice cube cocktail, fireworks",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hey Arnold",
@@ -1835,16 +1835,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Watch Me Take That Crown",
@@ -1856,34 +1856,34 @@
       "hidden": {
         "description": "sorbete, money, gorlpop",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-12",
+          "2026-05-13",
+          "2026-05-20",
+          "2026-05-26",
+          "2026-05-29",
+          "2026-06-02",
+          "2026-06-08",
+          "2026-06-11",
+          "2026-06-15",
+          "2026-06-16",
+          "2026-06-18",
+          "2026-06-23",
+          "2026-06-26",
+          "2026-06-29",
+          "2026-07-03",
+          "2026-07-14",
+          "2026-07-16",
+          "2026-07-20",
+          "2026-07-24",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 33,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-06-11",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-05-12",
-        "2026-05-13",
-        "2026-05-20",
-        "2026-05-26",
-        "2026-05-29",
-        "2026-06-02",
-        "2026-06-08",
-        "2026-06-11",
-        "2026-06-15",
-        "2026-06-16",
-        "2026-06-18",
-        "2026-06-23",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-07-03",
-        "2026-07-14",
-        "2026-07-16",
-        "2026-07-20",
-        "2026-07-24",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "K.O.",
@@ -1893,15 +1893,15 @@
       "hidden": {
         "description": "space churro, nachos, hotdog?",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-15"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
       "date_with_most_reproductions": "2026-06-15",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-15"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "20190724",
@@ -1911,17 +1911,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-20",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-20",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Theme song",
@@ -1931,15 +1931,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-15"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
       "date_with_most_reproductions": "2026-06-15",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-15"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rude wii shop",
@@ -1949,15 +1949,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hit me",
@@ -1967,15 +1967,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-19",
       "date_with_most_reproductions": "2026-05-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Bob-Omb",
@@ -1985,15 +1985,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cacophonous",
@@ -2003,17 +2003,17 @@
       "hidden": {
         "description": "ice cream, cake, fireworks, chocolate and vanilla",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-15",
+          "2026-06-23",
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-15",
-        "2026-06-23",
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Café De Manhã",
@@ -2023,15 +2023,15 @@
       "hidden": {
         "description": "esparrago, pixalated colors, sparragous",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-06-26",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Froghopper",
@@ -2041,15 +2041,15 @@
       "hidden": {
         "description": "cake with cream, cherries and chocolate, psychedelic sphere",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-06-26",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Sidewalk Shindig",
@@ -2059,16 +2059,16 @@
       "hidden": {
         "description": "chiken, salteado, orange wave",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-20",
+          "2026-05-29"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-05-29",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-20",
-        "2026-05-29"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Wicked Man",
@@ -2078,17 +2078,17 @@
       "hidden": {
         "description": "strawberry chocolate cake, yellow speed lines, stripes",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-01",
+          "2026-06-15",
+          "2026-07-13"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-13",
       "date_with_most_reproductions": "2026-07-13",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-01",
-        "2026-06-15",
-        "2026-07-13"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "For Better or Worse",
@@ -2098,22 +2098,22 @@
       "hidden": {
         "description": "breakfast bagel, rad and pink gradient, monster ink",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-06-08",
+          "2026-06-29",
+          "2026-07-02",
+          "2026-07-03",
+          "2026-07-17",
+          "2026-07-20",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 16,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-07-20",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-06-02",
-        "2026-06-08",
-        "2026-06-29",
-        "2026-07-02",
-        "2026-07-03",
-        "2026-07-17",
-        "2026-07-20",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "Tablespoons",
@@ -2123,18 +2123,18 @@
       "hidden": {
         "description": "decadent cookie, mermalade, peanut butter cup, forest autum",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-06-15",
+          "2026-07-17",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-06-15",
-        "2026-07-17",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Carnival Stage",
@@ -2144,15 +2144,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Clock Tower",
@@ -2162,15 +2162,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Player Select",
@@ -2180,16 +2180,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-19",
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-05-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-19",
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Seinfield",
@@ -2199,15 +2199,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Fantasy",
@@ -2217,17 +2217,17 @@
       "hidden": {
         "description": "japan, 80's,",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-07-21",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-07-21",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Gotta Catch 'Em All, But Michael Jackson Sang It",
@@ -2237,16 +2237,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "POKEMON GO SONG!!!",
@@ -2256,16 +2256,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-09",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-09",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-09",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Tobacco Road X3.flv",
@@ -2275,16 +2275,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Great Grey Wolf Sif",
@@ -2294,15 +2294,15 @@
       "hidden": {
         "description": "dark souls boss music",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-07-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "All Star (Inverted Cover)",
@@ -2314,15 +2314,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cre8ive Exercise",
@@ -2332,15 +2332,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "I'll make a man out of you",
@@ -2350,16 +2350,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24",
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Aammoorree",
@@ -2369,17 +2369,17 @@
       "hidden": {
         "description": "thats amore, drunk",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-05-19",
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-18",
-        "2026-05-19",
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Busting",
@@ -2389,15 +2389,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Daft Mouth",
@@ -2407,17 +2407,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-19",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-19",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The End",
@@ -2427,17 +2427,17 @@
       "hidden": {
         "description": "fat man dancing",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-19",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-19",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Funiculi Funicula",
@@ -2447,15 +2447,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Why You Always Lying",
@@ -2465,17 +2465,17 @@
       "hidden": {
         "description": "lie",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13",
+          "2026-07-01",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13",
-        "2026-07-01",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Eye on the Prize",
@@ -2485,18 +2485,18 @@
       "hidden": {
         "description": "circle patterns, double layer sandwish, samish",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-01",
+          "2026-05-29",
+          "2026-06-11",
+          "2026-07-03"
+        ]
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-03",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-01",
-        "2026-05-29",
-        "2026-06-11",
-        "2026-07-03"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "I Won't Stop Now",
@@ -2506,16 +2506,16 @@
       "hidden": {
         "description": "rotating pancakes, thick pancakes, space, asteroids",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02",
+          "2026-06-15"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-15",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-06-15"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Spring Is You (Instrumental Version)",
@@ -2525,15 +2525,15 @@
       "hidden": {
         "description": "sunset mountains, bread with glaze",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-18"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-18",
       "date_with_most_reproductions": "2026-06-18",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-18"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Dog - Animools",
@@ -2543,15 +2543,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "In a Dark Place",
@@ -2561,23 +2561,23 @@
       "hidden": {
         "description": "mc.muffin, chorizo, egg",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-26",
+          "2026-05-29",
+          "2026-06-15",
+          "2026-06-18",
+          "2026-06-22",
+          "2026-06-26",
+          "2026-06-29",
+          "2026-07-03",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 14,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-26",
-        "2026-05-29",
-        "2026-06-15",
-        "2026-06-18",
-        "2026-06-22",
-        "2026-06-26",
-        "2026-06-29",
-        "2026-07-03",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Force Your Way",
@@ -2587,16 +2587,16 @@
       "hidden": {
         "description": "final fantasy something ff7 ff8",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The Hero!!",
@@ -2606,15 +2606,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "You Can Do It",
@@ -2624,15 +2624,15 @@
       "hidden": {
         "description": "Duane",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Never Smile at a Crocodile",
@@ -2642,15 +2642,15 @@
       "hidden": {
         "description": "cocodrilo, mand handling cocodrilos",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Menu Screen",
@@ -2660,15 +2660,15 @@
       "hidden": {
         "description": "rotating dog",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-07-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Results",
@@ -2678,15 +2678,15 @@
       "hidden": {
         "description": "Racoon walking down stares and doing stupid things",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "He's a Pirate",
@@ -2698,16 +2698,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Baby come Frank",
@@ -2717,15 +2717,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Red and Blue combat",
@@ -2735,15 +2735,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "As it Frank (Harry Styles Cover)",
@@ -2753,16 +2753,16 @@
       "hidden": {
         "description": "upside down room",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "El Gavilán",
@@ -2772,16 +2772,16 @@
       "hidden": {
         "description": "pink ambstract circles, tart",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-22",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Corneria [Remix]",
@@ -2791,16 +2791,16 @@
       "hidden": {
         "description": "star fox",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "All I want from Christmas is Creep",
@@ -2810,15 +2810,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Banana Phone",
@@ -2828,16 +2828,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18",
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Everybody",
@@ -2847,15 +2847,15 @@
       "hidden": {
         "description": "8 bit back street boys",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Monsters, Inc.",
@@ -2865,15 +2865,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Arfrica",
@@ -2885,18 +2885,18 @@
       "hidden": {
         "description": "bork, gabe",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13",
+          "2026-06-10",
+          "2026-06-26",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13",
-        "2026-06-10",
-        "2026-06-26",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Havana",
@@ -2906,16 +2906,16 @@
       "hidden": {
         "description": "shiva inu, shiba",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-26",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Friday",
@@ -2925,16 +2925,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-06-30"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-30",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-06-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Ok theme",
@@ -2944,15 +2944,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Try Again Theme",
@@ -2964,16 +2964,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "People = Shit",
@@ -2983,16 +2983,16 @@
       "hidden": {
         "description": "red ball on cheese, Sataaaaaaan",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Never gonna Frank you up",
@@ -3002,16 +3002,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-12",
+          "2026-07-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
       "date_with_most_reproductions": "2026-05-12",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-12",
-        "2026-07-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Smile, sweet, sister, sadistic, surprise, service, snoop dogg",
@@ -3023,17 +3023,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-06-16",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-06-16",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Shia debuff live",
@@ -3043,15 +3043,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Chicken Pickin'",
@@ -3061,15 +3061,15 @@
       "hidden": {
         "description": "fire, bigmac",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Walk the Floor and Think of You",
@@ -3079,18 +3079,18 @@
       "hidden": {
         "description": "horses, burger with egg",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-13",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 8,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-07-23",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-06-29",
-        "2026-06-30",
-        "2026-07-13",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "Night Drive to Hell",
@@ -3100,15 +3100,15 @@
       "hidden": {
         "description": "Spagetti burger, flying ballons",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-02"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-02",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Balls of Steel",
@@ -3118,20 +3118,20 @@
       "hidden": {
         "description": "half panini, space shuttle",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-01",
+          "2026-05-29",
+          "2026-06-08",
+          "2026-06-15",
+          "2026-06-18",
+          "2026-07-03"
+        ]
       },
       "number_of_times_played": 10,
       "last_time_played": "2026-07-03",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-01",
-        "2026-05-29",
-        "2026-06-08",
-        "2026-06-15",
-        "2026-06-18",
-        "2026-07-03"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Cherry Pepsi",
@@ -3141,16 +3141,16 @@
       "hidden": {
         "description": "bepis comercial",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-08",
+          "2026-07-13"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-13",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-08",
-        "2026-07-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Feliz Bottom Jeans",
@@ -3160,16 +3160,16 @@
       "hidden": {
         "description": "Feliz Navidad",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Can you fell the sunshine",
@@ -3179,17 +3179,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-06-01",
+          "2026-06-29"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-06-01",
-        "2026-06-29"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Chem plant",
@@ -3199,15 +3199,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Green Hill",
@@ -3217,15 +3217,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "You can't do anything",
@@ -3235,15 +3235,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Green grove",
@@ -3253,15 +3253,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Special Stage",
@@ -3271,17 +3271,17 @@
       "hidden": {
         "description": "crappy 3d, low polygon, half tube, colorful",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-07-20",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-07-20",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Welcome to Station Square",
@@ -3291,16 +3291,16 @@
       "hidden": {
         "description": "awful 3d sanic",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hide your fronk",
@@ -3310,15 +3310,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-08",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "It's 🌽",
@@ -3330,18 +3330,18 @@
       "hidden": {
         "description": "corn",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-05-11",
+          "2026-07-14",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-05-11",
-        "2026-07-14",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rent: Too Damn high!",
@@ -3351,16 +3351,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Tank!",
@@ -3372,17 +3372,17 @@
       "hidden": {
         "description": "tanks spinning, tonk",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-07-24",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-07-24",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sega GT 2002",
@@ -3392,16 +3392,16 @@
       "hidden": {
         "description": "green car select",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "RUSH E",
@@ -3411,15 +3411,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "You Reposted in the Wrong Neighborhood",
@@ -3429,15 +3429,15 @@
       "hidden": {
         "description": "lsd trippy drugs",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Inspector Gadget",
@@ -3447,16 +3447,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20",
+          "2026-07-14"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-14",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20",
-        "2026-07-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Stop the Bus",
@@ -3466,16 +3466,16 @@
       "hidden": {
         "description": "chocolate cake, red curtains",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-23",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Fabulous Secret Powers",
@@ -3485,15 +3485,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-20",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Before I love shack",
@@ -3503,15 +3503,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Why can't we be fronk?",
@@ -3521,15 +3521,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "weed la weed",
@@ -3539,16 +3539,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13",
+          "2026-07-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13",
-        "2026-07-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sky Sanctuary",
@@ -3558,16 +3558,16 @@
       "hidden": {
         "description": "sanic",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Jesus Is My Friend",
@@ -3577,16 +3577,16 @@
       "hidden": {
         "description": "pink studio",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Toxic",
@@ -3596,15 +3596,15 @@
       "hidden": {
         "description": "steper motors, britney spears",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Crater Mission",
@@ -3614,15 +3614,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "We built chonk city with sausage rolls",
@@ -3632,15 +3632,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Summer (Nature's Crescendo)",
@@ -3650,15 +3650,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "You Set My Soul on Fire",
@@ -3668,16 +3668,16 @@
       "hidden": {
         "description": "french fries, classroom",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-29",
+          "2026-06-11"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-11",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-29",
-        "2026-06-11"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "levitating by dua lipa but the vocals are 9 seconds delayed",
@@ -3687,17 +3687,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-07-01",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-07-01",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Pokettoni",
@@ -3707,17 +3707,17 @@
       "hidden": {
         "description": "pop's fries, trippy background, psychedelic",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-29",
+          "2026-07-13",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-07-13",
-      "most_reproductions_record": 4,
-      "dates_played": [
-        "2026-06-29",
-        "2026-07-13",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 4
     },
     {
       "title": "Crank That",
@@ -3727,16 +3727,16 @@
       "hidden": {
         "description": "Soulja Boy water theme",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Saffron City Theme",
@@ -3746,15 +3746,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Menu 1",
@@ -3764,16 +3764,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-29",
+          "2026-07-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-29",
-        "2026-07-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Menu 1 Live Orchestra & Choir",
@@ -3783,17 +3783,17 @@
       "hidden": {
         "description": "Tony, rally",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-07-02",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-07-02",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Coming Closer instrumental",
@@ -3803,18 +3803,18 @@
       "hidden": {
         "description": "fireworks, pepperoni pizza motzarella",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-01",
+          "2026-06-11",
+          "2026-06-30",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-05-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-01",
-        "2026-06-11",
-        "2026-06-30",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Dumb Ways to Die",
@@ -3824,15 +3824,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Escape From The City ...for City Escape",
@@ -3842,15 +3842,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Radiation Song",
@@ -3860,15 +3860,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Main Theme",
@@ -3878,15 +3878,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "SMOKO",
@@ -3896,15 +3896,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Dick In A Box",
@@ -3914,15 +3914,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Buy Mode 1",
@@ -3932,15 +3932,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Flashtrain",
@@ -3950,15 +3950,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Straight Outta Compton",
@@ -3970,17 +3970,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-07-10",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-07-10",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Tetris Main Theme",
@@ -3990,15 +3990,15 @@
       "hidden": {
         "description": "Gabe",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sugar, We're Goin Down Kung-Fu Fighting",
@@ -4008,18 +4008,18 @@
       "hidden": {
         "description": "maxwell",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-05-19",
+          "2026-07-02",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-05-19",
-        "2026-07-02",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Dragonball Durag",
@@ -4029,15 +4029,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-12"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-12",
       "date_with_most_reproductions": "2026-05-12",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-12"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "bring my friends",
@@ -4047,18 +4047,18 @@
       "hidden": {
         "description": "warehouse french fries",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-06-08",
+          "2026-06-15",
+          "2026-07-16",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 7,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-08",
-        "2026-06-15",
-        "2026-07-16",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "A Father's Gift",
@@ -4068,17 +4068,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26",
+          "2026-07-01",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-26",
-        "2026-07-01",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "A Song for Dee Vee",
@@ -4088,15 +4088,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-29"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-29",
       "date_with_most_reproductions": "2026-06-29",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-29"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "A Song for Mommy",
@@ -4106,15 +4106,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "All the food is poison",
@@ -4124,16 +4124,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-20",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-20",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Beach Blast",
@@ -4143,16 +4143,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10",
+          "2026-07-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-02",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10",
-        "2026-07-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Choo-Choo!",
@@ -4162,16 +4162,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-07-13"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-13",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-07-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Drink Molk",
@@ -4181,15 +4181,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-18",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Hamburgers and Hot Dogs too",
@@ -4199,15 +4199,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-10",
       "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "I sit on you",
@@ -4217,16 +4217,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Live with my dad",
@@ -4236,16 +4236,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-08",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-08",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Mini Van Highway",
@@ -4255,17 +4255,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-08",
+          "2026-07-02",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-08",
-        "2026-07-02",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Petite Feet",
@@ -4275,16 +4275,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rolo Tony Frank Town",
@@ -4294,15 +4294,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-05",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Salami",
@@ -4312,16 +4312,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-08",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "So Many Bones to Spare",
@@ -4331,15 +4331,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-12"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-12",
       "date_with_most_reproductions": "2026-05-12",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-12"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Sports!",
@@ -4349,16 +4349,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The things I Like",
@@ -4368,15 +4368,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Perskeption cheek.",
@@ -4386,15 +4386,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "hihi",
@@ -4404,16 +4404,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "CHOP SUEY",
@@ -4423,15 +4423,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-11",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Czerwone jagody",
@@ -4443,17 +4443,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-26",
+          "2026-06-19",
+          "2026-06-26"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-26",
       "date_with_most_reproductions": "2026-05-26",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-26",
-        "2026-06-19",
-        "2026-06-26"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Battle to save the Earth Theme",
@@ -4463,16 +4463,16 @@
       "hidden": {
         "description": "full body skates",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Fire and Sword",
@@ -4482,16 +4482,16 @@
       "hidden": {
         "description": "foot long, chicke, fish, dark side, space",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-29",
+          "2026-06-02"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-06-02",
       "date_with_most_reproductions": "2026-05-29",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-05-29",
-        "2026-06-02"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Spear of Justice",
@@ -4501,17 +4501,17 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-19",
+          "2026-07-01",
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-05-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-19",
-        "2026-07-01",
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "We Will Rock You - Queen vs Songsmith",
@@ -4523,15 +4523,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-01",
       "date_with_most_reproductions": "2026-05-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "It's My Life What Ever I Wanna Do",
@@ -4541,16 +4541,16 @@
       "hidden": {
         "description": "Indian",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-02",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rockman",
@@ -4560,16 +4560,16 @@
       "hidden": {
         "description": "YMCA at home",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-11",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-05-11",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-11",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "1612",
@@ -4579,16 +4579,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05",
+          "2026-06-02"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-02",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05",
-        "2026-06-02"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Back Pocket",
@@ -4598,15 +4598,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-13",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Funky Frank",
@@ -4616,16 +4616,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-05",
+          "2026-06-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-06-16",
       "date_with_most_reproductions": "2026-05-05",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-05",
-        "2026-06-16"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Stayin' in Black",
@@ -4635,16 +4635,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Ocean Man",
@@ -4654,16 +4654,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-16",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-16",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-16",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rock N Roll McDonalds",
@@ -4673,16 +4673,16 @@
       "hidden": {
         "description": "crappy drawing bus terminal",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Break My Stride",
@@ -4692,15 +4692,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-01"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-01",
       "date_with_most_reproductions": "2026-06-01",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Last Resort But It's Rock Your Body By Justin Timberlake",
@@ -4712,16 +4712,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14",
+          "2026-07-03"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-03",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14",
-        "2026-07-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Lose Yourself But It's Mr. Blue Sky",
@@ -4731,15 +4731,15 @@
       "hidden": {
         "description": "emminem, eminem",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The Black Eyed Peas - My Humps (feat. Mozart)",
@@ -4749,16 +4749,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Walk But It's September",
@@ -4768,15 +4768,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-14"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-05-14",
       "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-14"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Outset Island",
@@ -4786,17 +4786,17 @@
       "hidden": {
         "description": "zelda",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-18",
+          "2026-07-20",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-05-18",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-18",
-        "2026-07-20",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "you reposted in the wrong plastic love",
@@ -4806,16 +4806,16 @@
       "hidden": {
         "description": "black and white",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24",
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-07-16",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-06-24",
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Fly-day Chinatown",
@@ -4825,15 +4825,15 @@
       "hidden": {
         "description": "anime",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-19"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-19",
       "date_with_most_reproductions": "2026-06-19",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-19"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Zungguzungguguzungguzeng",
@@ -4843,16 +4843,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-08",
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-08",
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Athletic",
@@ -4862,16 +4862,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-12",
+          "2026-07-01"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-01",
       "date_with_most_reproductions": "2026-05-12",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-12",
-        "2026-07-01"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Flower garden",
@@ -4881,16 +4881,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-13",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-13",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "DAGOTHWAVE",
@@ -4900,15 +4900,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Gangsta's Paradise (Sega Genesis Remix)",
@@ -4918,17 +4918,17 @@
       "hidden": {
         "description": "awful sanic drawing with human feet",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-07-21",
+          "2026-08-05"
+        ]
       },
       "number_of_times_played": 3,
       "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-07-21",
-        "2026-08-05"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Dance the Day Away",
@@ -4938,17 +4938,17 @@
       "hidden": {
         "description": "pink and white stripped cake, highways, street cars",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-05-12",
+          "2026-06-30",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 6,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-06-30",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-05-12",
-        "2026-06-30",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "Call an ambulance please",
@@ -4958,16 +4958,16 @@
       "hidden": {
         "description": "i have a bad case of diarrea",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17",
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17",
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "I Am Very Glad Because I’m Finally Returning To The Goob Strem",
@@ -4977,16 +4977,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-05-04",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-05-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-05-04",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "DOOMfeld",
@@ -4996,15 +4996,15 @@
       "hidden": {
         "description": "Seinfield",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-10"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-10",
       "date_with_most_reproductions": "2026-07-10",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-10"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Lemon Squeezy",
@@ -5014,16 +5014,16 @@
       "hidden": {
         "description": "plane, sunset, giro, kebab",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-07-16",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 4,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-07-16",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-07-16",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Careful Steps",
@@ -5033,15 +5033,15 @@
       "hidden": {
         "description": "void, grilled cheese",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-07-16"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-16",
       "date_with_most_reproductions": "2026-07-16",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-07-16"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "Them Changes",
@@ -5051,16 +5051,16 @@
       "hidden": {
         "description": "samurai fighting",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-02",
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-06-02",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-02",
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "pizza time",
@@ -5070,15 +5070,15 @@
       "hidden": {
         "description": "spiderman",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-15"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
       "date_with_most_reproductions": "2026-06-15",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-15"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Photograph",
@@ -5088,15 +5088,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-15"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-15",
       "date_with_most_reproductions": "2026-06-15",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-15"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "unknown",
@@ -5106,15 +5106,15 @@
       "hidden": {
         "description": "unknown",
         "ignore_stats": true,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-17",
       "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Puddy Puddy",
@@ -5124,15 +5124,15 @@
       "hidden": {
         "description": "giant pudding",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-22",
       "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Brick by Brick by Tim Heidecker and Fred Armisen (Office Hours Live 4/3/19)",
@@ -5142,15 +5142,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-06-24",
       "date_with_most_reproductions": "2026-06-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "リサフランク420 / 現代のコンピュー",
@@ -5160,15 +5160,15 @@
       "hidden": {
         "description": "satisfying machines",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-07-17",
-      "most_reproductions_record": 2,
-      "dates_played": [
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 2
     },
     {
       "title": "A perfect dad day",
@@ -5178,15 +5178,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-17"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-17",
       "date_with_most_reproductions": "2026-07-17",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-17"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "The Game Pizza Theme",
@@ -5196,16 +5196,16 @@
       "hidden": {
         "description": "puttet rat cooking pizza",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Deja Vu - Epic Orchestral Cover",
@@ -5215,15 +5215,15 @@
       "hidden": {
         "description": "racing, wreked cars, crashing",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Spaghetti Again",
@@ -5233,16 +5233,16 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30",
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Genie In A Bottle",
@@ -5252,15 +5252,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Tunak Tunak Tun",
@@ -5270,15 +5270,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "I'm Han Solo - Kinect Star Wars",
@@ -5288,15 +5288,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-04-30",
       "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-04-30"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Pepsi Man Theme Song",
@@ -5306,21 +5306,21 @@
       "hidden": {
         "description": "bepis, bepis man",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-04-30",
+          "2026-07-24",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06",
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 10,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-08-07",
-      "most_reproductions_record": 3,
-      "dates_played": [
-        "2026-04-30",
-        "2026-07-24",
-        "2026-08-03",
-        "2026-08-04",
-        "2026-08-05",
-        "2026-08-06",
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 3
     },
     {
       "title": "Babushka Song",
@@ -5330,15 +5330,15 @@
       "hidden": {
         "description": "chicken sub, glitched background",
         "ignore_stats": false,
-        "is_bin": false
+        "is_bin": false,
+        "dates_played": [
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-07-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Wii Theme but its September",
@@ -5348,15 +5348,15 @@
       "hidden": {
         "description": "wii throbbing",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-21"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-21",
       "date_with_most_reproductions": "2026-07-21",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-21"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Monkeybars",
@@ -5366,15 +5366,15 @@
       "hidden": {
         "description": "sea, smoll pizza box",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-20"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-20",
       "date_with_most_reproductions": "2026-07-20",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-20"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Down Under",
@@ -5384,15 +5384,15 @@
       "hidden": {
         "description": "australia",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-07-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Cranky's Theme",
@@ -5402,15 +5402,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-22"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-22",
       "date_with_most_reproductions": "2026-07-22",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-22"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Earth, Sand & Fire",
@@ -5420,16 +5420,16 @@
       "hidden": {
         "description": "Metallica, earth wind and fire",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-06-23",
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 2,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-06-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-06-23",
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Apple Bottom Jeans",
@@ -5439,15 +5439,15 @@
       "hidden": {
         "description": "Beach Boys",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-23"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-23",
       "date_with_most_reproductions": "2026-07-23",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-23"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "BELIEVE IN YOURSELF",
@@ -5457,15 +5457,15 @@
       "hidden": {
         "description": "bike",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-07-24"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-07-24",
       "date_with_most_reproductions": "2026-07-24",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-07-24"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "kneading you into shape plus calling your mother",
@@ -5475,15 +5475,15 @@
       "hidden": {
         "description": "china, only one girl",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-08-03",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Smooth & Numb",
@@ -5493,15 +5493,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-03"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-03",
       "date_with_most_reproductions": "2026-08-03",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-03"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Ace of Spades - Songsmith Version",
@@ -5511,15 +5511,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-08-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "One They Fear",
@@ -5529,15 +5529,15 @@
       "hidden": {
         "description": "skyrim compilation",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-04"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-04",
       "date_with_most_reproductions": "2026-08-04",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-04"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Rammstein-Du Hast(Bossa Nova Version)",
@@ -5547,15 +5547,15 @@
       "hidden": {
         "description": "bosa nova,",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-08-06",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "Who Turned Out The Lights",
@@ -5565,15 +5565,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-06"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-06",
       "date_with_most_reproductions": "2026-08-06",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-06"
-      ]
+      "most_reproductions_record": 1
     },
     {
       "title": "You're Correct Horse",
@@ -5583,15 +5583,15 @@
       "hidden": {
         "description": "",
         "ignore_stats": false,
-        "is_bin": true
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-07"
+        ]
       },
       "number_of_times_played": 1,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-08-07",
-      "most_reproductions_record": 1,
-      "dates_played": [
-        "2026-08-07"
-      ]
+      "most_reproductions_record": 1
     }
   ]
 }

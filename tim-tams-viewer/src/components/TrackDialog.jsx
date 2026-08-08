@@ -53,7 +53,6 @@ function TrackDialog({ track, onClose, onSelectDate }) {
               const isDate = dateInfo && typeof value === 'string' && value.includes('-');
 
               const isYouTubeLink = typeof value === 'string' && (value.startsWith('https://www.youtube.com/') || value.startsWith('https://youtu.be/'));
-              console.log(track)
               return (
                 <div key={key} className="track-dialog-field">
                   <dt className="track-dialog-label">{dateInfo?.label || key}</dt>
@@ -95,12 +94,12 @@ function TrackDialog({ track, onClose, onSelectDate }) {
               );
             })}
 
-          {track.dates_played && track.dates_played.length > 0 && (
+          {track.hidden.dates_played && track.hidden.dates_played.length > 0 && (
             <div className="track-dialog-field">
               <dt className="track-dialog-label">Played on these dates</dt>
               <dd className="track-dialog-value">
                 <Calendar
-                  availableDates={track.dates_played}
+                  availableDates={track.hidden.dates_played}
                   selectedDate={track.last_time_played}
                   onSelectDate={onSelectDate}
                 />
