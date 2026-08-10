@@ -1040,11 +1040,12 @@
           "2026-07-24",
           "2026-08-05",
           "2026-08-06",
-          "2026-08-07"
+          "2026-08-07",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 115,
-      "last_time_played": "2026-08-07",
+      "number_of_times_played": 124,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -1764,11 +1765,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-23"
+          "2026-06-23",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-23",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-06-23",
       "most_reproductions_record": 1
     },
@@ -2278,11 +2280,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-18",
-          "2026-06-26"
+          "2026-06-26",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-05-18",
       "most_reproductions_record": 1
     },
@@ -2296,11 +2299,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-07-14"
+          "2026-07-14",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-07-14",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-07-14",
       "most_reproductions_record": 1
     },
@@ -3294,11 +3298,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-04-30",
-          "2026-06-17"
+          "2026-06-17",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-17",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -4425,11 +4430,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-11"
+          "2026-05-11",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-11",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -4694,11 +4700,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-01"
+          "2026-06-01",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-01",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -5314,11 +5321,12 @@
           "2026-08-04",
           "2026-08-05",
           "2026-08-06",
-          "2026-08-07"
+          "2026-08-07",
+          "2026-08-10"
         ]
       },
-      "number_of_times_played": 10,
-      "last_time_played": "2026-08-07",
+      "number_of_times_played": 11,
+      "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-08-07",
       "most_reproductions_record": 3
     },
@@ -5591,6 +5599,42 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-08-07",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Rock & Roll Until a Reasonable Hour",
+      "artist": "DJ Cummerbund",
+      "youtube": "https://www.youtube.com/watch?v=S5s3QSrRsQ4",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-10"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-10",
+      "date_with_most_reproductions": "2026-08-10",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "That's What I Like Jazz version",
+      "artist": "Bruno Mars",
+      "youtube": "https://www.youtube.com/watch?v=Xf4IYI9Gj7Y",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-10"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-10",
+      "date_with_most_reproductions": "2026-08-10",
       "most_reproductions_record": 1
     }
   ]
