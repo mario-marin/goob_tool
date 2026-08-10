@@ -1,0 +1,151 @@
+{
+  "date": "2026-08-10",
+  "time": "19:59:30",
+  "floatplane_link": "https://www.floatplane.com/post/UsmrVlWKMv",
+  "songs": [
+    {
+      "time": "00:04:57",
+      "artist": "Sanic Adventure",
+      "song_title": "Welcome to Station Square"
+    },
+    {
+      "time": "00:08:09",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:09:21",
+      "artist": "Wii Music",
+      "song_title": "Break My Stride"
+    },
+    {
+      "time": "00:14:18",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:15:00",
+      "artist": "Miu ma",
+      "song_title": "Tobacco Road X3.flv"
+    },
+    {
+      "time": "00:15:57",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:18:47",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:20:38",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:22:17",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:24:05",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:28:01",
+      "artist": "DJ Cummerbund",
+      "song_title": "Rock & Roll Until a Reasonable Hour"
+    },
+    {
+      "time": "00:34:17",
+      "artist": "TONGO",
+      "song_title": "CHOP SUEY"
+    },
+    {
+      "time": "00:35:25",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:44:06",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:49:23",
+      "artist": "Bruno Mars",
+      "song_title": "That's What I Like Jazz version"
+    },
+    {
+      "time": "00:53:18",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:55:02",
+      "artist": "Motoi Sakuraba",
+      "song_title": "Great Grey Wolf Sif"
+    },
+    {
+      "time": "01:00:19",
+      "artist": "Kristofer Maddigan",
+      "song_title": "Inkwell Isle One"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:02:14",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:06:10",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:10:05",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:15:18",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:17:24",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:09",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:20:01",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:22:55",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:23:39",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:25:40",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:26:48",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:36:17",
+      "name": "S N A R E - D R U M - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 9,
+    "youtube_friendly": 0
+  }
+}
