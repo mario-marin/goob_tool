@@ -5592,6 +5592,38 @@
       "last_time_played": "2026-08-07",
       "date_with_most_reproductions": "2026-08-07",
       "most_reproductions_record": 1
+    },
+    {
+      "title": "Rock & Roll Until a Reasonable Hour",
+      "artist": "DJ Cummerbund",
+      "youtube": "https://www.youtube.com/watch?v=S5s3QSrRsQ4",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "That's What I Like Jazz version",
+      "artist": "Bruno Mars",
+      "youtube": "https://www.youtube.com/watch?v=Xf4IYI9Gj7Y",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
     }
   ]
 }

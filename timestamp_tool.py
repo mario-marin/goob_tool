@@ -207,26 +207,42 @@ class TimestampTool:
         )
         self.apply_last_ii_btn.pack(side=tk.LEFT, padx=(0, 5))
 
-        # Row 2: Pyzam button and text box
+        
+
+        # Row 2: Cymbal Toss and Snare Toss buttons
         row2_frame = ttk.Frame(stream_ops_frame)
         row2_frame.pack(fill=tk.X)
 
+        self.cymbal_toss_btn = ttk.Button(
+            row2_frame, text="Cymbal Toss", width=18, command=self.cymbal_toss
+        )
+        self.cymbal_toss_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        self.snare_toss_btn = ttk.Button(
+            row2_frame, text="Snare Toss", width=18, command=self.snare_toss
+        )
+        self.snare_toss_btn.pack(side=tk.LEFT, padx=(0, 5))
+
+        # Row 3: Pyzam button and text box
+        row3_frame = ttk.Frame(stream_ops_frame)
+        row3_frame.pack(fill=tk.X, pady=(5, 0))
+
         self.pyzam_btn = ttk.Button(
-            row2_frame, text="Pyzam", width=10, command=self.run_pyzam
+            row3_frame, text="Pyzam", width=10, command=self.run_pyzam
         )
         self.pyzam_btn.pack(side=tk.LEFT, padx=(0, 5))
 
         self.pyzam_result_var = tk.StringVar(value="")
-        pyzam_entry = ttk.Entry(row2_frame, textvariable=self.pyzam_result_var, width=40)
+        pyzam_entry = ttk.Entry(row3_frame, textvariable=self.pyzam_result_var, width=40)
         pyzam_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
 
         self.copy_btn = ttk.Button(
-            row2_frame, text="Copy", width=8, command=self.copy_pyzam_result
+            row3_frame, text="Copy", width=8, command=self.copy_pyzam_result
         )
         self.copy_btn.pack(side=tk.LEFT, padx=(5, 0))
 
         self.apply_btn = ttk.Button(
-            row2_frame, text="Apply", width=8, command=self.apply_pyzam
+            row3_frame, text="Apply", width=8, command=self.apply_pyzam
         )
         self.apply_btn.pack(side=tk.LEFT, padx=(5, 0))
 
@@ -925,6 +941,22 @@ class TimestampTool:
         self.text_box.insert(tk.END, "\n".join(lines))
         self.text_box.see(tk.END)
         self.status_bar.config(text=f"Applied: {valid_artist_song}")
+
+    def cymbal_toss(self):
+        """Add a cymbal toss timestamp."""
+        time_str = self._format_time(self.calculate_elapsed_seconds())
+        timestamp_line = f"{time_str} - C Y M B A L - T O S S -"
+        self.text_box.insert(tk.END, timestamp_line + "\n")
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Added: {timestamp_line}")
+
+    def snare_toss(self):
+        """Add a snare drumm toss timestamp."""
+        time_str = self._format_time(self.calculate_elapsed_seconds())
+        timestamp_line = f"{time_str} - S N A R E - D R U M - T O S S -"
+        self.text_box.insert(tk.END, timestamp_line + "\n")
+        self.text_box.see(tk.END)
+        self.status_bar.config(text=f"Added: {timestamp_line}")
 
     def run_pyzam(self):
         """Run pyzam_json and output results to pyzam.log file."""
