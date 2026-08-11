@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-11",
+  "time": "09:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/cAX6o9l80u",
+  "songs": [
+    {
+      "time": "00:02:55",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:04:42",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:06:27",
+      "artist": "Vulf",
+      "song_title": "Back Pocket"
+    },
+    {
+      "time": "00:11:52",
+      "artist": "schmoyoho",
+      "song_title": "BELIEVE IN YOURSELF"
+    },
+    {
+      "time": "00:14:41",
+      "artist": "Patrick David Wilson",
+      "song_title": "You Can Do It"
+    },
+    {
+      "time": "00:18:44",
+      "artist": "Cassiopea",
+      "song_title": "Take me"
+    },
+    {
+      "time": "00:25:37",
+      "artist": "Snoop doge",
+      "song_title": "weed la weed"
+    },
+    {
+      "time": "00:27:59",
+      "artist": "Snoop doge",
+      "song_title": "weed la weed"
+    },
+    {
+      "time": "00:31:13",
+      "artist": "Slip B52",
+      "song_title": "Before I love shack"
+    },
+    {
+      "time": "00:36:59",
+      "artist": "Andy Rehfeldt",
+      "song_title": "The Beautiful People (Polka Version)"
+    },
+    {
+      "time": "00:41:08",
+      "artist": "Coda",
+      "song_title": "Tires on Fire"
+    },
+    {
+      "time": "00:47:13",
+      "artist": "Trio Oriental Brega",
+      "song_title": "两个婆娘一个郎"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:05:39",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:13:22",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:00",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:23:53",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:34:30",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:35:45",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:46:14",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "01:01:18",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 10,
+    "youtube_friendly": 0
+  }
+}

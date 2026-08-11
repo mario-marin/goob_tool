@@ -534,11 +534,12 @@
         "dates_played": [
           "2026-05-01",
           "2026-06-16",
-          "2026-07-01"
+          "2026-07-01",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-07-01",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-05-01",
       "most_reproductions_record": 1
     },
@@ -624,17 +625,18 @@
         "Coda, Lobo on Fire"
       ],
       "hidden": {
-        "description": "",
+        "description": "lobo",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
           "2026-05-12",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-06-30",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -1041,11 +1043,12 @@
           "2026-08-05",
           "2026-08-06",
           "2026-08-07",
-          "2026-08-10"
+          "2026-08-10",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 124,
-      "last_time_played": "2026-08-10",
+      "number_of_times_played": 126,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -2630,11 +2633,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-23"
+          "2026-06-23",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-23",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-06-23",
       "most_reproductions_record": 1
     },
@@ -3506,15 +3510,16 @@
       "youtube": "https://www.youtube.com/watch?v=sQXNr7Y7qE0",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "slip knot",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-04"
+          "2026-05-04",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-04",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -3547,13 +3552,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-13",
-          "2026-07-02"
+          "2026-07-02",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-02",
-      "date_with_most_reproductions": "2026-05-13",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-11",
+      "date_with_most_reproductions": "2026-08-11",
+      "most_reproductions_record": 2
     },
     {
       "title": "Sky Sanctuary",
@@ -4606,11 +4612,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-13"
+          "2026-05-13",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-13",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-05-13",
       "most_reproductions_record": 1
     },
@@ -5467,11 +5474,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-07-24"
+          "2026-07-24",
+          "2026-08-11"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-07-24",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-11",
       "date_with_most_reproductions": "2026-07-24",
       "most_reproductions_record": 1
     },
@@ -5635,6 +5643,42 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-10",
       "date_with_most_reproductions": "2026-08-10",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "The Beautiful People (Polka Version)",
+      "artist": "Andy Rehfeldt",
+      "youtube": "https://www.youtube.com/watch?v=YQTxSbCMOlM",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-11"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-11",
+      "date_with_most_reproductions": "2026-08-11",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "两个婆娘一个郎",
+      "artist": "Trio Oriental Brega",
+      "youtube": "https://www.youtube.com/watch?v=0RgwqnLZbBo",
+      "aliases": [],
+      "hidden": {
+        "description": "china, two girls, pink and yellow",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-11"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-11",
+      "date_with_most_reproductions": "2026-08-11",
       "most_reproductions_record": 1
     }
   ]
