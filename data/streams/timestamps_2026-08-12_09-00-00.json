@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-12",
+  "time": "09:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/zUAlE9zTM8",
+  "songs": [
+    {
+      "time": "00:03:46",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:04:58",
+      "artist": "Neil Cicierega",
+      "song_title": "Busting"
+    },
+    {
+      "time": "00:10:05",
+      "artist": "The Bill",
+      "song_title": "Main Theme"
+    },
+    {
+      "time": "00:14:57",
+      "artist": "Bruno Mars",
+      "song_title": "That's What I Like"
+    },
+    {
+      "time": "00:20:50",
+      "artist": "Dr. Jean",
+      "song_title": "Banana Dance"
+    },
+    {
+      "time": "00:26:30",
+      "artist": "Fletcher Beasley",
+      "song_title": "Fun House"
+    },
+    {
+      "time": "00:30:06",
+      "artist": "From Hell itself",
+      "song_title": "Cha Cha Chiwawa"
+    },
+    {
+      "time": "00:33:22",
+      "artist": "Richard Cheese",
+      "song_title": "People = Shit"
+    },
+    {
+      "time": "00:37:23",
+      "artist": "BobbaGob",
+      "song_title": "All C"
+    },
+    {
+      "time": "00:43:00",
+      "artist": "Crystal River Boys",
+      "song_title": "Rainbow of Love"
+    },
+    {
+      "time": "00:48:13",
+      "artist": "Tony's Folk Song",
+      "song_title": "Czerwone jagody"
+    },
+    {
+      "time": "00:53:14",
+      "artist": "Daytona USA",
+      "song_title": "Rolling Start!"
+    },
+    {
+      "time": "00:55:36",
+      "artist": "Daytona USA",
+      "song_title": "Rolling Start!"
+    },
+    {
+      "time": "00:59:10",
+      "artist": "Aunty Donna",
+      "song_title": "Hotdogs for Breakfast"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:08:45",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:42:11",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:51:38",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:55:11",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
+}
