@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-13",
+  "time": "19:58:21",
+  "floatplane_link": "https://www.floatplane.com/post/97FiWbz3WK",
+  "songs": [
+    {
+      "time": "00:04:21",
+      "artist": "Fifdy Fifdy mate",
+      "song_title": "Cupid Remix"
+    },
+    {
+      "time": "00:08:24",
+      "artist": "SHOKK",
+      "song_title": "You Reposted in the Wrong Neighborhood"
+    },
+    {
+      "time": "00:11:58",
+      "artist": "melodio_brando",
+      "song_title": "Gotta Catch 'Em All, But Michael Jackson Sang It"
+    },
+    {
+      "time": "00:18:56",
+      "artist": "Avril Lavigne",
+      "song_title": "Sk8er Boi"
+    },
+    {
+      "time": "00:23:27",
+      "artist": "Tim and Eric",
+      "song_title": "The things I Like"
+    },
+    {
+      "time": "00:26:02",
+      "artist": "Black Out",
+      "song_title": "Video Games"
+    },
+    {
+      "time": "00:32:21",
+      "artist": "Alan freed",
+      "song_title": "Rock and Roll Boogie"
+    },
+    {
+      "time": "00:37:48",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:38:52",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:40:03",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:45:05",
+      "artist": "Final Fantasy 7",
+      "song_title": "Electric de Chocobo"
+    },
+    {
+      "time": "00:49:24",
+      "artist": "MacGyber",
+      "song_title": "Theme song"
+    },
+    {
+      "time": "00:52:50",
+      "artist": "Tangerine Kitty",
+      "song_title": "Dumb Ways to Die"
+    },
+    {
+      "time": "00:59:24",
+      "artist": "There I Ruined It",
+      "song_title": "Bodies"
+    },
+    {
+      "time": "01:02:37",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:16:15",
+      "name": "S N A R E - D R U M - T O S S -"
+    },
+    {
+      "time": "00:36:08",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:38:43",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:49:18",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:56:17",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:56:58",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:58:25",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "01:00:51",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "01:02:19",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "01:03:08",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "01:04:01",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}
