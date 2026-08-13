@@ -16,7 +16,7 @@ EVENTS_FILE = Path(__file__).parent / "tim-tams-viewer/public/data/events.json"
 
 # Pattern for "events": uppercase letters, spaces, and hyphens, ending with " -"
 # e.g. "F R A N K - M O V E S -", "C R A Z Y - B U S -", "L A P - O N E - O F - T H E - B I N -"
-EVENT_PATTERN = re.compile(r"^[A-Z][A-Z -]* -$")
+EVENT_PATTERN = re.compile(r"^[A-Z][A-Z !?-]* -$")
 
 # Pattern for timestamp filenames: timestamps_YYYY-MM-DD_HH-MM-SS.txt
 FILENAME_PATTERN = re.compile(
