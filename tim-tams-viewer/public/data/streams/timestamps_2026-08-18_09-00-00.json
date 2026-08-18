@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-18",
+  "time": "09:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/KmxvAnQ0Ac",
+  "songs": [
+    {
+      "time": "00:05:33",
+      "artist": "Tim and Eric",
+      "song_title": "Salami"
+    },
+    {
+      "time": "00:07:58",
+      "artist": "DJ Cummerbund",
+      "song_title": "Earth, Sand & Fire"
+    },
+    {
+      "time": "00:12:53",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:18:49",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:24:15",
+      "artist": "F1 Challenge (Saturn)",
+      "song_title": "Track 02"
+    },
+    {
+      "time": "00:29:14",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:30:51",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:36:27",
+      "artist": "Schmoyoho",
+      "song_title": "Hide your fronk"
+    },
+    {
+      "time": "00:38:59",
+      "artist": "Mega Drive",
+      "song_title": "Seinfield"
+    },
+    {
+      "time": "00:41:42",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:47:28",
+      "artist": "Jerry Sienfield",
+      "song_title": "All star but its a Bach Chorale"
+    },
+    {
+      "time": "00:49:34",
+      "artist": "Sega GT 2002",
+      "song_title": "Sega GT 2002"
+    },
+    {
+      "time": "00:52:15",
+      "artist": "Ted Poley",
+      "song_title": "Escape From The City ...for City Escape"
+    },
+    {
+      "time": "00:56:12",
+      "artist": "Trio Oriental Brega",
+      "song_title": "My little nemesis is the one who gets caught"
+    },
+    {
+      "time": "01:01:04",
+      "artist": "Rhythm heaven",
+      "song_title": "Try Again Theme"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:04:24",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:14",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:34:52",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:45:48",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 14,
+    "youtube_friendly": 0
+  }
+}
