@@ -1055,11 +1055,12 @@
           "2026-08-10",
           "2026-08-11",
           "2026-08-12",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 130,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 131,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -1073,11 +1074,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-23"
+          "2026-06-23",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-23",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-06-23",
       "most_reproductions_record": 1
     },
@@ -1650,15 +1652,16 @@
       "youtube": "https://www.youtube.com/watch?v=qdufOUHF8D0",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "bach, bash, classical, smash mouth",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-16"
+          "2026-06-16",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-16",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-06-16",
       "most_reproductions_record": 1
     },
@@ -2227,11 +2230,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-05"
+          "2026-05-05",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-05",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -2998,16 +3002,17 @@
         "Rhythm heaven, Failure song"
       ],
       "hidden": {
-        "description": "",
+        "description": "fail",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
-          "2026-06-26"
+          "2026-06-26",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -3350,11 +3355,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-08"
+          "2026-05-08",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-08",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -3433,11 +3439,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-10",
-          "2026-07-20"
+          "2026-07-20",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-20",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -3882,15 +3889,16 @@
       "youtube": "https://www.youtube.com/watch?v=qR6mTJRbcaE",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "sanic",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-14"
+          "2026-05-14",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-14",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -4356,16 +4364,17 @@
       "youtube": "https://www.youtube.com/watch?v=FWqimMpbTyU",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "salame",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
-          "2026-07-22"
+          "2026-07-22",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-07-22",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 2
     },
@@ -5372,13 +5381,14 @@
           "2026-08-07",
           "2026-08-10",
           "2026-08-13",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 13,
-      "last_time_played": "2026-08-14",
-      "date_with_most_reproductions": "2026-08-07",
-      "most_reproductions_record": 3
+      "number_of_times_played": 17,
+      "last_time_played": "2026-08-18",
+      "date_with_most_reproductions": "2026-08-18",
+      "most_reproductions_record": 4
     },
     {
       "title": "Babushka Song",
@@ -5482,11 +5492,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-23",
-          "2026-07-23"
+          "2026-07-23",
+          "2026-08-18"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-23",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-06-23",
       "most_reproductions_record": 1
     },
@@ -5849,6 +5860,24 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-17",
       "date_with_most_reproductions": "2026-08-17",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "My little nemesis is the one who gets caught",
+      "artist": "Trio Oriental Brega",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "same as the hiliarios chinese song",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-18"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-18",
+      "date_with_most_reproductions": "2026-08-18",
       "most_reproductions_record": 1
     }
   ]
