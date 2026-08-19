@@ -3963,7 +3963,7 @@
       "youtube": "https://www.youtube.com/watch?v=6e9iR-hNKWY",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "justin timberlake",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
@@ -5130,7 +5130,7 @@
       "youtube": "https://www.youtube.com/watch?v=lpvT-Fciu-4",
       "aliases": [],
       "hidden": {
-        "description": "spiderman",
+        "description": "spiderman, ytp",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
@@ -5879,6 +5879,38 @@
       "last_time_played": "2026-08-18",
       "date_with_most_reproductions": "2026-08-18",
       "most_reproductions_record": 1
+    },
+    {
+      "title": "Wearing trendy pants backwards",
+      "artist": "Trio oriental brega",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "chinese, china",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "12th Street Rag",
+      "artist": "Aaron Robinson",
+      "youtube": "https://www.youtube.com/watch?v=tnFWgQT0bZQ",
+      "aliases": [],
+      "hidden": {
+        "description": "sponge bob? old time song",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
     }
   ]
 }
