@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-19",
+  "time": "09:59:48",
+  "floatplane_link": "https://www.floatplane.com/post/ToXm1Obl8M",
+  "songs": [
+    {
+      "time": "00:04:35",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:10:44",
+      "artist": "Salvador Peralta",
+      "song_title": "Apple Bottom Jeans - Beach Boys"
+    },
+    {
+      "time": "00:15:10",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:22:49",
+      "artist": "Aunty Donna",
+      "song_title": "Hotdogs for Breakfast"
+    },
+    {
+      "time": "00:26:50",
+      "artist": "Aaron Robinson",
+      "song_title": "12th Street Rag"
+    },
+    {
+      "time": "00:32:04",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:37:25",
+      "artist": "Randy Newman",
+      "song_title": "Monsters, Inc."
+    },
+    {
+      "time": "00:40:19",
+      "artist": "Chris Kogos",
+      "song_title": "pizza time"
+    },
+    {
+      "time": "00:43:02",
+      "artist": "Radiohead",
+      "song_title": "All I want from Christmas is Creep"
+    },
+    {
+      "time": "00:48:04",
+      "artist": "Neil Cicierega",
+      "song_title": "Aammoorree"
+    },
+    {
+      "time": "00:52:55",
+      "artist": "Trio oriental brega",
+      "song_title": "Wearing trendy pants backwards"
+    },
+    {
+      "time": "00:59:30",
+      "artist": "The Lonely Island",
+      "song_title": "Dick In A Box"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:07:36",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:21:46",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:31:28",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}
