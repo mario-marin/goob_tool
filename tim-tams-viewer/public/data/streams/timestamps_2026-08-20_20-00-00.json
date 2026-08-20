@@ -1,0 +1,196 @@
+{
+  "date": "2026-08-20",
+  "time": "20:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/43CAYJKrtC",
+  "songs": [
+    {
+      "time": "00:06:50",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:12:26",
+      "artist": "Pokemon Red & Blue & Yellow",
+      "song_title": "Trainer Battle Music"
+    },
+    {
+      "time": "00:20:12",
+      "artist": "Castlevania III",
+      "song_title": "Beginning [Level 1]"
+    },
+    {
+      "time": "00:23:13",
+      "artist": "The Sims",
+      "song_title": "Buy Mode 1"
+    },
+    {
+      "time": "00:27:31",
+      "artist": "Hot Dad",
+      "song_title": "I Really, Really, Really Like This Image"
+    },
+    {
+      "time": "00:30:56",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:35:12",
+      "artist": "Shuki Levy",
+      "song_title": "Inspector Gadget"
+    },
+    {
+      "time": "00:38:08",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:39:05",
+      "artist": "MowtenDoo",
+      "song_title": "Cre8ive Exercise"
+    },
+    {
+      "time": "00:41:48",
+      "artist": "Sonseed",
+      "song_title": "Jesus Is My Friend"
+    },
+    {
+      "time": "00:46:19",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man \"Full\" Unofficial"
+    },
+    {
+      "time": "00:50:24",
+      "artist": "Pilot Wings 64",
+      "song_title": "Results"
+    },
+    {
+      "time": "00:52:44",
+      "artist": "Pilot Wings 64",
+      "song_title": "Results"
+    },
+    {
+      "time": "00:56:38",
+      "artist": "Halo",
+      "song_title": "Theme song"
+    },
+    {
+      "time": "00:59:40",
+      "artist": "JerryTerry",
+      "song_title": "You Reposted in the Wrong Swamp"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:04:40",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:29",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:26:33",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:28:00",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:30:17",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:30:31",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:31:05",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:31:18",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:31:24",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:32:29",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:32:37",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:32:41",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:32:46",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:32:54",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:33:27",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:33:32",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:35:12",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:36:41",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:36:47",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:36:52",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:37:31",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:37:49",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:37:52",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:37:56",
+      "name": "F R A N K I E - Y A W N ! ! ! -"
+    },
+    {
+      "time": "00:41:04",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:50:48",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:51:43",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
+}
