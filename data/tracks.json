@@ -1252,11 +1252,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-01",
-          "2026-06-26"
+          "2026-06-26",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -1332,11 +1333,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-04",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-30",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -1757,11 +1759,12 @@
         "dates_played": [
           "2026-07-09",
           "2026-07-10",
-          "2026-08-03"
+          "2026-08-03",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-03",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-07-09",
       "most_reproductions_record": 1
     },
@@ -3540,15 +3543,16 @@
       "youtube": "https://www.youtube.com/watch?v=FR7wOGyAzpw",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "he man, yeah yeah yeah",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-20"
+          "2026-05-20",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-20",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
@@ -3672,15 +3676,16 @@
       "youtube": "https://www.youtube.com/watch?v=Lz0BKrW8MxI",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "cats doing the same stupid face",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-22"
+          "2026-06-22",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-22",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-22",
       "most_reproductions_record": 1
     },
@@ -4903,11 +4908,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-19"
+          "2026-06-19",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-19",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -5074,11 +5080,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-07-10"
+          "2026-07-10",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-07-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-07-10",
       "most_reproductions_record": 1
     },
@@ -5872,13 +5879,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-08-17",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-20",
-      "date_with_most_reproductions": "2026-08-17",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-24",
+      "date_with_most_reproductions": "2026-08-24",
+      "most_reproductions_record": 2
     },
     {
       "title": "My little nemesis is the one who gets caught",
@@ -5986,6 +5994,42 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-20",
       "date_with_most_reproductions": "2026-08-20",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Fun Tonight",
+      "artist": "Macross 82-99",
+      "youtube": "https://www.youtube.com/watch?v=IgQEefhmPXI",
+      "aliases": [],
+      "hidden": {
+        "description": "anime, retro, music playing",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-24"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-24",
+      "date_with_most_reproductions": "2026-08-24",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Lights, Camera, Action!",
+      "artist": "Sonic Mania",
+      "youtube": "https://www.youtube.com/watch?v=PvuYSybooLg",
+      "aliases": [],
+      "hidden": {
+        "description": "sanic, futuristic 2d",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-24"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-24",
+      "date_with_most_reproductions": "2026-08-24",
       "most_reproductions_record": 1
     }
   ]
