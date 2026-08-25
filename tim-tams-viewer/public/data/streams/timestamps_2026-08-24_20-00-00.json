@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-24",
+  "time": "20:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/8EQp8nobuK",
+  "songs": [
+    {
+      "time": "00:05:56",
+      "artist": "Gabe the bork",
+      "song_title": "Feel Goob inc."
+    },
+    {
+      "time": "00:09:24",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man \"Full\" Unofficial"
+    },
+    {
+      "time": "00:14:34",
+      "artist": "Ｒｕｓｈｎｅｒｄ",
+      "song_title": "DOOMfeld"
+    },
+    {
+      "time": "00:16:35",
+      "artist": "Kitadani Hiroshi",
+      "song_title": "We Are! (eng)"
+    },
+    {
+      "time": "00:24:09",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man \"Full\" Unofficial"
+    },
+    {
+      "time": "00:29:08",
+      "artist": "Macross 82-99",
+      "song_title": "Fun Tonight"
+    },
+    {
+      "time": "00:35:03",
+      "artist": "Sonic Mania",
+      "song_title": "Lights, Camera, Action!"
+    },
+    {
+      "time": "00:39:35",
+      "artist": "Yasuha",
+      "song_title": "Fly-day Chinatown"
+    },
+    {
+      "time": "00:45:19",
+      "artist": "Splatoon 3",
+      "song_title": "Crater Mission"
+    },
+    {
+      "time": "00:51:14",
+      "artist": "Frank City 3000",
+      "song_title": "South Bridge"
+    },
+    {
+      "time": "00:58:47",
+      "artist": "SLACKCiRCUS",
+      "song_title": "Fabulous Secret Powers"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:05:10",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:22:47",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:27:27",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 0
+  }
+}

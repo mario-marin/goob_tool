@@ -1059,11 +1059,12 @@
           "2026-08-12",
           "2026-08-13",
           "2026-08-18",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 133,
-      "last_time_played": "2026-08-20",
+      "number_of_times_played": 134,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -1252,11 +1253,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-01",
-          "2026-06-26"
+          "2026-06-26",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -1332,11 +1334,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-04",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-30",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -1351,11 +1354,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-17",
-          "2026-07-23"
+          "2026-07-23",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-23",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -1757,11 +1761,12 @@
         "dates_played": [
           "2026-07-09",
           "2026-07-10",
-          "2026-08-03"
+          "2026-08-03",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-03",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-07-09",
       "most_reproductions_record": 1
     },
@@ -1909,11 +1914,12 @@
           "2026-07-16",
           "2026-07-20",
           "2026-07-24",
-          "2026-08-05"
+          "2026-08-05",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 33,
-      "last_time_played": "2026-08-05",
+      "number_of_times_played": 34,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-06-11",
       "most_reproductions_record": 3
     },
@@ -2959,11 +2965,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-26",
-          "2026-07-23"
+          "2026-07-23",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-23",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-05-26",
       "most_reproductions_record": 1
     },
@@ -2978,11 +2985,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-04-30",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-30",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -3079,11 +3087,12 @@
         "dates_played": [
           "2026-05-08",
           "2026-06-16",
-          "2026-07-24"
+          "2026-07-24",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-07-24",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -3540,15 +3549,16 @@
       "youtube": "https://www.youtube.com/watch?v=FR7wOGyAzpw",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "he man, yeah yeah yeah",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-20"
+          "2026-05-20",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-20",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
@@ -3672,15 +3682,16 @@
       "youtube": "https://www.youtube.com/watch?v=Lz0BKrW8MxI",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "cats doing the same stupid face",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-22"
+          "2026-06-22",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-22",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-22",
       "most_reproductions_record": 1
     },
@@ -4539,11 +4550,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-17",
-          "2026-07-01"
+          "2026-07-01",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-01",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -4791,11 +4803,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-14",
-          "2026-07-03"
+          "2026-07-03",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-03",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -4903,11 +4916,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-19"
+          "2026-06-19",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-19",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -5074,11 +5088,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-07-10"
+          "2026-07-10",
+          "2026-08-24"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-07-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-24",
       "date_with_most_reproductions": "2026-07-10",
       "most_reproductions_record": 1
     },
@@ -5369,11 +5384,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-04-30"
+          "2026-04-30",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-04-30",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-25",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -5862,23 +5878,27 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Dirt Man \"Full\" Unofficial",
+      "title": "Dirt Man (Wade's mix)",
       "artist": "Carter Vail",
-      "youtube": "https://www.youtube.com/watch?v=oOrqAWV8-AA",
-      "aliases": [],
+      "youtube": "",
+      "aliases": [
+        "Carter Vail, Dirt Man \"Full\" Unofficial"
+      ],
       "hidden": {
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
           "2026-08-17",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-08-24",
+          "2026-08-25"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-20",
-      "date_with_most_reproductions": "2026-08-17",
-      "most_reproductions_record": 1
+      "number_of_times_played": 5,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-24",
+      "most_reproductions_record": 2
     },
     {
       "title": "My little nemesis is the one who gets caught",
@@ -5986,6 +6006,132 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-20",
       "date_with_most_reproductions": "2026-08-20",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Fun Tonight",
+      "artist": "Macross 82-99",
+      "youtube": "https://www.youtube.com/watch?v=IgQEefhmPXI",
+      "aliases": [],
+      "hidden": {
+        "description": "anime, retro, music playing",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-24"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-24",
+      "date_with_most_reproductions": "2026-08-24",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Lights, Camera, Action!",
+      "artist": "Sonic Mania",
+      "youtube": "https://www.youtube.com/watch?v=PvuYSybooLg",
+      "aliases": [],
+      "hidden": {
+        "description": "sanic, futuristic 2d",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-24"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-24",
+      "date_with_most_reproductions": "2026-08-24",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Terran Two",
+      "artist": "Glenn Stafford",
+      "youtube": "https://www.youtube.com/watch?v=2BiiqC3SD24",
+      "aliases": [],
+      "hidden": {
+        "description": "starcraft",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-25"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-25",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Enter Sandman (jazz version)",
+      "artist": "kik0in",
+      "youtube": "https://www.youtube.com/watch?v=Pek39jFTAm8",
+      "aliases": [],
+      "hidden": {
+        "description": "metallica",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-25"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-25",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Food Mart",
+      "artist": "Tomodachi Life OST",
+      "youtube": "https://www.youtube.com/watch?v=s5QepQ6do-g",
+      "aliases": [],
+      "hidden": {
+        "description": "pinguin with backpack",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-25"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-25",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Tunnel",
+      "artist": "Rhythm Heaven",
+      "youtube": "https://www.youtube.com/watch?v=oKpbI5EW3TY",
+      "aliases": [],
+      "hidden": {
+        "description": "cowbell",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-25"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-25",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Summer Melody",
+      "artist": "Dan Mason",
+      "youtube": "https://www.youtube.com/watch?v=cfFf0E-mXHQ",
+      "aliases": [],
+      "hidden": {
+        "description": "real life egg dog",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-25"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-25",
+      "date_with_most_reproductions": "2026-08-25",
       "most_reproductions_record": 1
     }
   ]

@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-25",
+  "time": "09:54:36",
+  "floatplane_link": "https://www.floatplane.com/post/WqK2sgYrQy",
+  "songs": [
+    {
+      "time": "00:04:37",
+      "artist": "Glenn Stafford",
+      "song_title": "Terran Two"
+    },
+    {
+      "time": "00:09:17",
+      "artist": "Tomodachi Life OST",
+      "song_title": "Food Mart"
+    },
+    {
+      "time": "00:11:34",
+      "artist": "kik0in",
+      "song_title": "Enter Sandman (jazz version)"
+    },
+    {
+      "time": "00:17:34",
+      "artist": "Rhythm Heaven",
+      "song_title": "Tunnel"
+    },
+    {
+      "time": "00:20:25",
+      "artist": "Gabe the dog",
+      "song_title": "bork till you're dead"
+    },
+    {
+      "time": "00:23:55",
+      "artist": "Lukas Got Lucky",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:27:49",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:28:36",
+      "artist": "Rebecca Black",
+      "song_title": "Friday"
+    },
+    {
+      "time": "00:34:11",
+      "artist": "Rapid Liquid",
+      "song_title": "Havana"
+    },
+    {
+      "time": "00:37:22",
+      "artist": "Dan Mason",
+      "song_title": "Summer Melody"
+    },
+    {
+      "time": "00:41:37",
+      "artist": "Rigboogle",
+      "song_title": "Smile, sweet, sister, sadistic, surprise, service, snoop dogg"
+    },
+    {
+      "time": "00:44:59",
+      "artist": "Transformers Commadore C64",
+      "song_title": "Battle to save the Earth Theme"
+    },
+    {
+      "time": "00:48:39",
+      "artist": "William Maranci Mashups",
+      "song_title": "Last Resort But It's Rock Your Body By Justin Timberlake"
+    },
+    {
+      "time": "00:54:47",
+      "artist": "SiIvaGunner",
+      "song_title": "I'm Han Solo - Kinect Star Wars"
+    },
+    {
+      "time": "01:00:34",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man \"Full\" Unofficial"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:02:26",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:31:04",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:51:46",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:54:13",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:57:47",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 1
+  }
+}
