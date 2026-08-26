@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-26",
+  "time": "08:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/T89QnGfuqp",
+  "songs": [
+    {
+      "time": "00:04:38",
+      "artist": "Paulette Sisters",
+      "song_title": "Never Smile at a Crocodile"
+    },
+    {
+      "time": "00:08:54",
+      "artist": "Zuiikin' English",
+      "song_title": "Call an ambulance please"
+    },
+    {
+      "time": "00:13:32",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:17:54",
+      "artist": "an0nymooose",
+      "song_title": "A challenger approaches"
+    },
+    {
+      "time": "00:20:17",
+      "artist": "SAINT PEPSI",
+      "song_title": "Cherry Pepsi"
+    },
+    {
+      "time": "00:26:46",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:28:16",
+      "artist": "FF7",
+      "song_title": "Boss music"
+    },
+    {
+      "time": "00:34:30",
+      "artist": "Trio Oriental Brega",
+      "song_title": "Awesome Asian Song"
+    },
+    {
+      "time": "00:41:30",
+      "artist": "kuribo98",
+      "song_title": "Coconut Mall but in 6/8"
+    },
+    {
+      "time": "00:45:09",
+      "artist": "Salvador Peralta",
+      "song_title": "Feliz Bottom Jeans"
+    },
+    {
+      "time": "00:50:46",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:55:46",
+      "artist": "Sonic Generations",
+      "song_title": "Green Hill (Modern)"
+    },
+    {
+      "time": "00:59:11",
+      "artist": "Animal Crossing",
+      "song_title": "K.K. Disco"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:23:19",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}
