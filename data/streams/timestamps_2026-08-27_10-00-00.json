@@ -1,0 +1,95 @@
+{
+  "date": "2026-08-27",
+  "time": "10:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/1UApNBZT9J",
+  "songs": [
+    {
+      "time": "00:04:33",
+      "artist": "The Chats",
+      "song_title": "SMOKO"
+    },
+    {
+      "time": "00:10:49",
+      "artist": "Aunty Donna",
+      "song_title": "Hotdogs for Breakfast"
+    },
+    {
+      "time": "00:15:36",
+      "artist": "Super Smash Bros. Brawl",
+      "song_title": "Menu 1"
+    },
+    {
+      "time": "00:20:22",
+      "artist": "Otis McDonald",
+      "song_title": "Behind These Closed Doors"
+    },
+    {
+      "time": "00:24:43",
+      "artist": "Sheet Music Boss",
+      "song_title": "RUSH E"
+    },
+    {
+      "time": "00:29:03",
+      "artist": "Super Smash Bros",
+      "song_title": "Yoshi's Island"
+    },
+    {
+      "time": "00:32:33",
+      "artist": "Norkkom",
+      "song_title": "Thomas the Tank Engine"
+    },
+    {
+      "time": "00:35:55",
+      "artist": "Gran Turismo 3",
+      "song_title": "Slipstream"
+    },
+    {
+      "time": "00:39:51",
+      "artist": "Spacey man",
+      "song_title": "Toxic"
+    },
+    {
+      "time": "00:44:53",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:48:08",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:49:39",
+      "artist": "Daytona USA",
+      "song_title": "Let's Go Away"
+    },
+    {
+      "time": "00:55:32",
+      "artist": "Vulcan",
+      "song_title": "Rockman"
+    },
+    {
+      "time": "01:00:44",
+      "artist": "Final Fantasy 7",
+      "song_title": "Hurry!"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:04:57",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:11:46",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:23",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
+}

@@ -365,6 +365,12 @@
       "time": "08:00:00",
       "bin_songs": 12,
       "youtube_friendly": 0
+    },
+    {
+      "date": "2026-08-27",
+      "time": "10:00:00",
+      "bin_songs": 13,
+      "youtube_friendly": 0
     }
   ],
   "sorted_histograph": [
@@ -557,6 +563,12 @@
     {
       "date": "2026-08-20",
       "time": "20:00:00",
+      "bin_songs": 13,
+      "youtube_friendly": 0
+    },
+    {
+      "date": "2026-08-27",
+      "time": "10:00:00",
       "bin_songs": 13,
       "youtube_friendly": 0
     },
@@ -756,9 +768,9 @@
     },
     {
       "day": "Thursday",
-      "bin_songs": 8.73,
-      "youtube_friendly": 3.73,
-      "streams": 11
+      "bin_songs": 9.08,
+      "youtube_friendly": 3.42,
+      "streams": 12
     },
     {
       "day": "Friday",
@@ -770,9 +782,9 @@
   "time_of_day": [
     {
       "period": "morning",
-      "bin_songs": 10.06,
-      "youtube_friendly": 3.06,
-      "streams": 36
+      "bin_songs": 10.14,
+      "youtube_friendly": 2.97,
+      "streams": 37
     },
     {
       "period": "evening",
