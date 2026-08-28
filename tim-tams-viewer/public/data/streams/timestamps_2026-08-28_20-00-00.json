@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-28",
+  "time": "20:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/nXVU3XujCg",
+  "songs": [
+    {
+      "time": "00:02:09",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:02:41",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:04:54",
+      "artist": "Elton Britt",
+      "song_title": "Uranium Fever"
+    },
+    {
+      "time": "00:08:49",
+      "artist": "Prep",
+      "song_title": "As it Frank (Harry Styles Cover)"
+    },
+    {
+      "time": "00:13:47",
+      "artist": "DJ Cummerbund",
+      "song_title": "Earth, Wind & Ozzys"
+    },
+    {
+      "time": "00:17:16",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:19:03",
+      "artist": "David Nethers",
+      "song_title": "Wii Shop Theme Game"
+    },
+    {
+      "time": "00:22:14",
+      "artist": "Steve Cruickshank",
+      "song_title": "All Star Negative Harmony"
+    },
+    {
+      "time": "00:26:47",
+      "artist": "Bryant Oden",
+      "song_title": "The Duck Song"
+    },
+    {
+      "time": "00:31:23",
+      "artist": "SilvaGunner",
+      "song_title": "Main Theme - Wii Shop Channel"
+    },
+    {
+      "time": "00:37:56",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:39:07",
+      "artist": "Sanic",
+      "song_title": "Can you fell the sunshine"
+    },
+    {
+      "time": "00:46:08",
+      "artist": "Jazz Jackrabbit",
+      "song_title": "Main Menu"
+    },
+    {
+      "time": "00:52:03",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:56:16",
+      "artist": "There I Ruined It",
+      "song_title": "Creep Honky Tonk Edition"
+    },
+    {
+      "time": "00:59:34",
+      "artist": "Vulf",
+      "song_title": "1612"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:01:59",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:13:05",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:16:10",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:17:00",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:18:10",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:57",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:21:19",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}

@@ -230,11 +230,12 @@
           "2026-08-03",
           "2026-08-05",
           "2026-08-12",
-          "2026-08-19"
+          "2026-08-19",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 10,
-      "last_time_played": "2026-08-19",
+      "number_of_times_played": 11,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-07-09",
       "most_reproductions_record": 2
     },
@@ -522,11 +523,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-13"
+          "2026-05-13",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-13",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-05-13",
       "most_reproductions_record": 1
     },
@@ -810,15 +812,16 @@
       "youtube": "https://www.youtube.com/watch?v=YVlcADaT94o",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "tones, og",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-22"
+          "2026-06-22",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-22",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-06-22",
       "most_reproductions_record": 1
     },
@@ -850,11 +853,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-17"
+          "2026-06-17",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-17",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -891,11 +895,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-05",
-          "2026-08-05"
+          "2026-08-05",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-05",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -1062,11 +1067,13 @@
           "2026-08-18",
           "2026-08-20",
           "2026-08-25",
-          "2026-08-26"
+          "2026-08-26",
+          "2026-08-27",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 135,
-      "last_time_played": "2026-08-26",
+      "number_of_times_played": 140,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -1175,15 +1182,16 @@
       "youtube": "https://www.youtube.com/watch?v=QAOfIrNnSYk",
       "aliases": [],
       "hidden": {
-        "description": "vhs music video 1980",
+        "description": "vhs music video 1980 ff7",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-10"
+          "2026-06-10",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-10",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -1493,11 +1501,12 @@
         "dates_played": [
           "2026-05-14",
           "2026-05-19",
-          "2026-07-17"
+          "2026-07-17",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-07-17",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -2813,11 +2822,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-11",
-          "2026-07-21"
+          "2026-07-21",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-21",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -3250,11 +3260,12 @@
         "dates_played": [
           "2026-05-04",
           "2026-06-01",
-          "2026-06-29"
+          "2026-06-29",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-06-29",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -3479,15 +3490,16 @@
       "youtube": "https://www.youtube.com/watch?v=Qskm9MTz2V4",
       "aliases": [],
       "hidden": {
-        "description": "",
+        "description": "eeeee",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-16"
+          "2026-06-16",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-16",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-06-16",
       "most_reproductions_record": 1
     },
@@ -3674,11 +3686,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-01"
+          "2026-06-01",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-01",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -3844,11 +3857,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-29",
-          "2026-07-02"
+          "2026-07-02",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-02",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-05-29",
       "most_reproductions_record": 1
     },
@@ -3978,11 +3992,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-19"
+          "2026-06-19",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-19",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -4654,11 +4669,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-11",
-          "2026-07-16"
+          "2026-07-16",
+          "2026-08-27"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-16",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-27",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -4673,11 +4689,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-05",
-          "2026-06-02"
+          "2026-06-02",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-06-02",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -5901,11 +5918,13 @@
           "2026-08-20",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-26"
+          "2026-08-26",
+          "2026-08-27",
+          "2026-08-28"
         ]
       },
-      "number_of_times_played": 6,
-      "last_time_played": "2026-08-26",
+      "number_of_times_played": 8,
+      "last_time_played": "2026-08-28",
       "date_with_most_reproductions": "2026-08-24",
       "most_reproductions_record": 2
     },
@@ -6213,6 +6232,166 @@
       "number_of_times_played": 1,
       "last_time_played": "2026-08-26",
       "date_with_most_reproductions": "2026-08-26",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Behind These Closed Doors",
+      "artist": "Otis McDonald",
+      "youtube": "https://www.youtube.com/watch?v=n82TXg7VHu0",
+      "aliases": [],
+      "hidden": {
+        "description": "black and white hand holding a windowperson",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-27"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-27",
+      "date_with_most_reproductions": "2026-08-27",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Yoshi's Island",
+      "artist": "Super Smash Bros",
+      "youtube": "https://www.youtube.com/watch?v=tObIkq0bF5I",
+      "aliases": [],
+      "hidden": {
+        "description": "monkey spinning spin",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-27"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-27",
+      "date_with_most_reproductions": "2026-08-27",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Thomas the Tank Engine",
+      "artist": "Norkkom",
+      "youtube": "https://www.youtube.com/watch?v=ETfiUYij5UE",
+      "aliases": [],
+      "hidden": {
+        "description": "rap",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-27"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-27",
+      "date_with_most_reproductions": "2026-08-27",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Uranium Fever",
+      "artist": "Elton Britt",
+      "youtube": "https://www.youtube.com/watch?v=LW9hwoaJXgw",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-28"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Wii Shop Theme Game",
+      "artist": "David Nethers",
+      "youtube": "https://www.youtube.com/watch?v=wuYht6lQwBM",
+      "aliases": [],
+      "hidden": {
+        "description": "pandas",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-28"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "All Star Negative Harmony",
+      "artist": "Steve Cruickshank",
+      "youtube": "https://www.youtube.com/watch?v=jAT5rNkmGWg",
+      "aliases": [],
+      "hidden": {
+        "description": "inverted all star, shrek",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-28"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Dire, Dire Docks (OST Version)",
+      "artist": "SiIvaGunner",
+      "youtube": "https://www.youtube.com/watch?v=CH97oY2pZpg",
+      "aliases": [],
+      "hidden": {
+        "description": "mario 64 water theme",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "Main Menu",
+      "artist": "Jazz Jackrabbit",
+      "youtube": "https://www.youtube.com/watch?v=TPM5I2u8ZWQ",
+      "aliases": [],
+      "hidden": {
+        "description": "3 green rabit",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-28"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Creep Honky Tonk Edition",
+      "artist": "There I Ruined It",
+      "youtube": "https://www.youtube.com/watch?v=xKU_AT5Tq-c",
+      "aliases": [],
+      "hidden": {
+        "description": "radio head",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-08-28"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
       "most_reproductions_record": 1
     }
   ]
