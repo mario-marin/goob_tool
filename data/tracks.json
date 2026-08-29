@@ -895,12 +895,11 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-05",
-          "2026-08-05",
-          "2026-08-28"
+          "2026-08-05"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-28",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-08-05",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -6351,12 +6350,14 @@
         "description": "mario 64 water theme",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-08-28"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 1,
+      "last_time_played": "2026-08-28",
+      "date_with_most_reproductions": "2026-08-28",
+      "most_reproductions_record": 1
     },
     {
       "title": "Main Menu",
