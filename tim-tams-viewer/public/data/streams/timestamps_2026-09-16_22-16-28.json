@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-16",
+  "time": "22:16:28",
+  "floatplane_link": "https://www.floatplane.com/post/0QkNzTOgvm",
+  "songs": [
+    {
+      "time": "00:06:02",
+      "artist": "Trio oriental brega",
+      "song_title": "Wearing trendy pants backwards"
+    },
+    {
+      "time": "00:13:10",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:14:33",
+      "artist": "[data missing]",
+      "song_title": "The Number Five"
+    },
+    {
+      "time": "00:19:07",
+      "artist": "There I Ruined It",
+      "song_title": "Creep Honky Tonk Edition"
+    },
+    {
+      "time": "00:23:02",
+      "artist": "Tangerine Kitty",
+      "song_title": "Dumb Ways to Die"
+    },
+    {
+      "time": "00:30:43",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:31:39",
+      "artist": "Thudercat",
+      "song_title": "Dragonball Durag"
+    },
+    {
+      "time": "00:37:09",
+      "artist": "Coda",
+      "song_title": "Tires on Fire"
+    },
+    {
+      "time": "00:41:39",
+      "artist": "Trio oriental brega",
+      "song_title": "mountain song for"
+    },
+    {
+      "time": "00:49:32",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's Mix)"
+    },
+    {
+      "time": "00:55:52",
+      "artist": "Sonseed",
+      "song_title": "Jesus is my Friend"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:02:11",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:11:36",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:12:40",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:14:09",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:16:48",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:59",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:21:46",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:27:51",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:29:23",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 9,
+    "youtube_friendly": 0
+  }
+}

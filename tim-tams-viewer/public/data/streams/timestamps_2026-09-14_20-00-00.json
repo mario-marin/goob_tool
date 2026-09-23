@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-14",
+  "time": "20:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/GDwVmF1RAa",
+  "songs": [
+    {
+      "time": "00:04:52",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:06:06",
+      "artist": "Crystal River Boys",
+      "song_title": "Rainbow of Love"
+    },
+    {
+      "time": "00:12:02",
+      "artist": "William Maranci Mashups",
+      "song_title": "The Black Eyed Peas - My Humps (feat. Mozart)"
+    },
+    {
+      "time": "00:15:20",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:18:58",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:13:42",
+      "artist": "Tim and Eric",
+      "song_title": "Beach Blast"
+    },
+    {
+      "time": "00:23:19",
+      "artist": "Richard Cheese",
+      "song_title": "People = Shit"
+    },
+    {
+      "time": "00:27:12",
+      "artist": "Randy Newman",
+      "song_title": "Monsters, Inc."
+    },
+    {
+      "time": "00:29:55",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:36:28",
+      "artist": "Carter Vail",
+      "song_title": "Dirt Man (Wade's mix)"
+    },
+    {
+      "time": "00:40:04",
+      "artist": "Daytona USA",
+      "song_title": "Sky High"
+    },
+    {
+      "time": "00:43:47",
+      "artist": "CHEW",
+      "song_title": "Please don't take your Frank from meeee"
+    },
+    {
+      "time": "00:50:06",
+      "artist": "William Maranci Mashups",
+      "song_title": "Walk But It's September"
+    },
+    {
+      "time": "00:55:52",
+      "artist": "Schmoyoho",
+      "song_title": "It's 🌽"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:02:00",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:04:38",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:05:34",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:14:14",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:15:41",
+      "name": "F R A N K I E - Y A W N ! -"
+    },
+    {
+      "time": "00:17:50",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:33:52",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 12,
+    "youtube_friendly": 0
+  }
+}

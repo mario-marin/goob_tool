@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-14",
+  "time": "08:17:43",
+  "floatplane_link": "https://www.floatplane.com/post/DqVjqbw7Do",
+  "songs": [
+    {
+      "time": "00:04:12",
+      "artist": "BobbaGob",
+      "song_title": "All C"
+    },
+    {
+      "time": "00:08:49",
+      "artist": "Ted Poley",
+      "song_title": "Escape From The City ...for City Escape"
+    },
+    {
+      "time": "00:12:55",
+      "artist": "William Maranci Mashups",
+      "song_title": "Last Resort But It's Rock Your Body By Justin Timberlake"
+    },
+    {
+      "time": "00:18:04",
+      "artist": "[data missing]",
+      "song_title": "What a Mario World"
+    },
+    {
+      "time": "00:23:47",
+      "artist": "Marvel Vs Capcom 2",
+      "song_title": "Clock Tower"
+    },
+    {
+      "time": "00:28:02",
+      "artist": "William Maranci Mashups",
+      "song_title": "System of a Down - B.Y.O.B. But it's Take Me Home, Country Roads"
+    },
+    {
+      "time": "00:32:22",
+      "artist": "JerryTerry",
+      "song_title": "You Reposted in the Wrong Swamp"
+    },
+    {
+      "time": "00:35:53",
+      "artist": "Jack McDuff",
+      "song_title": "Hot Barbeque"
+    },
+    {
+      "time": "00:40:22",
+      "artist": "[data missing]",
+      "song_title": "We Are the Champions"
+    },
+    {
+      "time": "00:45:08",
+      "artist": "Slip B52",
+      "song_title": "Before I love shack"
+    },
+    {
+      "time": "00:50:11",
+      "artist": "Tim and Eric",
+      "song_title": "Choo-Choo!"
+    },
+    {
+      "time": "00:53:03",
+      "artist": "Windows 3.0",
+      "song_title": "PASSPORT.MID"
+    },
+    {
+      "time": "00:57:01",
+      "artist": "Final Fantasy 7",
+      "song_title": "Electric de Chocobo"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:05:35",
+      "name": "F R A N K I E - Y A W N ! -"
+    },
+    {
+      "time": "00:05:39",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:11:29",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:30:51",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
+}

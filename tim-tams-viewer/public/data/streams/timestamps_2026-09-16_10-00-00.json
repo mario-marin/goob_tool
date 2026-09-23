@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-16",
+  "time": "10:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/GDwVmF1RAa?a=tFK9unXRH9",
+  "songs": [
+    {
+      "time": "00:02:03",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:04:08",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:07:11",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:08:56",
+      "artist": "Cab Calloway",
+      "song_title": "Reefer Man"
+    },
+    {
+      "time": "00:12:29",
+      "artist": "Alan freed",
+      "song_title": "Rock and Roll Boogie"
+    },
+    {
+      "time": "00:15:34",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:16:22",
+      "artist": "Cab Calloway",
+      "song_title": "Reefer Man (Boring time commentary)"
+    },
+    {
+      "time": "00:18:54",
+      "artist": "Fats Waller",
+      "song_title": "If You're A Viper (The Reefer Song)"
+    },
+    {
+      "time": "00:22:35",
+      "artist": "MacGyber",
+      "song_title": "Theme song"
+    },
+    {
+      "time": "00:24:43",
+      "artist": "Fifdy Fifdy mate",
+      "song_title": "Cupid Remix"
+    },
+    {
+      "time": "00:28:26",
+      "artist": "Neil Cicierega",
+      "song_title": "The End"
+    },
+    {
+      "time": "00:33:53",
+      "artist": "DJ VIBEKILLER",
+      "song_title": "Creep but it's YMCA"
+    },
+    {
+      "time": "00:38:36",
+      "artist": "Generuu",
+      "song_title": "Everybody's Circulation"
+    },
+    {
+      "time": "00:44:21",
+      "artist": "Interior Crocodile Alligator",
+      "song_title": "I Drive a Chevrolet Movie Theater"
+    },
+    {
+      "time": "00:46:13",
+      "artist": "Sonic Generations",
+      "song_title": "Green Hill Zone (Modern)"
+    },
+    {
+      "time": "00:49:33",
+      "artist": "Эдуард Анатольевич Хиль",
+      "song_title": "I Am Very Glad Because I’m Finally Returning To The Goob Strem"
+    },
+    {
+      "time": "00:54:46",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "01:00:44",
+      "artist": "Jackson Parodi",
+      "song_title": "Big iron on his alphabet"
+    },
+    {
+      "time": "01:04:19",
+      "artist": "Kristofer Maddigan",
+      "song_title": "Inkwell Isle One"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:03:58",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:05:59",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:06:51",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:14:31",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 14,
+    "youtube_friendly": 1
+  }
+}

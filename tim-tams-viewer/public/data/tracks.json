@@ -32,11 +32,13 @@
         "dates_played": [
           "2026-05-19",
           "2026-07-22",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-19",
       "most_reproductions_record": 1
     },
@@ -188,11 +190,13 @@
         "dates_played": [
           "2026-05-08",
           "2026-05-12",
-          "2026-09-02"
+          "2026-09-02",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-09-02",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -297,11 +301,12 @@
         "dates_played": [
           "2026-06-02",
           "2026-06-29",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-06-02",
       "most_reproductions_record": 1
     },
@@ -338,11 +343,13 @@
         "dates_played": [
           "2026-05-20",
           "2026-07-17",
-          "2026-09-02"
+          "2026-09-02",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-09-02",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
@@ -456,11 +463,13 @@
         "dates_played": [
           "2026-05-20",
           "2026-06-30",
-          "2026-08-12"
+          "2026-08-12",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-12",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-20",
       "most_reproductions_record": 1
     },
@@ -494,11 +503,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-19",
-          "2026-08-12"
+          "2026-08-12",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-12",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -554,11 +564,12 @@
           "2026-05-01",
           "2026-06-16",
           "2026-07-01",
-          "2026-08-11"
+          "2026-08-11",
+          "2026-09-08"
         ]
       },
-      "number_of_times_played": 4,
-      "last_time_played": "2026-08-11",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-08",
       "date_with_most_reproductions": "2026-05-01",
       "most_reproductions_record": 1
     },
@@ -593,13 +604,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
-          "2026-08-04"
+          "2026-08-04",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-04",
-      "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Leave Me Now!",
@@ -653,11 +665,13 @@
           "2026-05-12",
           "2026-06-30",
           "2026-08-11",
-          "2026-09-01"
+          "2026-09-01",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 5,
-      "last_time_played": "2026-09-01",
+      "number_of_times_played": 7,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -730,11 +744,13 @@
         "dates_played": [
           "2026-05-05",
           "2026-06-26",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-05",
       "most_reproductions_record": 1
     },
@@ -1036,7 +1052,8 @@
       "youtube": "https://www.youtube.com/watch?v=fbGJgzJS3Ws",
       "aliases": [
         "Esther Abrami, Frank Waltz",
-        "Esther Abrami, Frank's Waltz"
+        "Esther Abrami, Frank's Waltz",
+        "Esther Abrahami, No.9 Frank's Waltz"
       ],
       "hidden": {
         "description": "",
@@ -1082,11 +1099,18 @@
           "2026-08-31",
           "2026-09-01",
           "2026-09-03",
-          "2026-09-07"
+          "2026-09-07",
+          "2026-09-09",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 145,
-      "last_time_played": "2026-09-07",
+      "number_of_times_played": 169,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-07-03",
       "most_reproductions_record": 13
     },
@@ -1161,11 +1185,13 @@
         "dates_played": [
           "2026-05-19",
           "2026-06-29",
-          "2026-09-02"
+          "2026-09-02",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-09-02",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-19",
       "most_reproductions_record": 1
     },
@@ -1182,11 +1208,13 @@
           "2026-05-11",
           "2026-05-26",
           "2026-07-01",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 4,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 6,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -1279,11 +1307,12 @@
         "dates_played": [
           "2026-06-01",
           "2026-06-26",
-          "2026-08-24"
+          "2026-08-24",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-24",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -1360,11 +1389,12 @@
         "dates_played": [
           "2026-05-04",
           "2026-06-30",
-          "2026-08-24"
+          "2026-08-24",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-24",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -1380,11 +1410,12 @@
         "dates_played": [
           "2026-06-17",
           "2026-07-23",
-          "2026-08-25"
+          "2026-08-25",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-25",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -1437,11 +1468,13 @@
         "dates_played": [
           "2026-06-24",
           "2026-06-26",
-          "2026-08-04"
+          "2026-08-04",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-04",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-06-24",
       "most_reproductions_record": 1
     },
@@ -1538,11 +1571,13 @@
         "dates_played": [
           "2026-04-30",
           "2026-06-16",
-          "2026-09-03"
+          "2026-09-03",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-09-03",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -1657,11 +1692,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-18",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-18",
       "most_reproductions_record": 1
     },
@@ -1676,11 +1713,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-12",
-          "2026-08-03"
+          "2026-08-03",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-03",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-12",
       "most_reproductions_record": 1
     },
@@ -1830,11 +1869,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-23",
-          "2026-08-10"
+          "2026-08-10",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-10",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-06-23",
       "most_reproductions_record": 1
     },
@@ -1949,11 +1990,12 @@
           "2026-08-05",
           "2026-08-25",
           "2026-09-01",
-          "2026-09-04"
+          "2026-09-04",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 36,
-      "last_time_played": "2026-09-04",
+      "number_of_times_played": 37,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-06-11",
       "most_reproductions_record": 3
     },
@@ -2007,11 +2049,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-15",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-06-15",
       "most_reproductions_record": 1
     },
@@ -2240,11 +2284,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-06-10"
+          "2026-06-10",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-06-10",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -2260,11 +2306,13 @@
         "dates_played": [
           "2026-05-19",
           "2026-07-17",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-19",
       "most_reproductions_record": 1
     },
@@ -2299,11 +2347,13 @@
         "dates_played": [
           "2026-06-01",
           "2026-07-21",
-          "2026-08-06"
+          "2026-08-06",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-06",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -2319,11 +2369,13 @@
         "dates_played": [
           "2026-07-09",
           "2026-07-10",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-07-09",
       "most_reproductions_record": 1
     },
@@ -2459,11 +2511,13 @@
           "2026-05-19",
           "2026-06-19",
           "2026-08-19",
-          "2026-09-04"
+          "2026-09-04",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 6,
-      "last_time_played": "2026-09-04",
+      "number_of_times_played": 8,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-18",
       "most_reproductions_record": 2
     },
@@ -2521,11 +2575,13 @@
           "2026-05-19",
           "2026-07-24",
           "2026-08-17",
-          "2026-09-03"
+          "2026-09-03",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 5,
-      "last_time_played": "2026-09-03",
+      "number_of_times_played": 7,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -2700,11 +2756,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-22",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-22",
       "most_reproductions_record": 1
     },
@@ -2777,11 +2835,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-24",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-20",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-08-20",
       "most_reproductions_record": 2
     },
@@ -2894,11 +2953,13 @@
         "dates_played": [
           "2026-05-18",
           "2026-07-22",
-          "2026-08-17"
+          "2026-08-17",
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-17",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-18",
       "most_reproductions_record": 1
     },
@@ -2970,13 +3031,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-17",
-          "2026-08-19"
+          "2026-08-19",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-19",
-      "date_with_most_reproductions": "2026-06-17",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Arfrica",
@@ -3013,11 +3075,13 @@
         "dates_played": [
           "2026-05-26",
           "2026-07-23",
-          "2026-08-25"
+          "2026-08-25",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-25",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-26",
       "most_reproductions_record": 1
     },
@@ -3093,13 +3157,14 @@
         "dates_played": [
           "2026-04-30",
           "2026-07-14",
-          "2026-08-12"
+          "2026-08-12",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-12",
-      "date_with_most_reproductions": "2026-04-30",
-      "most_reproductions_record": 1
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Never gonna Frank you up",
@@ -3125,8 +3190,7 @@
       "artist": "Rigboogle",
       "youtube": "https://www.youtube.com/watch?v=3naJeF7OEDk",
       "aliases": [
-        "Snoop doge",
-        "SMOKE WEED"
+        "Snoop doge, SMOKE WEED"
       ],
       "hidden": {
         "description": "Blend W",
@@ -3136,11 +3200,13 @@
           "2026-05-08",
           "2026-06-16",
           "2026-07-24",
-          "2026-08-25"
+          "2026-08-25",
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 4,
-      "last_time_played": "2026-08-25",
+      "number_of_times_played": 6,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -3410,11 +3476,13 @@
           "2026-04-30",
           "2026-06-17",
           "2026-08-10",
-          "2026-09-03"
+          "2026-09-03",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 4,
-      "last_time_played": "2026-09-03",
+      "number_of_times_played": 6,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -3429,11 +3497,12 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
-          "2026-08-18"
+          "2026-08-18",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-18",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -3453,13 +3522,14 @@
           "2026-05-11",
           "2026-07-14",
           "2026-08-05",
-          "2026-09-03"
+          "2026-09-03",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 5,
-      "last_time_played": "2026-09-03",
-      "date_with_most_reproductions": "2026-05-08",
-      "most_reproductions_record": 1
+      "number_of_times_played": 7,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Rent: Too Damn high!",
@@ -3632,11 +3702,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-04",
-          "2026-08-11"
+          "2026-08-11",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-11",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -3710,11 +3782,13 @@
         "dates_played": [
           "2026-06-10",
           "2026-06-26",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-20",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -3962,11 +4036,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-22",
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-06-22",
       "most_reproductions_record": 1
     },
@@ -3981,11 +4057,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-14",
-          "2026-08-18"
+          "2026-08-18",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-18",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -4037,11 +4115,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-19",
-          "2026-08-27"
+          "2026-08-27",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-27",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -4075,11 +4155,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-19",
-          "2026-08-20"
+          "2026-08-20",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-20",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-19",
       "most_reproductions_record": 1
     },
@@ -4115,11 +4197,13 @@
         "dates_played": [
           "2026-05-11",
           "2026-07-10",
-          "2026-08-07"
+          "2026-08-07",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-07",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -4134,11 +4218,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-10",
-          "2026-08-17"
+          "2026-08-17",
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-17",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-10",
       "most_reproductions_record": 1
     },
@@ -4174,11 +4260,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-12",
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-05-12",
       "most_reproductions_record": 1
     },
@@ -4290,13 +4378,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-10",
-          "2026-07-02"
+          "2026-07-02",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-02",
-      "date_with_most_reproductions": "2026-06-10",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Choo-Choo!",
@@ -4309,11 +4398,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-08",
-          "2026-07-13"
+          "2026-07-13",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-13",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-08",
       "most_reproductions_record": 1
     },
@@ -4546,21 +4637,24 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "hihi",
-      "artist": "Tones",
+      "title": "Sky High",
+      "artist": "Daytona USA",
       "youtube": "https://www.youtube.com/watch?v=Sx-cY0mPo8g",
-      "aliases": [],
+      "aliases": [
+        "Tones, hihi"
+      ],
       "hidden": {
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
           "2026-05-04",
-          "2026-08-04"
+          "2026-08-04",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-04",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -4598,11 +4692,13 @@
           "2026-05-26",
           "2026-06-19",
           "2026-06-26",
-          "2026-08-12"
+          "2026-08-12",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 4,
-      "last_time_played": "2026-08-12",
+      "number_of_times_played": 6,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-26",
       "most_reproductions_record": 1
     },
@@ -4699,11 +4795,13 @@
         "dates_played": [
           "2026-06-02",
           "2026-07-01",
-          "2026-08-31"
+          "2026-08-31",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-31",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-02",
       "most_reproductions_record": 1
     },
@@ -4719,11 +4817,13 @@
         "dates_played": [
           "2026-05-11",
           "2026-07-16",
-          "2026-08-27"
+          "2026-08-27",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-27",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-11",
       "most_reproductions_record": 1
     },
@@ -4798,11 +4898,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-16",
-          "2026-08-07"
+          "2026-08-07",
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-07",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-16",
       "most_reproductions_record": 1
     },
@@ -4855,11 +4957,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-01",
-          "2026-08-10"
+          "2026-08-10",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-10",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-06-01",
       "most_reproductions_record": 1
     },
@@ -4877,11 +4981,13 @@
         "dates_played": [
           "2026-05-14",
           "2026-07-03",
-          "2026-08-25"
+          "2026-08-25",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 3,
-      "last_time_played": "2026-08-25",
+      "number_of_times_played": 5,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-05-14",
       "most_reproductions_record": 1
     },
@@ -4896,11 +5002,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-17",
-          "2026-09-02"
+          "2026-09-02",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-09-02",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-06-17",
       "most_reproductions_record": 1
     },
@@ -4915,13 +5023,14 @@
         "is_bin": true,
         "dates_played": [
           "2026-06-22",
-          "2026-08-05"
+          "2026-08-05",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-05",
-      "date_with_most_reproductions": "2026-06-22",
-      "most_reproductions_record": 1
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Walk But It's September",
@@ -4933,13 +5042,14 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-05-14"
+          "2026-05-14",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-05-14",
-      "date_with_most_reproductions": "2026-05-14",
-      "most_reproductions_record": 1
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Outset Island",
@@ -5148,11 +5258,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-05-04",
-          "2026-07-24"
+          "2026-07-24",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-07-24",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-05-04",
       "most_reproductions_record": 1
     },
@@ -5375,11 +5487,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-04-30",
-          "2026-08-04"
+          "2026-08-04",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-08-04",
+      "number_of_times_played": 4,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-04-30",
       "most_reproductions_record": 1
     },
@@ -5505,11 +5619,18 @@
           "2026-08-31",
           "2026-09-02",
           "2026-09-03",
-          "2026-09-07"
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-10",
+          "2026-09-14",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 27,
-      "last_time_played": "2026-09-07",
+      "number_of_times_played": 40,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-08-18",
       "most_reproductions_record": 4
     },
@@ -5671,11 +5792,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-03"
+          "2026-08-03",
+          "2026-09-09",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-03",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-08-03",
       "most_reproductions_record": 1
     },
@@ -5779,11 +5902,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-07"
+          "2026-08-07",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-07",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-08-07",
       "most_reproductions_record": 1
     },
@@ -5869,13 +5994,14 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-12"
+          "2026-08-12",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-12",
-      "date_with_most_reproductions": "2026-08-12",
-      "most_reproductions_record": 1
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 2
     },
     {
       "title": "Rolling Start!",
@@ -5905,11 +6031,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-08-13",
       "most_reproductions_record": 1
     },
@@ -5923,11 +6051,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-13"
+          "2026-08-13",
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-13",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-08-13",
       "most_reproductions_record": 1
     },
@@ -5959,11 +6089,12 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-14"
+          "2026-08-14",
+          "2026-09-17"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-14",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-17",
       "date_with_most_reproductions": "2026-08-14",
       "most_reproductions_record": 1
     },
@@ -5988,13 +6119,16 @@
           "2026-08-28",
           "2026-09-01",
           "2026-09-03",
-          "2026-09-04"
+          "2026-09-04",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 11,
-      "last_time_played": "2026-09-04",
-      "date_with_most_reproductions": "2026-08-24",
-      "most_reproductions_record": 2
+      "number_of_times_played": 19,
+      "last_time_played": "2026-09-16",
+      "date_with_most_reproductions": "2026-09-14",
+      "most_reproductions_record": 6
     },
     {
       "title": "My little nemesis is the one who gets caught",
@@ -6024,11 +6158,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-19"
+          "2026-08-19",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-19",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-08-19",
       "most_reproductions_record": 1
     },
@@ -6096,11 +6232,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-20"
+          "2026-08-20",
+          "2026-09-11",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-20",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-08-20",
       "most_reproductions_record": 1
     },
@@ -6271,17 +6409,21 @@
       "title": "Green Hill (Modern)",
       "artist": "Sonic Generations",
       "youtube": "https://www.youtube.com/watch?v=sAFiSr7iSEc",
-      "aliases": [],
+      "aliases": [
+        "Sonic Generations, Green Hill Zone (Modern)"
+      ],
       "hidden": {
         "description": "sanic",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-26"
+          "2026-08-26",
+          "2026-09-16",
+          "2026-09-23"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-26",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-08-26",
       "most_reproductions_record": 1
     },
@@ -6458,11 +6600,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-08-28"
+          "2026-08-28",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-08-28",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-08-28",
       "most_reproductions_record": 1
     },
@@ -6494,11 +6638,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-09-01"
+          "2026-09-01",
+          "2026-09-10",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-09-01",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
       "date_with_most_reproductions": "2026-09-01",
       "most_reproductions_record": 1
     },
@@ -6530,11 +6676,13 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-09-01"
+          "2026-09-01",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-09-01",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-09-01",
       "most_reproductions_record": 1
     },
@@ -6585,12 +6733,13 @@
         "is_bin": true,
         "dates_played": [
           "2026-09-03",
-          "2026-09-08"
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 2,
-      "last_time_played": "2026-09-08",
-      "date_with_most_reproductions": "2026-09-08",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-03",
       "most_reproductions_record": 1
     },
     {
@@ -6612,9 +6761,6 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "Extended Theme",
-      "artist": "The Price is Right",
-      "youtube": "https://www.youtube.com/watch?v=G8iOmVd1W_g",
       "title": "The Centenary Organ - Take on Me",
       "artist": "Femmey26",
       "youtube": "https://www.youtube.com/watch?v=rbvY0VT3SJI",
@@ -6624,13 +6770,14 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-09-08"
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-09-08",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-08",
+      "most_reproductions_record": 1
     },
     {
       "title": "Zildjian Live! - Larnell Lewis",
@@ -6642,29 +6789,34 @@
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-09-07"
+          "2026-09-08",
+          "2026-09-14"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-09-07",
-      "date_with_most_reproductions": "2026-09-07",
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-08",
       "most_reproductions_record": 1
     },
     {
       "title": "Pinball Number Count",
       "artist": "The Pointer Sisters",
       "youtube": "https://www.youtube.com/watch?v=BWFQXs2_et8",
-      "aliases": [],
+      "aliases": [
+        "[data missing], The Number Five"
+      ],
       "hidden": {
         "description": "pinball animation",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
-          "2026-09-07"
+          "2026-09-07",
+          "2026-09-15",
+          "2026-09-16"
         ]
       },
-      "number_of_times_played": 1,
-      "last_time_played": "2026-09-07",
+      "number_of_times_played": 3,
+      "last_time_played": "2026-09-16",
       "date_with_most_reproductions": "2026-09-07",
       "most_reproductions_record": 1
     },
@@ -6685,13 +6837,6 @@
       "last_time_played": "2026-09-07",
       "date_with_most_reproductions": "2026-09-07",
       "most_reproductions_record": 1
-          "2026-09-08"
-        ]
-      },
-      "number_of_times_played": 1,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
     },
     {
       "title": "birds for some reason",
@@ -6702,12 +6847,15 @@
         "description": "michael jackson chicago",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-09",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-09",
+      "most_reproductions_record": 1
     },
     {
       "title": "Star Wars Trumpet Stacy Hedger",
@@ -6718,12 +6866,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-09",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-09",
+      "most_reproductions_record": 1
     },
     {
       "title": "Potato Knishes",
@@ -6734,12 +6885,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-10",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-10",
+      "most_reproductions_record": 1
     },
     {
       "title": "The Dance of Eternity",
@@ -6750,12 +6904,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-10",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-10",
+      "most_reproductions_record": 1
     },
     {
       "title": "Schfifty Five",
@@ -6766,12 +6923,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-10",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-10",
+      "most_reproductions_record": 1
     },
     {
       "title": "System of a Down - B.Y.O.B. But it's Take Me Home, Country Roads",
@@ -6782,12 +6942,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-11",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-11",
+      "most_reproductions_record": 1
     },
     {
       "title": "PASSPORT.MID",
@@ -6798,12 +6961,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-11",
+          "2026-09-14"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-11",
+      "most_reproductions_record": 1
     },
     {
       "title": "Creep but it's YMCA",
@@ -6814,12 +6980,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-16",
+          "2026-09-23"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-16",
+      "most_reproductions_record": 1
     },
     {
       "title": "I Drive a Chevrolet Movie Theater",
@@ -6830,12 +6999,15 @@
         "description": "",
         "ignore_stats": false,
         "is_bin": false,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-16",
+          "2026-09-23"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-16",
+      "most_reproductions_record": 1
     },
     {
       "title": "Chacarron",
@@ -6846,12 +7018,146 @@
         "description": "hurrgedurr",
         "ignore_stats": false,
         "is_bin": true,
-        "dates_played": []
+        "dates_played": [
+          "2026-09-18",
+          "2026-09-23"
+        ]
       },
-      "number_of_times_played": 0,
-      "last_time_played": "",
-      "date_with_most_reproductions": "",
-      "most_reproductions_record": 0
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-18",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Extended Theme",
+      "artist": "The Price is Right",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-07"
+        ]
+      },
+      "number_of_times_played": 1,
+      "last_time_played": "2026-09-07",
+      "date_with_most_reproductions": "2026-09-07",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Can't Touch This but it's Sonic 3",
+      "artist": "[data missing]",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-08",
+          "2026-09-14"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-08",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "What a Mario World",
+      "artist": "[data missing]",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-11",
+          "2026-09-14"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-11",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "We Are the Champions",
+      "artist": "[data missing]",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-11",
+          "2026-09-14"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-14",
+      "date_with_most_reproductions": "2026-09-11",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Reefer Man",
+      "artist": "Cab Calloway",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-16",
+          "2026-09-23"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-16",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "Reefer Man (Boring time commentary)",
+      "artist": "Cab Calloway",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-16",
+          "2026-09-23"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-16",
+      "most_reproductions_record": 1
+    },
+    {
+      "title": "If You're A Viper (The Reefer Song)",
+      "artist": "Fats Waller",
+      "youtube": "",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": [
+          "2026-09-16",
+          "2026-09-23"
+        ]
+      },
+      "number_of_times_played": 2,
+      "last_time_played": "2026-09-23",
+      "date_with_most_reproductions": "2026-09-16",
+      "most_reproductions_record": 1
     }
   ]
 }

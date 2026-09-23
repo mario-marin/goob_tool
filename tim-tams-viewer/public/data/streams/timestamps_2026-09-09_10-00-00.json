@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-09",
+  "time": "10:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/T5fD0aNAMu",
+  "songs": [
+    {
+      "time": "00:04:30",
+      "artist": "Wii Music",
+      "song_title": "Break My Stride"
+    },
+    {
+      "time": "00:08:46",
+      "artist": "melodio_brando",
+      "song_title": "Gotta Catch 'Em All, But Michael Jackson Sang It"
+    },
+    {
+      "time": "00:14:45",
+      "artist": "Bill McClintock",
+      "song_title": "Hip to Be the Sandman"
+    },
+    {
+      "time": "00:22:21",
+      "artist": "Marvel Vs Capcom 2",
+      "song_title": "Player Select"
+    },
+    {
+      "time": "00:23:37",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:25:09",
+      "artist": "Vennu Mallesh",
+      "song_title": "It's My Life What Ever I Wanna Do"
+    },
+    {
+      "time": "00:29:48",
+      "artist": "Esther Abrami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:31:06",
+      "artist": "Arnold Palmer Tournament Golf",
+      "song_title": "BGM 1"
+    },
+    {
+      "time": "00:34:46",
+      "artist": "The Sims",
+      "song_title": "Buy Mode 1"
+    },
+    {
+      "time": "00:39:22",
+      "artist": "Avocado Animations",
+      "song_title": "birds for some reason"
+    },
+    {
+      "time": "00:42:10",
+      "artist": "Tony's Folk Song",
+      "song_title": "Czerwone jagody"
+    },
+    {
+      "time": "00:46:17",
+      "artist": "Vulcan",
+      "song_title": "Rockman"
+    },
+    {
+      "time": "00:52:19",
+      "artist": "Spider-Man 2",
+      "song_title": "The Game Pizza Theme"
+    },
+    {
+      "time": "00:54:59",
+      "artist": "JK",
+      "song_title": "Star Wars Trumpet Stacy Hedger"
+    },
+    {
+      "time": "00:59:33",
+      "artist": "TRIO ORIENTAL BREGA",
+      "song_title": "kneading you into shape plus calling your mother"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:16:06",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:18:15",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:23:22",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:29:36",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 13,
+    "youtube_friendly": 0
+  }
+}
