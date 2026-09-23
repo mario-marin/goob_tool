@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-23",
+  "time": "12:30:54",
+  "floatplane_link": "https://www.floatplane.com/post/GDwVmF1RAa?a=1ybOZAm5d9",
+  "songs": [
+    {
+      "time": "00:07:05",
+      "artist": "William Maranci Mashups",
+      "song_title": "Lose Yourself But It's Mr. Blue Sky"
+    },
+    {
+      "time": "00:12:57",
+      "artist": "Rapid Liquid",
+      "song_title": "Havana"
+    },
+    {
+      "time": "00:19:21",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:24:41",
+      "artist": "Esther Abrahami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:27:07",
+      "artist": "FF7",
+      "song_title": "Let the battles Begin!"
+    },
+    {
+      "time": "00:34:53",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:40:27",
+      "artist": "El Chombo",
+      "song_title": "Chacarron"
+    },
+    {
+      "time": "00:45:41",
+      "artist": "Neil Cicierega",
+      "song_title": "Aammoorree"
+    },
+    {
+      "time": "00:51:29",
+      "artist": "There I Ruined It",
+      "song_title": "Straight Outta Compton"
+    },
+    {
+      "time": "00:54:23",
+      "artist": "Sanic Adventure",
+      "song_title": "Welcome to Station Square"
+    },
+    {
+      "time": "00:57:55",
+      "artist": "Meiko Nakahara",
+      "song_title": "Fantasy"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:31:50",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:49:44",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:56:39",
+      "name": "F R A N K - M O V E S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 10,
+    "youtube_friendly": 0
+  }
+}

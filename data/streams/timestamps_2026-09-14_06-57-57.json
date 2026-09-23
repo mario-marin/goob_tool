@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-14",
+  "time": "06:57:57",
+  "floatplane_link": "https://www.floatplane.com/post/t7Hk7PrSmB",
+  "songs": [
+    {
+      "time": "00:05:45",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:12:13",
+      "artist": "The Chats",
+      "song_title": "SMOKO"
+    },
+    {
+      "time": "00:16:32",
+      "artist": "Isaiah",
+      "song_title": "You're Correct Horse"
+    },
+    {
+      "time": "00:18:37",
+      "artist": "Croc",
+      "song_title": "Title theme"
+    },
+    {
+      "time": "00:22:45",
+      "artist": "Wesley Willis",
+      "song_title": "Cut The Mullet"
+    },
+    {
+      "time": "00:25:46",
+      "artist": "One Punch Man",
+      "song_title": "The Hero!!"
+    },
+    {
+      "time": "00:30:42",
+      "artist": "ratboygenius",
+      "song_title": "Potato Knishes"
+    },
+    {
+      "time": "00:33:44",
+      "artist": "Dream Theater",
+      "song_title": "The Dance of Eternity"
+    },
+    {
+      "time": "00:43:29",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:48:47",
+      "artist": "Gran Turismo 4",
+      "song_title": "GT Mode 5"
+    },
+    {
+      "time": "00:55:54",
+      "artist": "Group X",
+      "song_title": "Schfifty Five"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:07:07",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:29:20",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:52:44",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 11,
+    "youtube_friendly": 0
+  }
+}

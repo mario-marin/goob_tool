@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-17",
+  "time": "20:00:00",
+  "floatplane_link": "https://www.floatplane.com/post/GDwVmF1RAa?a=oLthjKFalj",
+  "songs": [
+    {
+      "time": "00:07:28",
+      "artist": "James Shimoji",
+      "song_title": "Pepsi Man Theme Song"
+    },
+    {
+      "time": "00:13:28",
+      "artist": "Lukas Got Lucky",
+      "song_title": "Watch Me Take That Crown"
+    },
+    {
+      "time": "00:17:44",
+      "artist": "Gabe the bork",
+      "song_title": "Feel Goob inc."
+    },
+    {
+      "time": "00:21:08",
+      "artist": "Esther Abrahami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:22:48",
+      "artist": "Schmoyoho",
+      "song_title": "Hide your fronk"
+    },
+    {
+      "time": "00:25:25",
+      "artist": "Gabe the dog",
+      "song_title": "bork till you're dead"
+    },
+    {
+      "time": "00:30:00",
+      "artist": "Marvel Vs Capcom 2",
+      "song_title": "Training Mode"
+    },
+    {
+      "time": "00:37:33",
+      "artist": "Avril Lavigne",
+      "song_title": "Sk8er Boi"
+    },
+    {
+      "time": "00:43:24",
+      "artist": "Esther Abrahami",
+      "song_title": "No.9 Frank's Waltz"
+    },
+    {
+      "time": "00:44:53",
+      "artist": "Frank City 3000",
+      "song_title": "South Bridge"
+    },
+    {
+      "time": "00:53:17",
+      "artist": "Bruno Mars",
+      "song_title": "That's What I Like"
+    },
+    {
+      "time": "00:58:53",
+      "artist": "Pilot Wings 64",
+      "song_title": "Results"
+    }
+  ],
+  "events": [
+    {
+      "time": "00:04:02",
+      "name": "F R A N K I E - Y A W N ! -"
+    },
+    {
+      "time": "00:06:35",
+      "name": "C Y M B A L - T O S S -"
+    },
+    {
+      "time": "00:25:20",
+      "name": "F R A N K - M O V E S -"
+    },
+    {
+      "time": "00:30:56",
+      "name": "C Y M B A L - T O S S -"
+    }
+  ],
+  "statistics": {
+    "bin_songs": 9,
+    "youtube_friendly": 1
+  }
+}
