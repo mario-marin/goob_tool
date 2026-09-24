@@ -2446,7 +2446,7 @@
         "Mouth Smash, Star All"
       ],
       "hidden": {
-        "description": "classic meme",
+        "description": "classic meme, Hey Kid, You're a Star",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
@@ -3407,8 +3407,8 @@
       "most_reproductions_record": 1
     },
     {
-      "title": "You can't do anything",
-      "artist": "Sanic",
+      "title": "You Can do anything",
+      "artist": "Sonic CD",
       "youtube": "https://www.youtube.com/watch?v=7fzMxxyklTw",
       "aliases": [],
       "hidden": {
@@ -5972,7 +5972,7 @@
       "youtube": "https://www.youtube.com/watch?v=0RgwqnLZbBo",
       "aliases": [],
       "hidden": {
-        "description": "china, two girls, pink and yellow",
+        "description": "china, two girls, pink and yellow, 13 minute",
         "ignore_stats": false,
         "is_bin": true,
         "dates_played": [
@@ -6803,7 +6803,7 @@
       "artist": "The Pointer Sisters",
       "youtube": "https://www.youtube.com/watch?v=BWFQXs2_et8",
       "aliases": [
-        "[data missing], The Number Five"
+        "The Number Five"
       ],
       "hidden": {
         "description": "pinball animation",
@@ -7158,6 +7158,54 @@
       "last_time_played": "2026-09-23",
       "date_with_most_reproductions": "2026-09-16",
       "most_reproductions_record": 1
+    },
+    {
+      "title": "Aeropickles",
+      "artist": "Komeanime",
+      "youtube": "https://www.youtube.com/watch?v=YM_YU8HVpWM",
+      "aliases": [],
+      "hidden": {
+        "description": "aerobic pickles",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "i learnt 3D animation to make this 1 video",
+      "artist": "Sorenova",
+      "youtube": "https://www.youtube.com/watch?v=GjjZacZSWT4",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": true,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
+    },
+    {
+      "title": "Recycle Micola Original Taste",
+      "artist": "Just a Happy Troll",
+      "youtube": "https://www.youtube.com/watch?v=lpUi2St40zo",
+      "aliases": [],
+      "hidden": {
+        "description": "",
+        "ignore_stats": false,
+        "is_bin": false,
+        "dates_played": []
+      },
+      "number_of_times_played": 0,
+      "last_time_played": "",
+      "date_with_most_reproductions": "",
+      "most_reproductions_record": 0
     }
   ]
 }
